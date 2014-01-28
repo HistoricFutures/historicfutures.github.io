@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Interesting Journal Post
-date: {}
+date: 2014-01-28
 categories: jekyll update
-page_order: 4
 published: true
 ---
 
