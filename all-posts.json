@@ -1,0 +1,10 @@
+---
+layout: none
+---
+{
+  "posts" : [
+    {% for post in site.posts sort:page_order limit: 10 %}
+    "{{ post.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

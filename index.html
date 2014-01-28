@@ -4,10 +4,34 @@ title: Your New Jekyll Site
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>HF Home</h1>
+  <ul class="pages">
+    {% for page in site.pages sort: page_order %}
+    	{% if page.page_order %}
+	      <li>
+		    <h2>{{ page.title }}</h2>
+
+		    <div class="page">
+		    {{ page.content }}
+		    </div>
+	      </li>
+	    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h1>Journal Posts</h1>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% for post in site.posts limit:10  %}
+      <li>
+	    <h2>{{ post.title }}</h2>
+
+	    <div class="post">
+	    {{ post.content }}
+	    </div>
+      </li>
     {% endfor %}
   </ul>
 </div>
+
+<div class="infinite-spinner"></div>
+
