@@ -126,19 +126,7 @@
 #getinvolved {
   @include padding-top($standard-padding-top);
   @include margin-bottom($standard-padding-bottom);
-  position:relative;
-    &:before {
-    content:" ";
-    position:absolute;
-    top:50%;
-    left:22%;
-    right:30%;
-    bottom:0%;
-    background:url(../img/phone-blue.svg) center center no-repeat;
-    background-size:contain;
-    opacity:0.1;
-    z-index:-200;
-  }
+
 }
 
 /* our thinking */

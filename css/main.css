@@ -248,19 +248,7 @@ section, header, nav, footer {
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   margin-bottom: 38.83202px;
-  margin-bottom: 2.427rem;
-  position: relative; }
-  #getinvolved:before {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    left: 22%;
-    right: 30%;
-    bottom: 0%;
-    background: url(../img/phone-blue.svg) center center no-repeat;
-    background-size: contain;
-    opacity: 0.1;
-    z-index: -200; }
+  margin-bottom: 2.427rem; }
 
 /* our thinking */
 #ourthinking {
