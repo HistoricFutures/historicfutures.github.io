@@ -946,7 +946,53 @@ blockquote {
     font-size: 16px;
     font-size: 1rem; }
 
-.article ul {
-  border: 1px solid red; }
+.article article h1, .article article h2 {
+  text-align: center; }
+.article article h1 {
+  font-size: 50.51735px;
+  font-size: 3.15733rem; }
+.article article h2 {
+  font-size: 16px;
+  font-size: 1rem;
+  padding-top: 56.83202px;
+  padding-top: 3.552rem;
+  background: transparent url(../img/greyfish.svg) center 10px no-repeat;
+  background-size: 37px auto;
+  color: #666666;
+  font-weight: 400; }
+.article article h2:after {
+  background: none; }
 
+@media only screen and (min-width: 960px) {
+  .article nav {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    clear: both;
+    text-align: center; }
+  .article aside {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    clear: both; }
+  .article article {
+    display: block;
+    float: left;
+    margin-left: 12%;
+    margin-right: -100%;
+    width: 79.0248%;
+    clear: both; }
+    .article article img {
+      max-width: 100%;
+      height: auto; } }
+@media only screen and (min-width: 1300px) {
+  .article article {
+    font-size: 67.33963px;
+    font-size: 4.20873rem;
+    font-size: 28.43022px;
+    font-size: 1.77689rem; } }
 /* sratch - todo this should be empty before launch! */
