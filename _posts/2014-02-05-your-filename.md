@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Another new post
-date: 2014-01-28
+date: {}
 categories: tim
+published: true
 ---
 
 ## A New Post
