@@ -176,6 +176,9 @@ section, header, nav, footer {
 /* call to action */
 #calltoaction {
   background: #f0f3f3;
+  background: rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 100;
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   padding-bottom: 38.83202px;
@@ -186,7 +189,19 @@ section, header, nav, footer {
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   padding-bottom: 38.83202px;
-  padding-bottom: 2.427rem; }
+  padding-bottom: 2.427rem;
+  position: relative; }
+  #whatwedo:before {
+    content: " ";
+    position: absolute;
+    top: -15%;
+    left: 30%;
+    right: -30%;
+    bottom: 60%;
+    background: url(../img/cotton-orange.svg) center center no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    z-index: -200; }
 
 /* why do we care */
 #whycare {
@@ -199,9 +214,9 @@ section, header, nav, footer {
     content: " ";
     position: absolute;
     top: 20%;
-    left: -30%;
-    right: 20%;
-    bottom: 10%;
+    left: -50%;
+    right: 50%;
+    bottom: 5%;
     background: url(../img/diamond.svg) center center no-repeat;
     background-size: contain;
     opacity: 0.05; }
@@ -212,10 +227,22 @@ section, header, nav, footer {
 
 /* our story */
 #ourstory {
+  position: relative;
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   padding-bottom: 38.83202px;
   padding-bottom: 2.427rem; }
+  #ourstory:before {
+    content: " ";
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    right: -30%;
+    bottom: -60%;
+    background: url(../img/tree-turquoise.svg) center center no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    z-index: -200; }
 
 #meetteam {
   background: #f0f3f3; }
@@ -233,7 +260,19 @@ section, header, nav, footer {
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   margin-bottom: 38.83202px;
-  margin-bottom: 2.427rem; }
+  margin-bottom: 2.427rem;
+  position: relative; }
+  #getinvolved:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    right: 30%;
+    bottom: 0%;
+    background: url(../img/phone-blue.svg) center center no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    z-index: -200; }
 
 /* our thinking */
 #ourthinking {
@@ -767,7 +806,8 @@ body {
   line-height: 1.4;
   font-size: 18px;
   font-size: 1.125rem;
-  color: #333333; }
+  color: #333333;
+  background: #f7f9f9; }
 
 p {
   margin-bottom: 18px;
@@ -917,5 +957,8 @@ blockquote {
     font-style: normal;
     font-size: 16px;
     font-size: 1rem; }
+
+.article ul {
+  border: 1px solid red; }
 
 /* sratch - todo this should be empty before launch! */
