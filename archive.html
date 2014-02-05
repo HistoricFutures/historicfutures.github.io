@@ -8,6 +8,7 @@ published: true
 
   <h1>Journal</h1>
   <ul class="posts">
+  {% if post.categories contains 'tim' %}
     {% for post in site.posts limit:100  %}
         <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
 
@@ -16,6 +17,7 @@ published: true
 	    </div>
 	    <p><a href="{{ post.url }}" rel="bookmark">Read <em></em>{{ post.title }}</em> in full</a></p>
     {% endfor %}
+    {% endif %}
   </ul>
 </div>
 
