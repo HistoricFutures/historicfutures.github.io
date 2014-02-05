@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Welcome to Historic Futures &mdash;
 published: true
 ---
 
 <div id="home">
   <h1>HF Home</h1>
+
   <ul class="pages">
     {% for page in site.pages sort: page_order %}
-    	{% if page.page_order %}
+    	{% if page.page_order == 2 %}
 	      <li>
 		    <h2>{{ page.title }}</h2>
 

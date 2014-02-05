@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interesting Journal Post
-date: {}
+date: 2014-02-05
 categories: tim
 published: true
 ---
