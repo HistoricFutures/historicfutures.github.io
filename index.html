@@ -1,28 +1,32 @@
 ---
 layout: default
-title: Welcome to Historic Futures &mdash;
+title: Welcome to Historic Futures - To make better products tomorrow, we must know where they come from today
 published: true
 ---
 
-<div id="home">
-  <h1>HF Home</h1>
 
-  <ul class="pages">
+      <header id="introduction" role='banner'>
+        <div class="logo">
+        <img src="/img/logo.svg" />
+        </div>
+        <div class="hero">
+            <h1>Historic Futures</h1>
+            <p>To make better products tomorrow, we must know where they come from today.</p>
+            <p><a href="#whatwedo" title="Skip to the What we are doing section">We make it possible</a> for companies to collect and manage value chain data, from primary production to finished product and to communicate good practice to their customers.</p>
+        </div>  
+        </header>
+
     {% for page in site.pages sort: page_order %}
     	{% if page.page_order == 2 %}
-	      <li>
 		    <h2>{{ page.title }}</h2>
 
 		    <div class="page">
 		    {{ page.content }}
 		    </div>
-	      </li>
 	    {% endif %}
     {% endfor %}
-  </ul>
 
   <h1>Journal Posts</h1>
-  <ul class="posts">
     {% for post in site.posts limit:1  %}
         <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
 
@@ -31,7 +35,4 @@ published: true
 	    </div>
 	    <p><a href="{{ post.url }}" rel="bookmark">Read <em></em>{{ post.title }}</em> in full</a></p>
     {% endfor %}
-  </ul>
-</div>
 
-<div class="infinite-spinner">Test</div>
