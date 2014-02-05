@@ -2,8 +2,10 @@
 layout: default
 body: article
 ---
-
+{% include nav.ext %}
    {% for post in site.posts limit:1  %}
         <h1>{{ post.title }}</h1>
+        <h2>By {{ post.author }}</h2>
 	    {{ post.content }}
     {% endfor %}
+{% include blog-cta.ext %}
