@@ -227,22 +227,10 @@ section, header, nav, footer {
 
 /* our story */
 #ourstory {
-  position: relative;
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   padding-bottom: 38.83202px;
   padding-bottom: 2.427rem; }
-  #ourstory:before {
-    content: " ";
-    position: absolute;
-    top: 15%;
-    left: 30%;
-    right: -30%;
-    bottom: -60%;
-    background: url(../img/tree-turquoise.svg) center center no-repeat;
-    background-size: contain;
-    opacity: 0.1;
-    z-index: -200; }
 
 #meetteam {
   background: #f0f3f3; }

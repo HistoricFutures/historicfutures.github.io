@@ -104,21 +104,8 @@
 /* our story */
 
 #ourstory{
-  position:relative;
   @include padding-top($standard-padding-top);
   @include padding-bottom($standard-padding-bottom);
-  &:before {
-    content:" ";
-    position:absolute;
-    top:15%;
-    left:30%;
-    right:-30%;
-    bottom:-60%;
-    background:url(../img/tree-turquoise.svg) center center no-repeat;
-    background-size:contain;
-    opacity:0.1;
-    z-index:-200;
-  }
 }
 
 #meetteam{
