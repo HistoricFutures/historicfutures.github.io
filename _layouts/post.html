@@ -1,11 +1,9 @@
 ---
 layout: default
+body: article
 ---
 
    {% for post in site.posts limit:1  %}
-
         <h1>{{ post.title }}</h1>
-	    <div class="post">
 	    {{ post.content }}
-	    </div>
     {% endfor %}
