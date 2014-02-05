@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Useful mixins 
+   ========================================================================== */
+
+
+/* ==========================================================================
+    Typography mixins - all with + px and then + rem are fallbacks for
+    browsers that don't recognise rem
+   ========================================================================== */
+
+@mixin font-size($sizeValue) {
+  font-size: $sizeValue * 16 + px;
+  font-size: $sizeValue + rem;
+}
+
+/* ==========================================================================
+    Margin and padding mixins
+   ========================================================================== */
+
+@mixin margin-bottom($sizeValue) {
+  margin-bottom: $sizeValue * 16 + px;
+  margin-bottom: $sizeValue + rem;
+}
+
+@mixin margin-left($sizeValue) {
+  margin-left: $sizeValue * 16 + px;
+  margin-left: $sizeValue + rem;
+}
+
+@mixin margin-right($sizeValue) {
+  margin-right: $sizeValue * 16 + px;
+  margin-right: $sizeValue + rem;
+}
+
+@mixin margin-top($sizeValue) {
+  margin-top: $sizeValue * 16 + px;
+  margin-top: $sizeValue + rem;
+}
+
+@mixin padding-bottom($sizeValue) {
+  padding-bottom: $sizeValue * 16 + px;
+  padding-bottom: $sizeValue + rem;
+}
+@mixin padding-left($sizeValue) {
+  padding-left: $sizeValue * 16 + px;
+  padding-left: $sizeValue + rem;
+}
+
+@mixin padding-right($sizeValue) {
+  padding-right: $sizeValue * 16 + px;
+  padding-right: $sizeValue + rem;
+}
+@mixin padding-top($sizeValue) {
+  padding-top: $sizeValue * 16 + px;
+  padding-top: $sizeValue + rem;
+}
+
+@mixin padding($sizeValue) {
+  padding: $sizeValue * 16 + px;
+  padding: $sizeValue + rem;
+}
+
+/* ==========================================================================
+    Standard box shadow
+   ========================================================================== */
+@mixin box-shadow() {
+  -webkit-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.1);
+  box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+/* ==========================================================================
+    Transitions
+   ========================================================================== */
+/* to use: @include transition(property time effect); (can take multiple arguments e.g. color 0.3s ease, border-color 0.3s ease) */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+/* ==========================================================================
+    Border radius
+   ========================================================================== */
+
+/* to use: @include border-radius(radius); (can take multiple arguments e.g. 2em 0 for different radius on different corners) */
+@mixin border-radius($args...) {
+  -moz-border-radius: $args;
+  -webkit-border-radius: $args;
+  -ms-border-radius: $args;
+  border-radius: $args;
+}

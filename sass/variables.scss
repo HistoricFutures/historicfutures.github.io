@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+
+/* ==========================================================================
+Scales - Based on http://modularscale.com/scale/?px1=16&px2=18&ra1=1.333&ra2=0
+========================================================================== */
+/* @group modular scale calculator use Ems@16 */
+
+/* http://modularscale.com/scale/?px1=19&px2=14&ra1=1.618&ra2=0 */
+$ratio:1.333;
+$default:16; /* current accepted 'default' pixel size browsers use */
+$base-number:16;
+$important-number:18; 
+
+/* $a-scale is based on $base-number */
+$a-scale:$base-number/$default; /* this is the base font size */
+$a-scale-2:$a-scale*$ratio;
+$a-scale-3:$a-scale-2*$ratio;
+$a-scale-4:$a-scale-3*$ratio;
+$a-scale-5:$a-scale-4*$ratio;
+$a-scale-6:$a-scale-5*$ratio;
+$a-scale-7:$a-scale-6*$ratio;
+
+/* $a-scale-- is based on $a-scale and gives smaller numbers */
+$a-scale-:$a-scale;
+$a-scale--2:$a-scale-/$ratio;
+$a-scale--3:$a-scale--2/$ratio;
+$a-scale--4:$a-scale--3/$ratio;
+$a-scale--5:$a-scale--4/$ratio;
+$a-scale--6:$a-scale--5/$ratio;
+
+/* b-scale is based on $important-number */
+$b-scale:$important-number/$default; /* these are additional numbers based on $important-number */
+$b-scale-2:$b-scale*$ratio;
+$b-scale-3:$b-scale-2*$ratio;
+$b-scale-4:$b-scale-3*$ratio;
+$b-scale-5:$b-scale-4*$ratio;
+$b-scale-6:$b-scale-5*$ratio;
+$b-scale-7:$b-scale-6*$ratio;
+
+/* $b-scale- is based on $important-number and gives smaller numbers */
+$b-scale-:$b-scale;
+$b-scale--2:$b-scale-/$ratio;
+$b-scale--3:$b-scale--2/$ratio;
+$b-scale--4:$b-scale--3/$ratio;
+$b-scale--5:$b-scale--4/$ratio;
+$b-scale--6:$b-scale--5/$ratio;
+
+/* @end */
+
+/* ==========================================================================
+Colours
+========================================================================== */
+
+   $blue:#466E8C;
+   $darkblue:darken($blue,5);
+   $darkdarkblue:darken($blue,7);
+   $lightblue:lighten($blue,5);
+   $orange:#D75B36;
+   $darkorange:darken($orange,5);
+   $red:#9E1C10;
+   $darkred:darken($red,2);
+   $turquoise:#138C8F;
+   $darkturquoise:darken($turquoise,2);
+   $white: #F7F9F9;
+   $lightgrey:#F0F3F3;
+   $darkgrey: #333333;
+
+/* ==========================================================================
+Font Stack    
+========================================================================== */
+
+   $default: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+/* ==========================================================================
+Line heights
+========================================================================== */
+
+$line-height: 1.4;
+$heading-line-height:1.1;
+
+
+/* ==========================================================================
+Padding
+========================================================================== */
+$p-margin-bottom: $b-scale;
+$standard-padding-top: $b-scale-5;
+$standard-padding-bottom: $standard-padding-top - $p-margin-bottom;

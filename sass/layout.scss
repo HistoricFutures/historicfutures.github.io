@@ -1,0 +1,547 @@
+/* ==========================================================================
+   General gridsetting and additional stuff outside of gridset.scss
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Make everything work out what size it should be if we add padding and 
+   borders and width is set to 100%, for example.
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+   ========================================================================== */
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* ==========================================================================
+   Put each section on the grid with .inner, parent gives proportional 
+   padding to vertical edges but allows for full width images/coloured 
+   backgrounds etc.
+   ========================================================================== */
+
+/* section specific styles */
+
+
+
+  section, header, nav, footer{
+    clear:both;
+  }
+
+
+
+/* introduction */
+
+#introduction{
+  background:$turquoise;
+  color:$white;
+
+  a, a:visited{
+    color:$white;
+    border-bottom:1px solid $white;
+    &:hover {
+      color:$darkgrey;
+      border-color:$darkgrey;
+    }
+  }
+}
+
+/* call to action */
+
+#calltoaction{
+  background:$lightgrey;
+  @include padding-top($standard-padding-top);
+  @include padding-bottom($standard-padding-bottom);
+}
+
+/* what we are doing */
+#whatwedo {
+  @include padding-top($standard-padding-top);
+  @include padding-bottom($standard-padding-bottom);
+}
+
+/* why do we care */
+
+#whycare{
+
+  background:$blue;
+  color:$white;
+  @include padding-top($standard-padding-top);
+  .bq-container {
+    background:$lightblue;
+    @include padding($a-scale-2);
+  }
+}
+
+/* our story */
+
+#ourstory{
+
+  @include padding-top($standard-padding-top);
+  @include padding-bottom($standard-padding-bottom);
+}
+
+#meetteam{
+    background:$lightgrey;
+  .inner{
+    background:$white;
+    @include padding-bottom($standard-padding-bottom);
+  }
+  img{
+    border-radius:100%;
+    max-width:150px;
+    height:auto;
+  }
+}
+
+/* get involved */
+
+#getinvolved {
+  @include padding-top($standard-padding-top);
+  @include padding-bottom($standard-padding-bottom);
+}
+
+/* our thinking */
+#ourthinking{
+  background:$turquoise;
+  .container {
+    background:$turquoise url(../img/fish.svg) center top no-repeat;
+  background-size:20% auto;
+  }
+  text-align: center;
+  @include padding-top($standard-padding-top);
+  @include padding-bottom($standard-padding-bottom);
+  h2{
+    text-align:left;
+  }
+
+  color:$white;
+    a{
+    color:$white;
+    border-bottom:1px solid $white;
+  }
+}
+
+/* Bricks shared styles */
+
+$brick-color-1: $red;
+$brick-color-2: $orange;
+$brick-border-style-1: 1px solid $darkred;
+$brick-border-style-2: 1px solid $darkorange;
+
+.bricks {
+  @include margin-bottom($p-margin-bottom);
+  background:$brick-color-1;
+  li {
+    @include padding($a-scale);
+    background:$brick-color-1;
+    border:$brick-border-style-1;
+    color:$white;
+    @include font-size($a-scale);
+  }
+  li+li {
+    background:$brick-color-2;
+    border:$brick-border-style-2;
+  }
+  li+li+li {
+    background:$brick-color-1;
+    border:$brick-border-style-1;
+  }
+  li+li+li+li {
+    background:$brick-color-2;
+    border:$brick-border-style-2;
+  }
+  li+li+li+li+li {
+    background:$brick-color-1;
+    border:$brick-border-style-1;
+  }
+  li+li+li+li+li+li {
+    background:$brick-color-2;
+    border:$brick-border-style-2;
+  }
+}
+
+$brick-color-1: $darkblue;
+$brick-color-2: $turquoise;
+$brick-border-style-1: 1px solid $darkdarkblue;
+$brick-border-style-2: 1px solid $darkturquoise;
+
+#whycare {
+.bricks {
+  background:$brick-color-1;
+  li {
+    @include padding($a-scale);
+    background:$brick-color-1;
+    border:$brick-border-style-1;
+    color:$white;
+    @include font-size($a-scale);
+  }
+  li+li {
+    background:$brick-color-2;
+    border:$brick-border-style-2;
+  }
+  li+li+li {
+    background:$brick-color-1;
+    border:$brick-border-style-1;
+  }
+  li+li+li+li {
+    background:$brick-color-2;
+    border:$brick-border-style-2;
+  }
+  li+li+li+li+li {
+    background:$brick-color-1;
+    border:$brick-border-style-1;
+  }
+  li+li+li+li+li+li {
+    background:$brick-color-2;
+    border:$brick-border-style-2;
+  }
+}
+}
+
+/* For small screens such as smartphones */
+
+@media only screen and (min-width:320px) and (max-width:959px){
+
+  section, header, nav, .footer{
+    @include gs-span(s, all);
+  }
+  nav{
+    display:none; /*todo use @extend .visuallyhidden */
+    //position:fixed;
+    //top:0;
+  }
+
+  #introduction{
+    font-size:18px;
+    text-align: center;
+  }
+  .inner{
+    @include gs-span(s, 2,4);
+    clear:left;
+  }
+  #meetteam{
+    text-align:center;
+  }
+  .bricks {
+    @include gs-span(s,all);
+    clear:left;
+  }
+}
+
+
+/* For medium screens such as tablets in landscape */
+
+/* @media only screen and (min-width:960px) and (max-width:1366px){
+    section, header, nav, footer{
+    @include gs-span(l, all);
+  }
+   .inner{
+    @include gs-span(l, 2,10);
+    margin-bottom:21px;
+  }
+} */
+
+/* For big screens, essentially using gutters to try and keep the line lengths in check */
+
+@media only screen and (min-width:960px) {
+
+  section, header, nav, footer{
+    @include gs-span(l, all);
+  }
+
+  /* navigation */
+
+  nav{
+    ol{
+      display:block;
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+    li{
+      @include gs-span(n, 1);
+     
+      display:block;
+      text-align:center;
+      a, a:visited {
+        color:$white;
+        display:block;
+        font-weight:600;
+        min-height:200px;
+        padding-top:21px;
+        text-decoration:none;
+        border:none;
+        background:$orange url(../img/cotton.svg) center center no-repeat;
+        @include transition(background-color 0.5s ease);
+        &:hover {
+          color:$white;
+          background-color:$darkgrey;
+          @include transition(background-color 0.5s ease);
+        }
+      }
+    }
+    li+li{
+      @include gs-span(n, 2,3);
+      a {
+        background:$red url(../img/diamond.svg) center center no-repeat;
+      }
+    }
+    li+li+li{
+      @include gs-span(n, 4,5);
+      a {
+        background:$blue url(../img/tree.svg) center center no-repeat;
+      }
+       
+    }
+    li+li+li+li{
+      @include gs-span(n, 6,7);
+      a {
+        background:$orange url(../img/phone.svg) center center no-repeat;
+      }
+    }
+    li+li+li+li+li{
+      @include gs-span(n, 8);
+      a {
+         background:$red url(../img/fish.svg) center center no-repeat;
+      }
+    }
+  }
+
+/* general layout */
+
+.inner{
+    @include gs-span(l, 2,10);
+    clear:left;
+}
+
+.text-container {
+  @include gs-span(l,2,8,(2,10));
+}
+
+#whycare {
+  .text-container {
+    @include gs-span(l,2,5,(2,10));
+    clear:left;
+  }
+  .bq-container {
+    @include gs-span(l,7,10,(2,10))
+  }
+}
+
+#calltoaction{
+  .container1 {
+    @include gs-span(l,2,7,(2,10));
+  }
+  .container2 {
+    @include gs-span(l,9,10,(2,10));
+    .button {
+      a {
+        display:block;
+        text-align:center;
+      }
+    }
+  }
+}
+  #introduction{
+   
+    @include padding-bottom($a-scale-6);
+    @include padding-top($a-scale-6);
+  .logo{
+    @include gs-span(l, 3);
+    img{
+      width:100%;
+      height:auto;
+    }
+  }
+  .hero{
+    @include gs-span(l, 5,9);
+    font-size:24px;
+  }
+}
+#ourstory{
+  background:transparent url(../img/logos.png) 0% 21px repeat-x;
+  background-size: 70% auto;
+  //transparent url(../img/down.svg) bottom center no-repeat;
+  @include padding-top($b-scale-6);
+
+  }
+
+#meetteam{
+  background:transparent url(../img/chair.jpg) top center no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top:140px;
+
+  .inner {
+    &:before {
+      content:" ";
+      position:absolute;
+      top:-20px;
+      right:-20px;
+      left:-20px;
+      bottom:-20px;
+      border:20px solid rgba(255,255,255,0.4);
+      z-index:-1000;
+    }
+    position:relative;
+    z-index:200;
+    ul {
+      @include gs-span(l,3,9,(2,10));
+      position:relative;
+      li {
+        @include gs-span(l,3,7,(3,9));
+        clear:left;
+        list-style: none;
+        .img-container {
+          @include gs-span(l,3,3,(3,7));
+        }
+        .container {
+          @include gs-span(l,5,7,(3,7));
+        }
+        @include margin-bottom($standard-padding-bottom);
+        p {
+          @include font-size($a-scale);
+        }
+        img {
+          width:100%;
+          max-width:300px;
+          @include margin-bottom($p-margin-bottom);
+        }
+        ul {
+          width:100%;
+          margin:0;
+          @include font-size($a-scale);
+          li {
+            
+            margin:0;
+            @include margin-bottom($p-margin-bottom);
+            width:auto;
+            clear:none;
+            float:none;
+          }
+        }
+      }
+      li+li {
+        @include gs-span(l,3,3,(3,9));
+        clear:left;
+      }
+      li+li+li {
+        @include gs-span(l,5,5,(3,9));
+        clear:none;
+      }
+      li+li+li+li {
+        @include gs-span(l,7,7,(3,9));
+      }
+      li+li+li+li+li {
+        @include gs-span(l,9,9,(3,9));
+      }
+      li+li+li+li+li+li {
+        @include gs-span(l,3,3,(3,9));
+        clear:left;
+      }
+      li+li+li+li+li+li+li {
+        @include gs-span(l,5,5,(3,9));
+        clear:none;
+      }
+      li+li+li+li+li+li+li+li {
+        @include gs-span(l,7,7,(3,9));
+      }
+      li+li+li+li+li+li+li+li+li {
+        @include gs-span(l,9,9,(3,9));
+      }
+
+    }
+  }
+}
+
+
+.bricks {
+  
+  span {
+      display:table-cell;
+      vertical-align:middle;
+    }
+  @include gs-span(n,all);
+  li {
+    @include gs-span(n,1,1);
+    clear:left;
+    display:table;
+    @include padding($a-scale);
+    @include font-size($a-scale);
+    min-height:144px;
+    
+  }
+  li+li {
+    @include gs-span(n,2,5);
+    clear:none;
+
+    display:table;
+  }
+  li+li+li {
+    @include gs-span(n,6,8);
+    clear:none;
+
+    display:table;
+  }
+  li+li+li+li {
+    @include gs-span(n,1,2);
+    clear:left;
+
+    display:table;
+  }
+  li+li+li+li+li {
+    @include gs-span(n,3,6);
+    clear:none;
+
+    display:table;
+  }
+  li+li+li+li+li+li {
+    @include gs-span(n,7,8);
+    clear:none;
+
+    display:table;
+  }
+}
+
+#whycare .bricks {
+  margin-bottom:0;
+  li+li+li+li {
+    @include gs-span(n,1,3);
+    clear:left;
+
+    display:table;
+  }
+  li+li+li+li+li {
+    @include gs-span(n,4,8);
+    clear:none;
+
+    display:table;
+  }
+}
+
+#ourthinking {
+  h2 {
+    margin-bottom:0;
+  }
+  .container {
+    @include gs-span(l,3,9,(2,10));
+    padding-top:10%;
+  }
+}
+
+#getinvolved {
+  .container1 {
+    @include gs-span(l,2,5,(2,10));
+    clear:left;
+  }
+  .container2 {
+    @include gs-span(l,7,10,(2,10));
+  }
+}
+
+}
+

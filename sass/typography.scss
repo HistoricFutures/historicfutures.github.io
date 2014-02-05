@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Font styles
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,600);
+
+
+abbr[title]{
+    border:none;
+}
+
+body{
+  font-family:'open sans', sans-serif;
+  line-height:$line-height;
+  @include font-size($b-scale);
+  color:$darkgrey;
+}
+
+p {
+	@include margin-bottom($p-margin-bottom);
+}
+
+/* heading styles */
+
+h1{
+	font-weight:800;
+	@include font-size($b-scale-3);
+	@include margin-bottom($a-scale);
+	line-height:$heading-line-height;
+}
+
+h2 {
+	font-weight:600;
+  @include font-size($a-scale-3);
+  @include margin-bottom($a-scale);
+  line-height:$heading-line-height;
+  padding-bottom:10px;
+  position:relative;
+}
+
+h2:after{ /* line decoration under h2 */
+  width:48px;
+  height:4px;
+  content:"";
+  background:#9E1C10;
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+h3 {
+	font-weight:600;
+  @include font-size($b-scale-2);
+  @include margin-bottom($a-scale);
+  line-height:$heading-line-height;	
+  @include margin-top($b-scale-3);
+}
+
+h4 {
+	@include font-size($b-scale);
+	font-weight:600;
+	@include margin-bottom($a-scale--4);
+}
+h5 {
+	@include font-size($a-scale);
+	font-weight:600;
+	@include margin-bottom($a-scale);
+}
+
+/* Links */
+
+a, a:visited {
+	text-decoration:none;
+	color:$darkgrey;
+	font-weight:600;
+	border-bottom:1px solid $darkgrey;
+	@include transition(color 0.5s ease, border-color 0.5s ease);
+	&:hover {
+		color:$red;
+		border-color:$red;
+		@include transition(color 0.5s ease, border-color 0.5s ease);
+	}
+}
+
+.button {
+	a, a:visited {
+		background:$turquoise;
+		@include padding($a-scale--2);
+		@include box-shadow();
+		@include border-radius(5px);
+		text-transform: uppercase;
+		color:$white;
+		font-weight:600;
+		border:none;
+		@include transition(background 0.5s ease);
+		&:hover {
+			background:$red;
+			@include transition(background 0.5s ease);
+		}
+	}
+}
+
+#getinvolved {
+	.button{
+		a, a:visited {
+			text-transform:none;
+		}
+	}
+}
+
+/* blockquotes */
+blockquote {
+	font-style:italic;
+	font-weight:400;
+	@include margin-bottom($p-margin-bottom);
+	p:before {
+		content:"\201C";
+	}
+	p:after {
+		content:"\201D";
+	}
+	footer, footer cite {
+		font-style:normal;
+		@include font-size($a-scale);
+	}
+}
