@@ -3,6 +3,7 @@ layout: post
 title: Another new post
 date: 2014-02-05
 published: true
+categories: tim
 ---
 
 ## A New Post
