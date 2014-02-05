@@ -1,3 +1,55 @@
-.article ul{
-	border:1px solid red;
+
+.article{
+		article{
+			h1,h2{
+				text-align:center;
+			}
+			h1{
+				@include font-size($a-scale-5);
+			}
+			h2{
+				@include font-size($a-scale);
+				@include padding-top($standard-padding-top);
+				background:transparent url(../img/greyfish.svg) center 10px no-repeat;
+				background-size:37px auto;
+				color:$midgrey;
+				font-weight:400;
+			}
+			h2:after{
+				background:none;
+			}
+	}
+}
+
+@media only screen and (min-width:960px) {
+	.article{
+		nav{
+			@include gs-span(n, all);
+			clear:both;
+			text-align:center
+		}
+		aside{
+			@include gs-span(l, all);
+			clear:both;
+		}
+		article{
+			@include gs-span(l, 3,10);
+			clear:both;
+			img{
+				max-width:100%;
+				height:auto;
+			}
+		}
+	}
+}
+
+
+@media only screen and (min-width:1300px) {
+
+	.article{
+		article{
+			@include font-size($a-scale-6);
+			@include font-size($a-scale-3);
+		}
+	}
 }

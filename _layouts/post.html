@@ -3,9 +3,11 @@ layout: default
 body: article
 ---
 {% include nav.ext %}
+<article>
    {% for post in site.posts limit:1  %}
         <h1>{{ post.title }}</h1>
-        <h2>By {{ post.author }}</h2>
+        <h2>By {{ post.author }} &mdash; {{ page.date | date: "%-d %B %Y" }}</h2>
 	    {{ post.content }}
     {% endfor %}
+  </article>
 {% include blog-cta.ext %}
