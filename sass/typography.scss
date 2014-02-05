@@ -107,6 +107,41 @@ a, a:visited {
 	}
 }
 
+.twitter {
+	list-style:none;
+	a, a:visited {
+	background:url(../img/twitter-icon.svg) top center no-repeat;
+	background-size:100% auto;
+	width:38px;
+	height:30.8888px;
+	display:block;
+	text-indent:-9999em;
+	overflow:hidden;
+	border:none;
+	@include margin-bottom($p-margin-bottom);
+	&:hover {
+		background-position:bottom center;
+	}
+	}
+}
+
+.linkedin {
+	list-style:none;
+	a, a:visited {
+	background:url(../img/linkedin-icon.svg) top center no-repeat;
+	background-size:100% auto;
+	width:38px;
+	height:36.322px;
+	display:block;
+	text-indent:-9999em;
+	overflow:hidden;
+	border:none;
+	&:hover {
+		background-position:bottom center;
+	}
+	}
+}
+
 /* blockquotes */
 blockquote {
 	font-style:italic;

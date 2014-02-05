@@ -191,9 +191,20 @@ section, header, nav, footer {
 /* why do we care */
 #whycare {
   background: #466e8c;
+  position: relative;
   color: #f7f9f9;
   padding-top: 56.83202px;
   padding-top: 3.552rem; }
+  #whycare:before {
+    content: " ";
+    position: absolute;
+    top: 20%;
+    left: -30%;
+    right: 20%;
+    bottom: 10%;
+    background: url(../img/diamond.svg) center center no-repeat;
+    background-size: contain;
+    opacity: 0.05; }
   #whycare .bq-container {
     background: #4f7b9d;
     padding: 21.328px;
@@ -221,8 +232,8 @@ section, header, nav, footer {
 #getinvolved {
   padding-top: 56.83202px;
   padding-top: 3.552rem;
-  padding-bottom: 38.83202px;
-  padding-bottom: 2.427rem; }
+  margin-bottom: 38.83202px;
+  margin-bottom: 2.427rem; }
 
 /* our thinking */
 #ourthinking {
@@ -705,19 +716,30 @@ section, header, nav, footer {
     width: 92.68514%;
     padding-top: 10%; }
 
-  #getinvolved .container1 {
-    display: block;
-    float: left;
-    margin-left: 0;
-    margin-right: -100%;
-    width: 48.17128%;
-    clear: left; }
-  #getinvolved .container2 {
-    display: block;
-    float: left;
-    margin-left: 51.82872%;
-    margin-right: -100%;
-    width: 48.17128%; } }
+  #getinvolved {
+    overflow: hidden; }
+    #getinvolved .container1 {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 48.17128%;
+      clear: left; }
+    #getinvolved .container2 {
+      display: block;
+      float: left;
+      margin-left: 72.25693%;
+      margin-right: -100%;
+      width: 27.74307%;
+      border-left: 1px solid #138c8f;
+      margin-bottom: -99999px;
+      padding-bottom: 99999px; }
+      #getinvolved .container2 .inside {
+        display: block;
+        float: left;
+        margin-left: 13.18322%;
+        margin-right: -100%;
+        width: 86.81678%; } }
 /* ==========================================================================
    Things to assist accessibility
    ========================================================================== */
@@ -850,6 +872,36 @@ a, a:visited {
 
 #getinvolved .button a, #getinvolved .button a:visited {
   text-transform: none; }
+
+.twitter {
+  list-style: none; }
+  .twitter a, .twitter a:visited {
+    background: url(../img/twitter-icon.svg) top center no-repeat;
+    background-size: 100% auto;
+    width: 38px;
+    height: 30.8888px;
+    display: block;
+    text-indent: -9999em;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 18px;
+    margin-bottom: 1.125rem; }
+    .twitter a:hover, .twitter a:visited:hover {
+      background-position: bottom center; }
+
+.linkedin {
+  list-style: none; }
+  .linkedin a, .linkedin a:visited {
+    background: url(../img/linkedin-icon.svg) top center no-repeat;
+    background-size: 100% auto;
+    width: 38px;
+    height: 36.322px;
+    display: block;
+    text-indent: -9999em;
+    overflow: hidden;
+    border: none; }
+    .linkedin a:hover, .linkedin a:visited:hover {
+      background-position: bottom center; }
 
 /* blockquotes */
 blockquote {

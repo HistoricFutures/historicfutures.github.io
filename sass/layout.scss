@@ -64,9 +64,20 @@
 /* why do we care */
 
 #whycare{
-
   background:$blue;
+  position:relative;
   color:$white;
+  &:before {
+    content:" ";
+    position:absolute;
+    top:20%;
+    left:-30%;
+    right:20%;
+    bottom:10%;
+    background:url(../img/diamond.svg) center center no-repeat;
+    background-size:contain;
+    opacity:0.05;
+  }
   @include padding-top($standard-padding-top);
   .bq-container {
     background:$lightblue;
@@ -99,7 +110,7 @@
 
 #getinvolved {
   @include padding-top($standard-padding-top);
-  @include padding-bottom($standard-padding-bottom);
+  @include margin-bottom($standard-padding-bottom);
 }
 
 /* our thinking */
@@ -168,6 +179,7 @@ $brick-border-style-1: 1px solid $darkdarkblue;
 $brick-border-style-2: 1px solid $darkturquoise;
 
 #whycare {
+
 .bricks {
   background:$brick-color-1;
   li {
@@ -534,12 +546,19 @@ $brick-border-style-2: 1px solid $darkturquoise;
 }
 
 #getinvolved {
+  overflow:hidden;
   .container1 {
     @include gs-span(l,2,5,(2,10));
     clear:left;
   }
   .container2 {
-    @include gs-span(l,7,10,(2,10));
+    @include gs-span(l,8,10,(2,10));
+    border-left:1px solid $turquoise;
+    margin-bottom: -99999px;
+  padding-bottom: 99999px;
+    .inside {
+      @include gs-span(l,9,10,(8,10));
+    }
   }
 }
 
