@@ -1,1 +1,22 @@
-test
+---
+layout: default
+title: Historic Futures
+published: true
+---
+
+
+
+  <h1>Journal</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:100  %}
+        <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+
+	    <div class="post">
+	    {{ post.content }}
+	    </div>
+	    <p><a href="{{ post.url }}" rel="bookmark">Read <em></em>{{ post.title }}</em> in full</a></p>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="infinite-spinner">Test</div>
