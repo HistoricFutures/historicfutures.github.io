@@ -2,7 +2,7 @@
 layout: post
 title: Interesting Journal Post
 date: 2014-01-28
-categories:tim
+categories: tim
 published: true
 ---
 
