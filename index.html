@@ -22,14 +22,13 @@ published: true
 
   <h1>Journal Posts</h1>
   <ul class="posts">
-    {% for post in site.posts limit:10  %}
-      <li>
+    {% for post in site.posts limit:1  %}
         <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
 
 	    <div class="post">
 	    {{ post.content }}
 	    </div>
-      </li>
+	    <p><a href="{{ post.url }}" rel="bookmark">Read <em></em>{{ post.title }}</em> in full</a></p>
     {% endfor %}
   </ul>
 </div>
