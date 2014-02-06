@@ -1447,7 +1447,8 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
   border: 10px solid #f7f9f9;
   /* navigation */
   /* fixed nav */
-  /* general layout */ }
+  /* general layout */
+  /*blog */ }
   .ie8 section, .ie8 header, .ie8 nav, .ie8 .footer {
     clear: both;
     display: block;
@@ -1910,10 +1911,81 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     float: left;
     margin-left: 0;
     width: 100%; }
+  .ie8 article {
+    display: block;
+    float: left;
+    margin-left: 28.7562%;
+    margin-right: -99.9%;
+    width: 59.2686%;
+    padding-top: 67.33963px;
+    padding-top: 4.20873rem; }
+    .ie8 article img {
+      max-width: 100%;
+      height: auto; }
+  .ie8 .archivelist {
+    display: block;
+    float: left;
+    margin-left: 28.7562%;
+    margin-right: -99.9%;
+    width: 59.2686%;
+    padding-top: 67.33963px;
+    padding-top: 4.20873rem; }
+    .ie8 .archivelist img {
+      max-width: 100%;
+      height: auto; }
+  .ie8 aside {
+    display: block;
+    float: left;
+    margin-left: 28.7562%;
+    margin-right: -99.9%;
+    width: 59.2686%;
+    clear: both; }
+  .ie8 nav.blog {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -99.9%;
+    width: 20.0303%; }
+    .ie8 nav.blog ul li {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%;
+      clear: left; }
 
 .no-svg .logo {
   background: url(../img/logo-white.png) center center no-repeat; }
-.no-svg nav li {
-  background: red; }
+.no-svg nav li a {
+  background-image: url(../img/cotton.png); }
+.no-svg nav li + li a {
+  background-image: url(../img/diamond.png); }
+.no-svg nav li + li + li a {
+  background-image: url(../img/tree.png); }
+.no-svg nav li + li + li + li a {
+  background-image: url(../img/phone.png); }
+.no-svg nav li + li + li + li + li a {
+  background-image: url(../img/fish.png); }
+.no-svg nav.blog ul li a {
+  background-image: url(../img/logo-small.png); }
+.no-svg nav.blog ul li + li a {
+  background-image: url(../img/fish.png); }
+.no-svg #ourthinking {
+  background-image: url(../img/fish.png); }
+.no-svg .twitter a, .no-svg .twitter a:visited {
+  background-image: url(../img/twitter-icon.png); }
+.no-svg .linkedin a, .no-svg .linkedin a:visited {
+  background-image: url(../img/linkedin-icon.png); }
+.no-svg .article article h2.meta {
+  background-image: url(../img/greyfish.png); }
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
 
 /* sratch - todo this should be empty before launch! */

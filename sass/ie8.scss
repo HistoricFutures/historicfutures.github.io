@@ -381,6 +381,44 @@ border:10px solid $white;
   }
 
 
+/*blog */
+
+article {
+  @include gs-span(l, 4,9, false, ie);
+  @include padding-top($a-scale-6);
+  img{
+        max-width:100%;
+        height:auto;
+      }
+}
+
+.archivelist {
+  @include gs-span(l, 4,9, false, ie);
+  @include padding-top($a-scale-6);
+  img{
+        max-width:100%;
+        height:auto;
+      }
+}
+
+
+
+
+    aside{
+      @include gs-span(l, 4,9, false, ie);
+      clear:both;
+    }
+    
+
+  nav.blog{
+  @include gs-span(n, 1, 1, false, ie);
+  ul{
+  li{
+    @include gs-span(n, all, all, false, ie);
+    clear:left;
+}
+}
+}
 
 
 
@@ -392,7 +430,53 @@ border:10px solid $white;
 	.logo {
 		background:url(../img/logo-white.png) center center no-repeat;
 	}
-  nav li {
-    background: red;
+  nav {
+    li a {
+      background-image: url(../img/cotton.png);
+    }
+    li+li a {
+      background-image: url(../img/diamond.png);
+    }
+    li+li+li a {
+      background-image: url(../img/tree.png);
+    }
+    li+li+li+li a {
+      background-image: url(../img/phone.png);
+    }
+    li+li+li+li+li a {
+      background-image: url(../img/fish.png);
+    }
   }
+
+  nav.blog ul {
+   li a {
+      background-image: url(../img/logo-small.png);
+    }
+    li+li a {
+      background-image: url(../img/fish.png);
+    }
+  }
+  #ourthinking {
+    background-image: url(../img/fish.png);
+  }
+  .twitter a, .twitter a:visited {
+    background-image: url(../img/twitter-icon.png);
+  }
+  .linkedin a, .linkedin a:visited {
+    background-image: url(../img/linkedin-icon.png);
+  }
+  .article article h2.meta{
+    background-image: url(../img/greyfish.png);
+  }
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
 }
