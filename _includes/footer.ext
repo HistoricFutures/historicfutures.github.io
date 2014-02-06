@@ -1,4 +1,5 @@
 <footer class="footer">
+{% include footer-cta.ext %}
         <div class="inner">
             <div class="container1">
             <p class="copyright">© Historic Futures 2004 – 2014</p>

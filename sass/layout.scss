@@ -234,7 +234,6 @@ $brick-border-style-2: 1px solid $darkturquoise;
 .footer {
   background:$darkgrey;
   color:$white;
-  @include padding-top($standard-padding-top);
   @include padding-bottom($b-scale-7);
   position:relative;
   z-index:1000;
@@ -280,6 +279,29 @@ $brick-border-style-2: 1px solid $darkturquoise;
     &:hover {
       background:$red;
       @include transition(background 0.5s ease);
+    }
+  }
+
+  #footercta{
+    @include padding-bottom($a-scale-3);
+    @include padding-top($a-scale-3);
+    @include margin-bottom($a-scale-3);
+    background:$lightgrey;
+    color:$darkgrey;
+    position:relative;
+    text-align: center;
+    p{
+      margin:0;
+    }
+    &:after{
+      background:url(../img/down.svg) center center no-repeat;
+      background-size:32px auto;
+      content:"";
+      display:block;
+      height:32px;
+      position:absolute;
+      bottom:-16px;
+      width:100%;
     }
   }
 
@@ -686,6 +708,9 @@ $brick-border-style-2: 1px solid $darkturquoise;
     @include gs-span(l,7,10,(2,10));
   }
 }
+#footercta{
+  @include gs-span(l, all);
+  }
 
 }
 
