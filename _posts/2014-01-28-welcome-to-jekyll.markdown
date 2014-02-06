@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Buyers unravel the ethics behind the label
-date: 2014-01-28
+date: {}
 categories: tim
 published: true
 author: Tim Wilson
