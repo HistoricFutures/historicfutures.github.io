@@ -1977,8 +1977,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
 .no-svg .linkedin a, .no-svg .linkedin a:visited {
   background-image: url(../img/linkedin-icon.png); }
 .no-svg .article article h2.meta {
-  background-image: url(../img/greyfish.png);
-  background-color: none; }
+  background-image: url(../img/greyfish.png); }
 
 /* ==========================================================================
    Browse Happy prompt
