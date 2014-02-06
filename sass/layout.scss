@@ -367,6 +367,10 @@ $brick-border-style-2: 1px solid $darkturquoise;
     @include gs-span(s,all);
     clear:left;
   }
+  #ourthinking {
+    background-position:center 90px;
+    background-size: 101px auto;
+  }
 }
 
 
@@ -622,7 +626,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
     display:table;
     @include padding($a-scale);
     @include font-size($a-scale);
-    min-height:144px;
+    
     
   }
   li+li {

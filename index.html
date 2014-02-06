@@ -69,7 +69,7 @@ body: landing
         </div>
 
         <div class="bricks">
-            <ul>
+            <ul class="bricks-1">
                 <li><span>The questions you have about your products require
                 detail you don’t have?</span></li>
 
@@ -155,7 +155,7 @@ body: landing
         </div>
 
         <div class="bricks">
-            <ul>
+            <ul class="bricks-2">
                 <li><span>Better, more informed sourcing decisions</span></li>
 
                 <li><span>Simplification of value chain structures</span></li>
@@ -326,7 +326,7 @@ body: landing
             <h2>Our thinking</h2>
             <div class="container">
                 <h3><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
-                  {{ post.excerpt }}
+                  <p>{{ post.excerpt }}</p>
                 <p><a href="{{ post.url }}" rel="bookmark">Read <em>{{ post.title }}</em> in full</a></p>
             </div>
         </div>
@@ -335,6 +335,7 @@ body: landing
 
     {% include footer.ext %}
 
+<<<<<<< HEAD
 
     <!-- {% for page in site.pages sort: page_order %}
       {% if page.page_order == 2 %}
@@ -348,5 +349,7 @@ body: landing
     {% endfor %} -->
 
 	    
+=======
+>>>>>>> f0b687122db27f3c623d7f4e1bdfbbd662df5daa
 
 
