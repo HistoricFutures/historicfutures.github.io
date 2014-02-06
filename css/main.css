@@ -547,7 +547,8 @@ section, header, nav, footer {
     width: 100%; }
 
   body {
-    border: 10px solid #f7f9f9; }
+    border: 10px solid #f7f9f9;
+    position: relative; }
 
   /* navigation */
   nav ol {
@@ -568,7 +569,8 @@ section, header, nav, footer {
       display: block;
       font-weight: 600;
       min-height: 200px;
-      padding-top: 21px;
+      padding-top: 21.328px;
+      padding-top: 1.333rem;
       text-decoration: none;
       border: none;
       background: #d75b36 url(../img/cotton.svg) center 60% no-repeat;
@@ -620,6 +622,36 @@ section, header, nav, footer {
     nav li + li + li + li + li a {
       background: #9e1c10 url(../img/fish.svg) center 60% no-repeat;
       background-size: auto 90px; }
+
+  /* fixed nav */
+  .landing nav.fixed {
+    position: fixed;
+    top: 0;
+    padding-right: 10px !important;
+    z-index: 2000; }
+    .landing nav.fixed ol {
+      padding-right: 10px !important; }
+      .landing nav.fixed ol li a {
+        background: #333333;
+        min-height: 0;
+        padding-bottom: 12.003px;
+        padding-bottom: 0.75019rem;
+        padding-top: 12.003px;
+        padding-top: 0.75019rem;
+        opacity: 0.9;
+        -webkit-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+        -moz-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+        -o-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+        transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease; }
+        .landing nav.fixed ol li a:hover {
+          opacity: 1;
+          -webkit-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+          -moz-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+          -o-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+          transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease; }
+
+  .landing nav.fixed + #calltoaction {
+    margin-top: 49px; }
 
   /* general layout */
   .inner {
