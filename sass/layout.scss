@@ -604,7 +604,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
     display:table;
     @include padding($a-scale);
     @include font-size($a-scale);
-    min-height:144px;
+    
     
   }
   li+li {
