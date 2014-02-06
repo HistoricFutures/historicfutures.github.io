@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wjames and hannah test post"
+title: "james and hannah test post"
 categories: jim
 published: true
 author: James 
