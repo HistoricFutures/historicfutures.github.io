@@ -484,20 +484,25 @@ $brick-border-style-2: 1px solid $darkturquoise;
         @include gs-span(l,3,7,(3,9));
         clear:left;
         list-style: none;
+        text-align:center;
+
         .img-container {
           @include gs-span(l,3,3,(3,7));
+          text-align:center;
         }
         .container {
           @include gs-span(l,5,7,(3,7));
+          text-align:left;
         }
         @include margin-bottom($standard-padding-bottom);
         p {
           @include font-size($a-scale);
+          text-align:left;
         }
         img {
           width:100%;
-          max-width:300px;
           @include margin-bottom($p-margin-bottom);
+
         }
         ul {
           width:100%;
@@ -510,6 +515,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
             width:auto;
             clear:none;
             float:none;
+            text-align:left;
           }
         }
       }
