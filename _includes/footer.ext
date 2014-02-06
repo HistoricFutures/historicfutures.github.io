@@ -33,11 +33,11 @@
                 <h3>Call us on</h3>
                 <p><a href="#">+44 (0) 1993 886420</a></p>
                 <p>Our <abbr title="United Kingdom">UK</abbr> office is open from 9am until 5pm, Monday to Friday</p>
-                <p>Fax: +44 (0) 1993 886421</p>
+                
                 <h3>Other ways to connect</h3>
                 <ul>
-                    <li class="twitter"><a href="#">Follow us on Twitter</a></li>
-                    <li class="linkedin"><a href="#">Connect on LinkedIN</a></li>
+                    <li class="twitter"><a href="https://twitter.com/Historic_Future" title="Follow Historic_Future on Twitter"><span>Follow us on Twitter</span></a></li>
+                    <li class="linkedin"><a href="http://www.linkedin.com/company/historic-futures-ltd" title="Historic Futures on LinkedIN"><span>Connect on LinkedIN</span></a></li>
                 </ul>
                     <p class="copyright">&copy; Historic Futures 2004 &ndash; 2014</p>
         </div>

@@ -264,6 +264,10 @@ $brick-border-style-2: 1px solid $darkturquoise;
       border-color:$red;
     }
   }
+  p.copyright {
+    @include margin-top($p-margin-bottom);
+    color:lighten($darkgrey,20);
+  }
   a.back-to-top {
     display:block;
     width:100%;
@@ -729,14 +733,15 @@ $brick-border-style-2: 1px solid $darkturquoise;
   .container1 {
     @include gs-span(l,2,5,(2,10));
     clear:left;
+    @include padding-right($a-scale-6);
   }
   .container2 {
-    @include gs-span(l,8,10,(2,10));
+    @include gs-span(l,6,10,(2,10));
     border-left:1px solid $turquoise;
     margin-bottom: -99999px;
   padding-bottom: 99999px;
     .inside {
-      @include gs-span(l,9,10,(8,10));
+      @include gs-span(l,7,10,(6,10));
     }
   }
 }
