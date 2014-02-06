@@ -975,6 +975,9 @@ a, a:visited {
     -o-transition: color 0.5s ease, border-color 0.5s ease;
     transition: color 0.5s ease, border-color 0.5s ease; }
 
+h3 a, h3 a:visited {
+  border-bottom: none !important; }
+
 .button a, .button a:visited {
   background: #138c8f;
   padding: 12.003px;
