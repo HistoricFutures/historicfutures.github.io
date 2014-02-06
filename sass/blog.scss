@@ -3,61 +3,39 @@
 /* article specific */
 .article{
 		article{
-			h1,h2{
-				text-align:center;
-			}
+			@include padding-bottom($standard-padding-bottom);
+			
 			h1{
 				@include font-size($a-scale-5);
+				text-align:center;
 			}
-			h2{
+			h2.meta{
 				@include font-size($a-scale);
 				@include padding-top($standard-padding-top);
 				background:transparent url(../img/greyfish.svg) center 10px no-repeat;
 				background-size:37px auto;
 				color:$midgrey;
 				font-weight:400;
+				text-align:center;
+				margin-top:0;
 			}
 			h2:after{
 				background:none;
 			}
-	}
-}
-
-@media only screen and (min-width:960px) {
-	.article, .archive{
-		aside{
-			@include gs-span(l, 4,9);
-			clear:both;
-		}
-		article, .archivelist{
-			@include gs-span(l, 4,9);
-			@include padding-top($a-scale-6);
-		
-			img{
-				max-width:100%;
-				height:auto;
+			h2 {
+				@include margin-top($a-scale-3);
+				@include margin-bottom($a-scale);
+				padding-bottom:0;
 			}
-		}
 	}
 }
 
 
-@media only screen and (min-width:1300px) {
-
-	.article{
-		article{
-			//@include font-size($a-scale-6);
-			//@include font-size($a-scale-3);
-		}
-	}
-}
-/* navigation */
 nav.blog{
-	@include gs-span(n, 1);
+
 	ul{
 	li{
-		@include gs-span(n, all);
-		clear:left;
+
 		a, a:visited {
         background:$turquoise url(../img/logo.svg) center center no-repeat;
         @include transition(background-color 0.5s ease);
@@ -76,6 +54,47 @@ nav.blog{
 }
 }
 
+/* LARGE SCREENS */
+@media only screen and (min-width:960px) {
+	.article, .archive{
+		aside{
+			@include gs-span(l, 4,9);
+			clear:both;
+		}
+		article, .archivelist{
+			@include gs-span(l, 4,9);
+			@include padding-top($a-scale-6);
+		
+			img{
+				max-width:100%;
+				height:auto;
+			}
+		}
+	}
+	nav.blog{
+	@include gs-span(n, 1);
+	ul{
+	li{
+		@include gs-span(n, all);
+		clear:left;
+}
+}
+}
+}
+
+
+@media only screen and (min-width:1300px) {
+
+	.article{
+		article{
+			//@include font-size($a-scale-6);
+			//@include font-size($a-scale-3);
+		}
+	}
+}
+/* navigation */
+
+
 /*nav.blog.fixed{
 	position:fixed;
 	top:0;
@@ -86,5 +105,94 @@ nav.blog{
 .archive nav.blog ul{
 	li+li{
 		display:none;
+	}
+}
+
+.archive {
+	.archivelist {
+		@include margin-bottom($standard-padding-bottom);
+		section {
+			@include padding-bottom($p-margin-bottom);
+			@include padding-top($p-margin-bottom);
+		}
+	}
+	h1{
+		@include font-size($a-scale-5);
+	}
+	h2 {
+		&:after {
+			background: none;
+		}
+		padding-bottom:0;
+		@include margin-bottom($a-scale--2);
+		a {
+			color:$turquoise;
+			border-bottom:1px dotted $turquoise;
+			&:hover {
+				color:$red;
+				border-color:$red;
+			}
+		}
+		a:visited {
+			color:$darkgrey;
+			border-bottom:1px dotted $turquoise;
+			&:hover {
+				color:$red;
+				border-color:$red;
+			}
+		}
+	}
+	.meta {
+		@include font-size($a-scale);
+		font-weight:400;
+		color:lighten($darkgrey,30);
+		margin-top:0;
+		span {
+			font-style:italic;
+			text-transform: lowercase;
+		}
+		
+	}
+}
+
+
+
+/* SMALL SCREENS */
+
+@media only screen and (min-width:320px) and (max-width:959px){
+	article, .archivelist{
+			@include gs-span(s, 2,4);
+			clear:left;
+		}
+	nav.blog{
+		@include gs-span(s, all);
+		@include margin-bottom($standard-small-screen-padding-top);
+		clear:left;
+		ul li {
+			@include gs-span(s,2);
+			a, a:visited {
+				width:100%;
+				display:block;
+				border-bottom:0;
+				color:$white;
+				text-align:center;
+				@include padding-top($a-scale-6);
+				@include padding-bottom($a-scale);
+				@include padding-left($a-scale--2);
+				@include padding-right($a-scale--2);
+				background-position: center 10px;
+				background-size:45px auto;
+
+			}
+		}
+		ul li+li {
+			@include gs-span(s,4);
+			clear:none;
+			a, a:visited {
+				background-position: center 10px;
+				background-size:auto 45px;
+
+			}
+		}
 	}
 }

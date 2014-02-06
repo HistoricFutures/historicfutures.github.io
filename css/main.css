@@ -1214,23 +1214,50 @@ blockquote {
     font-size: 1rem; }
 
 /* article specific */
-.article article h1, .article article h2 {
-  text-align: center; }
-.article article h1 {
-  font-size: 50.51735px;
-  font-size: 3.15733rem; }
-.article article h2 {
-  font-size: 16px;
-  font-size: 1rem;
-  padding-top: 56.83202px;
-  padding-top: 3.552rem;
-  background: transparent url(../img/greyfish.svg) center 10px no-repeat;
-  background-size: 37px auto;
-  color: #666666;
-  font-weight: 400; }
-.article article h2:after {
-  background: none; }
+.article article {
+  padding-bottom: 38.83202px;
+  padding-bottom: 2.427rem; }
+  .article article h1 {
+    font-size: 50.51735px;
+    font-size: 3.15733rem;
+    text-align: center; }
+  .article article h2.meta {
+    font-size: 16px;
+    font-size: 1rem;
+    padding-top: 56.83202px;
+    padding-top: 3.552rem;
+    background: transparent url(../img/greyfish.svg) center 10px no-repeat;
+    background-size: 37px auto;
+    color: #666666;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0; }
+  .article article h2:after {
+    background: none; }
+  .article article h2 {
+    margin-top: 28.43022px;
+    margin-top: 1.77689rem;
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+    padding-bottom: 0; }
 
+nav.blog ul li a, nav.blog ul li a:visited {
+  background: #138c8f url(../img/logo.svg) center center no-repeat;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; }
+  nav.blog ul li a:hover, nav.blog ul li a:visited:hover {
+    color: #f7f9f9;
+    background-color: #333333;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease; }
+nav.blog ul li + li a, nav.blog ul li + li a:visited {
+  background: #9e1c10 url(../img/fish.svg) center center no-repeat; }
+
+/* LARGE SCREENS */
 @media only screen and (min-width: 960px) {
   .article aside, .archive aside {
     display: block;
@@ -1249,37 +1276,22 @@ blockquote {
     padding-top: 4.20873rem; }
     .article article img, .article .archivelist img, .archive article img, .archive .archivelist img {
       max-width: 100%;
-      height: auto; } }
-/* navigation */
-nav.blog {
-  display: block;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
-  width: 20.0303%; }
-  nav.blog ul li {
-    clear: both;
+      height: auto; }
+
+  nav.blog {
     display: block;
     float: left;
     margin-left: 0;
-    width: 100%;
-    clear: left; }
-    nav.blog ul li a, nav.blog ul li a:visited {
-      background: #138c8f url(../img/logo.svg) center center no-repeat;
-      -webkit-transition: background-color 0.5s ease;
-      -moz-transition: background-color 0.5s ease;
-      -o-transition: background-color 0.5s ease;
-      transition: background-color 0.5s ease; }
-      nav.blog ul li a:hover, nav.blog ul li a:visited:hover {
-        color: #f7f9f9;
-        background-color: #333333;
-        -webkit-transition: background-color 0.5s ease;
-        -moz-transition: background-color 0.5s ease;
-        -o-transition: background-color 0.5s ease;
-        transition: background-color 0.5s ease; }
-  nav.blog ul li + li a, nav.blog ul li + li a:visited {
-    background: #9e1c10 url(../img/fish.svg) center center no-repeat; }
-
+    margin-right: -100%;
+    width: 20.0303%; }
+    nav.blog ul li {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%;
+      clear: left; } }
+/* navigation */
 /*nav.blog.fixed{
 	position:fixed;
 	top:0;
@@ -1289,4 +1301,94 @@ nav.blog {
 .archive nav.blog ul li + li {
   display: none; }
 
+.archive .archivelist {
+  margin-bottom: 38.83202px;
+  margin-bottom: 2.427rem; }
+  .archive .archivelist section {
+    padding-bottom: 18px;
+    padding-bottom: 1.125rem;
+    padding-top: 18px;
+    padding-top: 1.125rem; }
+.archive h1 {
+  font-size: 50.51735px;
+  font-size: 3.15733rem; }
+.archive h2 {
+  padding-bottom: 0;
+  margin-bottom: 12.003px;
+  margin-bottom: 0.75019rem; }
+  .archive h2:after {
+    background: none; }
+  .archive h2 a {
+    color: #138c8f;
+    border-bottom: 1px dotted #138c8f; }
+    .archive h2 a:hover {
+      color: #9e1c10;
+      border-color: #9e1c10; }
+  .archive h2 a:visited {
+    color: #333333;
+    border-bottom: 1px dotted #138c8f; }
+    .archive h2 a:visited:hover {
+      color: #9e1c10;
+      border-color: #9e1c10; }
+.archive .meta {
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+  margin-top: 0; }
+  .archive .meta span {
+    font-style: italic;
+    text-transform: lowercase; }
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 320px) and (max-width: 959px) {
+  article, .archivelist {
+    display: block;
+    float: left;
+    margin-left: 3%;
+    margin-right: -100%;
+    width: 94.12153%;
+    clear: left; }
+
+  nav.blog {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 31.984px;
+    margin-bottom: 1.999rem;
+    clear: left; }
+    nav.blog ul li {
+      display: block;
+      float: left;
+      margin-left: 3%;
+      margin-right: -100%;
+      width: 45.56076%; }
+      nav.blog ul li a, nav.blog ul li a:visited {
+        width: 100%;
+        display: block;
+        border-bottom: 0;
+        color: #f7f9f9;
+        text-align: center;
+        padding-top: 67.33963px;
+        padding-top: 4.20873rem;
+        padding-bottom: 16px;
+        padding-bottom: 1rem;
+        padding-left: 12.003px;
+        padding-left: 0.75019rem;
+        padding-right: 12.003px;
+        padding-right: 0.75019rem;
+        background-position: center 10px;
+        background-size: 45px auto; }
+    nav.blog ul li + li {
+      display: block;
+      float: left;
+      margin-left: 51.56076%;
+      margin-right: -100%;
+      width: 45.56076%;
+      clear: none; }
+      nav.blog ul li + li a, nav.blog ul li + li a:visited {
+        background-position: center 10px;
+        background-size: auto 45px; } }
 /* sratch - todo this should be empty before launch! */
