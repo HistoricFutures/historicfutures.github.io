@@ -651,7 +651,7 @@ section, header, nav, footer {
           transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease; }
 
   .landing nav.fixed + #calltoaction {
-    margin-top: 49px; }
+    border-top: 200px solid rgba(0, 0, 0, 0.005); }
 
   /* general layout */
   .inner {
