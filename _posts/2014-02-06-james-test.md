@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "james and hannah test post"
-date:2014-02-06 12:49
+accepted: true
+date: 2014-02-06 12:49pm
 categories: jim
 published: true
 author: James 
