@@ -131,10 +131,12 @@
 
 /* our thinking */
 #ourthinking{
-  background:$turquoise;
+  
+  background:$turquoise url(../img/fish.svg) center 51px no-repeat;
+  background-size:135px auto;
   .container {
-    background:$turquoise url(../img/fish.svg) center top no-repeat;
-  background-size:20% auto;
+    
+    @include padding-top($a-scale);
   }
   text-align: center;
   @include padding-top($standard-padding-top);
@@ -655,7 +657,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
   }
   .container {
     @include gs-span(l,3,9,(2,10));
-    padding-top:10%;
+    
   }
 }
 

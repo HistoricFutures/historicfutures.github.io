@@ -252,7 +252,8 @@ section, header, nav, footer {
 
 /* our thinking */
 #ourthinking {
-  background: #138c8f;
+  background: #138c8f url(../img/fish.svg) center 51px no-repeat;
+  background-size: 135px auto;
   text-align: center;
   padding-top: 56.83202px;
   padding-top: 3.552rem;
@@ -260,8 +261,8 @@ section, header, nav, footer {
   padding-bottom: 2.427rem;
   color: #f7f9f9; }
   #ourthinking .container {
-    background: #138c8f url(../img/fish.svg) center top no-repeat;
-    background-size: 20% auto; }
+    padding-top: 16px;
+    padding-top: 1rem; }
   #ourthinking h2 {
     text-align: left; }
   #ourthinking a {
@@ -826,8 +827,7 @@ section, header, nav, footer {
     float: left;
     margin-left: 3.65743%;
     margin-right: -100%;
-    width: 92.68514%;
-    padding-top: 10%; }
+    width: 92.68514%; }
 
   #getinvolved {
     overflow: hidden; }
