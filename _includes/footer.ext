@@ -2,6 +2,8 @@
 {% include footer-cta.ext %}
         <div class="inner">
             <div class="container1">
+            <div id="map_canvas">
+            </div>
                 <div itemscope itemtype="http://schema.org/Corporation">
                 <a itemprop="url" href="http://historicfutures.com">
                 <span itemprop="name">Historic Futures</span>
@@ -19,8 +21,7 @@
             </div>
                 
             
-            <div id="map_canvas">
-            </div>
+            
 
             <a href=
             "http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=OX29+8ET&amp;sll=51.832344,-1.396616&amp;sspn=143.97097,360&amp;gl=uk&amp;ie=UTF8&amp;hq=&amp;hnear=Witney,+Oxfordshire+OX29+8ET,+United+Kingdom&amp;t=h&amp;z=16">Location
