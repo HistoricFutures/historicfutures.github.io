@@ -90,3 +90,5 @@ Padding
 $p-margin-bottom: $b-scale;
 $standard-padding-top: $b-scale-5;
 $standard-padding-bottom: $standard-padding-top - $p-margin-bottom;
+$standard-small-screen-padding-top: $b-scale-3;
+$standard-small-screen-padding-bottom: $standard-small-screen-padding-top - $p-margin-bottom;

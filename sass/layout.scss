@@ -199,6 +199,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
 #whycare {
 
 .bricks {
+  margin-bottom:0;
   background:$brick-color-1;
   li {
     @include padding($a-scale);
@@ -314,13 +315,16 @@ $brick-border-style-2: 1px solid $darkturquoise;
   border:5px solid lighten($darkgrey, 2);
   @include margin-top($p-margin-bottom);
   @include margin-bottom($p-margin-bottom);
+  a {
+    display:none;
+  }
 }
 
 /* For small screens such as smartphones */
 
 @media only screen and (min-width:320px) and (max-width:959px){
 
-  section, header, nav, .footer{
+  section, header, nav, .footer, #footercta{
     @include gs-span(s, all);
   }
   nav{
@@ -329,8 +333,28 @@ $brick-border-style-2: 1px solid $darkturquoise;
     //top:0;
   }
 
+  /* adjust padding for small screens */
+
+  #calltoaction, #whatwedo, #whycare, #getinvolved, #ourthinking, #ourstory {
+    @include padding-top($standard-small-screen-padding-top);
+    @include padding-bottom($standard-small-screen-padding-bottom);
+  }
+
+  #whycare {
+    padding-bottom:0;
+  }
+
   #introduction{
     font-size:18px;
+    text-align: center;
+    @include padding-top($b-scale-2);
+    @include padding-bottom($a-scale);
+    .hero {
+      @include gs-span(s,2,4);
+    }
+  }
+
+  #calltoaction {
     text-align: center;
   }
   .inner{
@@ -367,9 +391,18 @@ $brick-border-style-2: 1px solid $darkturquoise;
     @include gs-span(s,all);
     clear:left;
   }
+
+  #getinvolved {
+    .container1, .container2 {
+      text-align:center;
+    }
+  }
   #ourthinking {
-    background-position:center 90px;
-    background-size: 101px auto;
+    background-position:center 76px;
+    background-size: 90px auto;
+  }
+  .footer .container2 {
+    text-align:center;
   }
 }
 
@@ -662,7 +695,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
 }
 
 #whycare .bricks {
-  margin-bottom:0;
+  
   li+li+li+li {
     @include gs-span(n,1,3);
     clear:left;
