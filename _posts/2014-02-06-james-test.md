@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wjames and hannah test post"
-categories: tim
+categories: jim
 published: true
 author: James 
 excerpt: This is our blog etc etc etc 
