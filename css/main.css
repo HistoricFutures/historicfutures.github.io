@@ -1463,7 +1463,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 20.0303%;
     display: block;
     text-align: center; }
@@ -1493,7 +1493,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 20.0303%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 19.9899%; }
     .ie8 nav li + li a {
       background: #9e1c10 url(../img/diamond.svg) center 60% no-repeat;
@@ -1502,7 +1502,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 40.0202%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 20%; }
     .ie8 nav li + li + li a {
       background: #466e8c url(../img/tree.svg) center 60% no-repeat;
@@ -1511,7 +1511,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 60.0202%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 20%; }
     .ie8 nav li + li + li + li a {
       background: #d75b36 url(../img/phone.svg) center 60% no-repeat;
@@ -1520,7 +1520,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 80.0202%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 20%; }
     .ie8 nav li + li + li + li + li a {
       background: #9e1c10 url(../img/fish.svg) center 60% no-repeat;
@@ -1556,39 +1556,39 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 9%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 82.0248%;
     clear: left; }
   .ie8 .text-container {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 75.91436%; }
   .ie8 #whycare .text-container {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 48.17128%;
     clear: left; }
   .ie8 #whycare .bq-container {
     display: block;
     float: left;
     margin-left: 51.82872%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 48.17128%; }
   .ie8 #calltoaction .container1 {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 72.25693%; }
   .ie8 #calltoaction .container2 {
     display: block;
     float: left;
     margin-left: 75.91436%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 24.08564%; }
     .ie8 #calltoaction .container2 .button a {
       display: block;
@@ -1602,7 +1602,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 12%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 16.7562%; }
       .ie8 #introduction .logo img {
         width: 100%;
@@ -1611,7 +1611,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 31.7562%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 56.2686%;
       font-size: 24px; }
   .ie8 #ourstory {
@@ -1630,22 +1630,12 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     padding-bottom: 100.98419px;
     padding-bottom: 6.31151rem; }
     .ie8 #meetteam .inner {
-      position: relative;
       z-index: 200; }
-      .ie8 #meetteam .inner:before {
-        content: " ";
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        left: -20px;
-        bottom: -20px;
-        border: 20px solid rgba(255, 255, 255, 0.4);
-        z-index: -1000; }
       .ie8 #meetteam .inner h3 {
         display: block;
         float: left;
         margin-left: 3.65743%;
-        margin-right: -100%;
+        margin-right: -99.9%;
         width: 92.68514%;
         margin-bottom: 23.994px;
         margin-bottom: 1.49963rem; }
@@ -1653,7 +1643,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
         display: block;
         float: left;
         margin-left: 3.65743%;
-        margin-right: -100%;
+        margin-right: -99.9%;
         width: 92.68514%;
         position: relative;
         clear: left; }
@@ -1661,7 +1651,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
           display: block;
           float: left;
           margin-left: 0;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 74.01348%;
           clear: left;
           list-style: none;
@@ -1672,14 +1662,14 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
             display: block;
             float: left;
             margin-left: 0;
-            margin-right: -100%;
+            margin-right: -99.9%;
             width: 29.77895%;
             text-align: center; }
           .ie8 #meetteam .inner ul li .container {
             display: block;
             float: left;
             margin-left: 35.11052%;
-            margin-right: -100%;
+            margin-right: -99.9%;
             width: 64.88948%;
             text-align: left; }
           .ie8 #meetteam .inner ul li p {
@@ -1687,7 +1677,8 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
             font-size: 1rem;
             text-align: left; }
           .ie8 #meetteam .inner ul li img {
-            width: 100%;
+            width: 150px;
+            height: 150px;
             margin-bottom: 18px;
             margin-bottom: 1.125rem; }
           .ie8 #meetteam .inner ul li ul {
@@ -1707,53 +1698,53 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
           display: block;
           float: left;
           margin-left: 0;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%;
           clear: left; }
         .ie8 #meetteam .inner ul li + li + li {
           display: block;
           float: left;
           margin-left: 25.98652%;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%;
           clear: none; }
         .ie8 #meetteam .inner ul li + li + li + li {
           display: block;
           float: left;
           margin-left: 51.97304%;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%; }
         .ie8 #meetteam .inner ul li + li + li + li + li {
           display: block;
           float: left;
           margin-left: 77.95956%;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%; }
         .ie8 #meetteam .inner ul li + li + li + li + li + li {
           display: block;
           float: left;
           margin-left: 0;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%;
           clear: left; }
         .ie8 #meetteam .inner ul li + li + li + li + li + li + li {
           display: block;
           float: left;
           margin-left: 25.98652%;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%;
           clear: none; }
         .ie8 #meetteam .inner ul li + li + li + li + li + li + li + li {
           display: block;
           float: left;
           margin-left: 51.97304%;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%; }
         .ie8 #meetteam .inner ul li + li + li + li + li + li + li + li + li {
           display: block;
           float: left;
           margin-left: 77.95956%;
-          margin-right: -100%;
+          margin-right: -99.9%;
           width: 22.04044%; }
   .ie8 .bricks {
     clear: both;
@@ -1768,7 +1759,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 0;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 20.0303%;
       clear: left;
       display: table;
@@ -1781,7 +1772,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 20.0303%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 39.9899%;
       clear: none;
       display: table; }
@@ -1789,7 +1780,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 60.0202%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 40%;
       clear: none;
       display: table;
@@ -1798,7 +1789,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 0;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 35.0202%;
       clear: left;
       display: table;
@@ -1808,7 +1799,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 35.0202%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 35%;
       clear: none;
       border-bottom-width: 10px;
@@ -1817,7 +1808,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 70.0202%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 30%;
       clear: none;
       display: table;
@@ -1827,7 +1818,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 35.0202%;
     clear: left;
     display: table;
@@ -1840,7 +1831,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 35.0202%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 35%;
     clear: none;
     display: table; }
@@ -1848,7 +1839,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 70.0202%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 30%;
     clear: none;
     border-right-width: 10px;
@@ -1857,7 +1848,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 40.0202%;
     clear: left;
     border-left-width: 10px;
@@ -1867,7 +1858,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 40.0202%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 60%;
     clear: none;
     border-bottom-width: 10px;
@@ -1879,7 +1870,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 3.65743%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 92.68514%; }
   .ie8 #getinvolved {
     overflow: hidden; }
@@ -1887,14 +1878,14 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       display: block;
       float: left;
       margin-left: 0;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 48.17128%;
       clear: left; }
     .ie8 #getinvolved .container2 {
       display: block;
       float: left;
       margin-left: 51.82872%;
-      margin-right: -100%;
+      margin-right: -99.9%;
       width: 48.17128%;
       border-left: 1px solid #138c8f;
       padding-left: 28.43022px;
@@ -1905,13 +1896,13 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 48.17128%; }
   .ie8 .footer .container2 {
     display: block;
     float: left;
     margin-left: 51.82872%;
-    margin-right: -100%;
+    margin-right: -99.9%;
     width: 48.17128%; }
   .ie8 #footercta {
     clear: both;

@@ -3,7 +3,7 @@
 border:10px solid $white;
 
   section, header, nav, .footer{
-    @include gs-span(l, all);
+    @include gs-span(l, all, all, false, ie);
   }
 
 
@@ -18,7 +18,7 @@ border:10px solid $white;
       list-style:none;
     }
     li{
-      @include gs-span(n, 1);
+      @include gs-span(n, 1,1,false,ie);
      
       display:block;
       text-align:center;
@@ -41,14 +41,14 @@ border:10px solid $white;
       }
     }
     li+li{
-      @include gs-span(n, 2,3);
+      @include gs-span(n, 2,3, false, ie);
       a {
         background:$red url(../img/diamond.svg) center 60% no-repeat;
         background-size:90px auto;
       }
     }
     li+li+li{
-      @include gs-span(n, 4,5);
+      @include gs-span(n, 4,5, false, ie);
       a {
         background:$blue url(../img/tree.svg) center 60% no-repeat;
         background-size: auto 76px;
@@ -56,14 +56,14 @@ border:10px solid $white;
        
     }
     li+li+li+li{
-      @include gs-span(n, 6,7);
+      @include gs-span(n, 6,7, false, ie);
       a {
         background:$orange url(../img/phone.svg) center 60% no-repeat;
         background-size:90px auto;
       }
     }
     li+li+li+li+li{
-      @include gs-span(n, 8);
+      @include gs-span(n, 8, 8, false, ie);
       a {
          background:$red url(../img/fish.svg) center 60% no-repeat;
          background-size:auto 90px;
@@ -102,30 +102,30 @@ border:10px solid $white;
 /* general layout */
 
 .inner{
-    @include gs-span(l, 2,10);
+    @include gs-span(l, 2,10, false, ie);
     clear:left;
 }
 
 .text-container {
-  @include gs-span(l,2,8,(2,10));
+  @include gs-span(l,2,8,(2,10), ie);
 }
 
 #whycare {
   .text-container {
-    @include gs-span(l,2,5,(2,10));
+    @include gs-span(l,2,5,(2,10), ie);
     clear:left;
   }
   .bq-container {
-    @include gs-span(l,7,10,(2,10))
+    @include gs-span(l,7,10,(2,10), ie)
   }
 }
 
 #calltoaction{
   .container1 {
-    @include gs-span(l,2,7,(2,10));
+    @include gs-span(l,2,7,(2,10), ie);
   }
   .container2 {
-    @include gs-span(l,9,10,(2,10));
+    @include gs-span(l,9,10,(2,10), ie);
     .button {
       a {
         display:block;
@@ -139,14 +139,14 @@ border:10px solid $white;
     @include padding-bottom($a-scale-6);
     @include padding-top($a-scale-6);
   .logo{
-    @include gs-span(l, 3);
+    @include gs-span(l, 3, 3, false, ie);
     img{
       width:100%;
       height:auto;
     }
   }
   .hero{
-    @include gs-span(l, 5,9);
+    @include gs-span(l, 5,9, false, ie);
     font-size:24px;
   }
 }
@@ -168,38 +168,28 @@ border:10px solid $white;
   @include padding-bottom($b-scale-7);
 
   .inner {
-    &:before {
-      content:" ";
-      position:absolute;
-      top:-20px;
-      right:-20px;
-      left:-20px;
-      bottom:-20px;
-      border:20px solid rgba(255,255,255,0.4);
-      z-index:-1000;
-    }
-    position:relative;
+    
     z-index:200;
     h3 {
-      @include gs-span(l,3,9,(2,10));
+      @include gs-span(l,3,9,(2,10), ie);
       @include margin-bottom($b-scale-2);
     }
     ul {
-      @include gs-span(l,3,9,(2,10));
+      @include gs-span(l,3,9,(2,10), ie);
       position:relative;
       clear:left;
       li {
-        @include gs-span(l,3,7,(3,9));
+        @include gs-span(l,3,7,(3,9), ie);
         clear:left;
         list-style: none;
         text-align:center;
 
         .img-container {
-          @include gs-span(l,3,3,(3,7));
+          @include gs-span(l,3,3,(3,7), ie);
           text-align:center;
         }
         .container {
-          @include gs-span(l,5,7,(3,7));
+          @include gs-span(l,5,7,(3,7), ie);
           text-align:left;
         }
         @include margin-bottom($standard-padding-bottom);
@@ -208,7 +198,8 @@ border:10px solid $white;
           text-align:left;
         }
         img {
-          width:100%;
+          width:150px;
+          height:150px;
           @include margin-bottom($p-margin-bottom);
 
         }
@@ -228,32 +219,32 @@ border:10px solid $white;
         }
       }
       li+li {
-        @include gs-span(l,3,3,(3,9));
+        @include gs-span(l,3,3,(3,9), ie);
         clear:left;
       }
       li+li+li {
-        @include gs-span(l,5,5,(3,9));
+        @include gs-span(l,5,5,(3,9), ie);
         clear:none;
       }
       li+li+li+li {
-        @include gs-span(l,7,7,(3,9));
+        @include gs-span(l,7,7,(3,9), ie);
       }
       li+li+li+li+li {
-        @include gs-span(l,9,9,(3,9));
+        @include gs-span(l,9,9,(3,9), ie);
       }
       li+li+li+li+li+li {
-        @include gs-span(l,3,3,(3,9));
+        @include gs-span(l,3,3,(3,9), ie);
         clear:left;
       }
       li+li+li+li+li+li+li {
-        @include gs-span(l,5,5,(3,9));
+        @include gs-span(l,5,5,(3,9), ie);
         clear:none;
       }
       li+li+li+li+li+li+li+li {
-        @include gs-span(l,7,7,(3,9));
+        @include gs-span(l,7,7,(3,9), ie);
       }
       li+li+li+li+li+li+li+li+li {
-        @include gs-span(l,9,9,(3,9));
+        @include gs-span(l,9,9,(3,9), ie);
       }
 
     }
@@ -267,9 +258,9 @@ border:10px solid $white;
       display:table-cell;
       vertical-align:middle;
     }
-  @include gs-span(n,all);
+  @include gs-span(n,all, all, false, ie);
   li {
-    @include gs-span(n,1,1);
+    @include gs-span(n,1,1, false, ie);
     clear:left;
     display:table;
     @include padding($a-scale);
@@ -278,20 +269,20 @@ border:10px solid $white;
     
   }
   li+li {
-    @include gs-span(n,2,5);
+    @include gs-span(n,2,5, false, ie);
     clear:none;
 
     display:table;
   }
   li+li+li {
-    @include gs-span(n,6,8);
+    @include gs-span(n,6,8, false, ie);
     clear:none;
 
     display:table;
     border-right-width:0px;
   }
   li+li+li+li {
-    @include gs-span(n,1,2);
+    @include gs-span(n,1,2, false, ie);
     clear:left;
 
     display:table;
@@ -299,13 +290,13 @@ border:10px solid $white;
     border-bottom-width:10px;
   }
   li+li+li+li+li {
-    @include gs-span(n,3,6);
+    @include gs-span(n,3,6, false, ie);
     clear:none;
     border-bottom-width:10px;
     display:table;
   }
   li+li+li+li+li+li {
-    @include gs-span(n,7,8);
+    @include gs-span(n,7,8, false, ie);
     clear:none;
 
     display:table;
@@ -316,7 +307,7 @@ border:10px solid $white;
 
 #whycare .bricks {
   li {
-    @include gs-span(n,1,2);
+    @include gs-span(n,1,2, false, ie);
     clear:left;
     display:table;
     @include padding($a-scale);
@@ -325,26 +316,26 @@ border:10px solid $white;
     
   }
   li+li {
-    @include gs-span(n,3,6);
+    @include gs-span(n,3,6, false, ie);
     clear:none;
 
     display:table;
   }
   li+li+li {
-    @include gs-span(n,7,8);
+    @include gs-span(n,7,8, false, ie);
     clear:none;
     border-right-width:10px;
     display:table;
   }
   li+li+li+li {
-    @include gs-span(n,1,3);
+    @include gs-span(n,1,3, false, ie);
     clear:left;
     border-left-width:10px;
     border-bottom-width:10px;
     display:table;
   }
   li+li+li+li+li {
-    @include gs-span(n,4,8);
+    @include gs-span(n,4,8, false, ie);
     clear:none;
     border-bottom-width:10px;
     display:table;
@@ -357,7 +348,7 @@ border:10px solid $white;
     margin-bottom:0;
   }
   .container {
-    @include gs-span(l,3,9,(2,10));
+    @include gs-span(l,3,9,(2,10), ie);
     
   }
 }
@@ -365,11 +356,11 @@ border:10px solid $white;
 #getinvolved {
   overflow:hidden;
   .container1 {
-    @include gs-span(l,2,5,(2,10));
+    @include gs-span(l,2,5,(2,10), ie);
     clear:left;
   }
   .container2 {
-    @include gs-span(l,7,10,(2,10));
+    @include gs-span(l,7,10,(2,10), ie);
     border-left:1px solid $turquoise;
     @include padding-left($a-scale-3);
     margin-bottom: -99999px;
@@ -380,14 +371,14 @@ border:10px solid $white;
 
 .footer {
   .container1 {
-    @include gs-span(l,2,5,(2,10));
+    @include gs-span(l,2,5,(2,10), ie);
   }
   .container2 {
-    @include gs-span(l,7,10,(2,10));
+    @include gs-span(l,7,10,(2,10), ie);
   }
 }
 #footercta{
-  @include gs-span(l, all);
+  @include gs-span(l, all, all, false, ie);
   }
 
 
