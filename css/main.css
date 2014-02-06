@@ -547,6 +547,7 @@ section, header, nav, footer {
       text-decoration: none;
       border: none;
       background: #d75b36 url(../img/cotton.svg) center center no-repeat;
+      background-size: auto 35%;
       -webkit-transition: background-color 0.5s ease;
       -moz-transition: background-color 0.5s ease;
       -o-transition: background-color 0.5s ease;
@@ -565,7 +566,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 19.9899%; }
     nav li + li a {
-      background: #9e1c10 url(../img/diamond.svg) center center no-repeat; }
+      background: #9e1c10 url(../img/diamond.svg) center center no-repeat;
+      background-size: auto 35%; }
   nav li + li + li {
     display: block;
     float: left;
@@ -573,7 +575,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 20%; }
     nav li + li + li a {
-      background: #466e8c url(../img/tree.svg) center center no-repeat; }
+      background: #466e8c url(../img/tree.svg) center center no-repeat;
+      background-size: auto 35%; }
   nav li + li + li + li {
     display: block;
     float: left;
@@ -581,7 +584,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 20%; }
     nav li + li + li + li a {
-      background: #d75b36 url(../img/phone.svg) center center no-repeat; }
+      background: #d75b36 url(../img/phone.svg) center center no-repeat;
+      background-size: auto 35%; }
   nav li + li + li + li + li {
     display: block;
     float: left;
@@ -589,7 +593,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 20%; }
     nav li + li + li + li + li a {
-      background: #9e1c10 url(../img/fish.svg) center center no-repeat; }
+      background: #9e1c10 url(../img/fish.svg) center center no-repeat;
+      background-size: auto 35%; }
 
   /* general layout */
   .inner {
@@ -671,7 +676,10 @@ section, header, nav, footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 140px; }
+    padding-top: 100.98419px;
+    padding-top: 6.31151rem;
+    padding-bottom: 100.98419px;
+    padding-bottom: 6.31151rem; }
     #meetteam .inner {
       position: relative;
       z-index: 200; }
@@ -1010,15 +1018,15 @@ h4 {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 600;
-  margin-bottom: 6.75507px;
-  margin-bottom: 0.42219rem; }
+  margin-bottom: 0; }
 
 h5 {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 16px;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color: gray; }
 
 /* Links */
 a, a:visited {

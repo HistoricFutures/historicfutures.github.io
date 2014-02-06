@@ -455,6 +455,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
         text-decoration:none;
         border:none;
         background:$orange url(../img/cotton.svg) center center no-repeat;
+        background-size:auto 35%;
         @include transition(background-color 0.5s ease);
         &:hover {
           color:$white;
@@ -467,12 +468,14 @@ $brick-border-style-2: 1px solid $darkturquoise;
       @include gs-span(n, 2,3);
       a {
         background:$red url(../img/diamond.svg) center center no-repeat;
+        background-size:auto 35%;
       }
     }
     li+li+li{
       @include gs-span(n, 4,5);
       a {
         background:$blue url(../img/tree.svg) center center no-repeat;
+        background-size:auto 35%;
       }
        
     }
@@ -480,12 +483,14 @@ $brick-border-style-2: 1px solid $darkturquoise;
       @include gs-span(n, 6,7);
       a {
         background:$orange url(../img/phone.svg) center center no-repeat;
+        background-size:auto 35%;
       }
     }
     li+li+li+li+li{
       @include gs-span(n, 8);
       a {
          background:$red url(../img/fish.svg) center center no-repeat;
+         background-size:auto 35%;
       }
     }
   }
@@ -555,7 +560,8 @@ $brick-border-style-2: 1px solid $darkturquoise;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top:140px;
+  @include padding-top($b-scale-7);
+  @include padding-bottom($b-scale-7);
 
   .inner {
     &:before {

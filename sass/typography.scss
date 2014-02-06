@@ -59,12 +59,14 @@ h3 {
 h4 {
 	@include font-size($b-scale);
 	font-weight:600;
-	@include margin-bottom($a-scale--4);
+	margin-bottom:0;
+
 }
 h5 {
 	@include font-size($a-scale);
 	font-weight:600;
 	@include margin-bottom($a-scale);
+	color:lighten($darkgrey,30);
 }
 
 /* Links */
