@@ -6,8 +6,9 @@ body: archive
 ---
 
 
-
-  <h1>Journal</h1>
+{% include nav.ext %}
+  <div class="archivelist">
+  <h1>Our thinking</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -16,11 +17,10 @@ body: archive
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   
     {% for post in site.posts limit:100  %}
+    <section>
         <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-
-	    <div class="post">
+        <h3>By {{ post.author }} &mdash; {{ post.date | date: "%-d %B %Y" }}</h3>
 	    {{ post.excerpt }}
-	    </div>
-	    <p><a href="{{ post.url }}" rel="bookmark">Read <em></em>{{ post.title }}</em> in full</a></p>
     {% endfor %}
-</div>
+  </section>
+  </div>
