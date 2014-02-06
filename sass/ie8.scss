@@ -201,7 +201,6 @@ border:10px solid $white;
           width:150px;
           height:150px;
           @include margin-bottom($p-margin-bottom);
-
         }
         ul {
           width:100%;
@@ -393,4 +392,7 @@ border:10px solid $white;
 	.logo {
 		background:url(../img/logo-white.png) center center no-repeat;
 	}
+  nav li {
+    background: red;
+  }
 }

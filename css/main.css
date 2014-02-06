@@ -1913,5 +1913,7 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
 
 .no-svg .logo {
   background: url(../img/logo-white.png) center center no-repeat; }
+.no-svg nav li {
+  background: red; }
 
 /* sratch - todo this should be empty before launch! */
