@@ -332,7 +332,8 @@ section, header, nav, footer {
   padding-bottom: 100.98419px;
   padding-bottom: 6.31151rem;
   position: relative;
-  z-index: 1000; }
+  z-index: 1000;
+  overflow: hidden; }
   .footer:before {
     content: " ";
     position: absolute;

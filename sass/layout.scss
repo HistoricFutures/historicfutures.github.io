@@ -236,6 +236,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
   @include padding-bottom($b-scale-7);
   position:relative;
   z-index:1000;
+  overflow:hidden;
   &:before {
     content:" ";
     position:absolute;
