@@ -1,31 +1,26 @@
 ---
 layout: post
-title: Buyers unravel the ethics behind the label
+title: "We're going back to the lab"
 date: {}
 categories: tim
 published: true
 author: Tim Wilson
 ---
 
-If you ever buy an item of clothing from Tesco, the UK supermarket chain, you can be sure it will not contain any cotton from Uzbekistan. The company decided to boycott Uzbek cotton in 2006, following reports of forced and state-sanctioned child labour. That was the easy part. Eliminating the unwanted material from Tesco’s supply chain and proving that it was no longer used would take until the end of 2007.
+## How hard can it be?
+I’ve spent much of the last 20 years working with international brands and retailers on ways to understand where products come from. How did the everyday things that we buy get here and from where? It seems a simple enough question and yet for the vast majority of things we buy it is completely unanswerable. The label may say “made in China” or wherever, but normally that’s just where the bits and pieces were put together so where do the bits come from, and how do we find out? 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Who cares?
+The total value chain (the sequence of steps necessary to turn primary products into finished goods) for most products is truly global, providing opportunities but also creating problems. What happens when you want to know that the trees that were used to make the paper you want to buy were legally harvested? Or the minerals used to make that latest electronic device you want are “conflict free”? In both these cases it is no longer about consumer preference or brand promise, there are laws requiring whoever is selling the products to know the answers, and penalties if they don’t. Despite those laws, some mining activities continue to fund conflicts and illegal harvesting of forests seems to be increasing. And the questions are endless – how much water and energy was used? How were the people and animals treated? In short, are these products sustainable? Not knowing could have huge implications.
 
-123 testing 123. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. 
+## Today, the grapevine…
+Today, most companies seek the answer to some of these questions – relying on their suppliers to tell them the answers. That seems logical enough, but in many cases the supplier simply doesn’t know. There are too many steps in the total value chain and the supplier is only responsible for a fraction of them. What is really intriguing is that in many cases, the customer knows that the supplier doesn’t really have the answer but asks them for it anyway. Meanwhile, the supplier knows that the customer doesn’t know the “right” answer either, and so they are free to respond with anything – especially if they know the range of answers the customer was hoping for! The result - lots of inaccurate, unverifiable information and no appreciable change in where things actually come from. Every year the entire Uzbek cotton harvest gets sold, but didn’t apparently make it through to consumers. The number of illegally harvested trees goes up every year, but none of them end up in the products in the shops. Labelling organisations – such as Fairtrade, FSC and Rainforest Alliance are all growing and this is, at least partly, in response to the need for better value chain management. From extensive work in this sector, it is clear that even within these networks it is not possible to accurately describe the total value chain.
 
-Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Tomorrow’s solution…
+Many organisations will already have an appreciation of how difficult it can be to collect accurate, verifiable information from their global value chains. It is clear that just asking the supplier isn’t right, and it seems unlikely that there will (or should) be an independently certified labelling scheme for every issue. 
+
+I believe any solution will need to provide a mechanism for data to move through the global value chain as efficiently as the physical goods themselves. For business throughout the value chain to have an expectation that they will collect, manage and transmit this data in format their customer can utilise. Only then will we have created a scalable solution that works everywhere and delivers reliable information that can be used to make a difference. It raises serious questions about who has access to which data and on what basis but has the power to radically improve triple bottom line outcomes for global value chains. After 11 years working on such solutions “in the field” it’s time to go back to lab – analyse the findings, consult the stakeholders, update the vision – to go faster and more cost effectively than ever. Can you help? 
+
+Tim Wilson
+Historic Futures Ltd
+
