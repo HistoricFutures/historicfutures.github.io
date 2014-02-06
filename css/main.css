@@ -162,6 +162,13 @@ input, select {
 section, header, nav, footer {
   clear: both; }
 
+.logo {
+  background: url(../img/logo.svg) center center no-repeat;
+  background-size: contain;
+  padding-bottom: 20%;
+  margin-bottom: 18px;
+  margin-bottom: 1.125rem; }
+
 /* introduction */
 #introduction {
   background: #138c8f;
@@ -1912,5 +1919,8 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
     float: left;
     margin-left: 0;
     width: 100%; }
+
+.no-svg .logo {
+  background: url(../img/logo-white.png) center center no-repeat; }
 
 /* sratch - todo this should be empty before launch! */
