@@ -228,6 +228,43 @@ $brick-border-style-2: 1px solid $darkturquoise;
 }
 }
 
+/* footer styling */
+.footer {
+  background:$darkgrey;
+  color:$white;
+  @include padding-top($standard-padding-top);
+  @include padding-bottom($b-scale-7);
+  position:relative;
+  &:before {
+    content:" ";
+    position:absolute;
+    top:20%;
+    left:30%;
+    right:-30%;
+    bottom:0;
+    background:url(../img/logo.svg) top left no-repeat;
+    background-size:100% auto;
+    opacity:0.05;
+  }
+  a, a:visited {
+    color:$orange;
+    border-color:$orange;
+    &:hover {
+      color:$red;
+      border-color:$red;
+    }
+  }
+
+}
+
+#map_canvas {
+  width:100%;
+  padding-bottom:50%;
+  border:5px solid lighten($darkgrey, 2);
+  @include margin-top($p-margin-bottom);
+  @include margin-bottom($p-margin-bottom);
+}
+
 /* For small screens such as smartphones */
 
 @media only screen and (min-width:320px) and (max-width:959px){
@@ -275,7 +312,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
 
 @media only screen and (min-width:960px) {
 
-  section, header, nav, footer{
+  section, header, nav, .footer{
     @include gs-span(l, all);
   }
 
@@ -575,6 +612,12 @@ $brick-border-style-2: 1px solid $darkturquoise;
     .inside {
       @include gs-span(l,9,10,(8,10));
     }
+  }
+}
+
+.footer {
+  .container1 {
+    @include gs-span(l,2,5,(2,10));
   }
 }
 

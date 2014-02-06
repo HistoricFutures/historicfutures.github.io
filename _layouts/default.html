@@ -10,6 +10,31 @@
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
         <link rel="stylesheet" href="/css/main.css">
         <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+        <script>
+      function initialize() {
+        var myLatLng = new google.maps.LatLng(51.832399, -1.396746)
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: myLatLng,
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.HYBRID,
+          panControl: false,
+          zoomControl: false,
+          scaleControl: true,
+          mapTypeControl: false,
+          streetViewControl: false,
+          overviewMapControl: false
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: '/img/logo.png'
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     </head>
     <body class="{{ page.body }}">
         <!--[if lt IE 8]>
