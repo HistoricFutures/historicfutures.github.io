@@ -265,7 +265,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
     }
   }
   p.copyright {
-    @include margin-top($p-margin-bottom);
+    @include margin-top($a-scale-3);
     color:lighten($darkgrey,20);
   }
   a.back-to-top {
@@ -398,7 +398,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
   }
 
   #getinvolved {
-    .container1, .container2 {
+    .container2 {
       text-align:center;
     }
   }
@@ -408,9 +408,6 @@ $brick-border-style-2: 1px solid $darkturquoise;
   }
   .footer .container2 {
     text-align:center;
-  }
-  .button a {
-    display:block;
   }
 }
 

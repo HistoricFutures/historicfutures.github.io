@@ -357,8 +357,8 @@ section, header, nav, footer {
       color: #9e1c10;
       border-color: #9e1c10; }
   .footer p.copyright {
-    margin-top: 18px;
-    margin-top: 1.125rem;
+    margin-top: 28.43022px;
+    margin-top: 1.77689rem;
     color: #666666; }
   .footer a.back-to-top {
     display: block;
@@ -496,7 +496,7 @@ section, header, nav, footer {
     width: 100%;
     clear: left; }
 
-  #getinvolved .container1, #getinvolved .container2 {
+  #getinvolved .container2 {
     text-align: center; }
 
   #ourthinking {
@@ -504,10 +504,7 @@ section, header, nav, footer {
     background-size: 90px auto; }
 
   .footer .container2 {
-    text-align: center; }
-
-  .button a {
-    display: block; } }
+    text-align: center; } }
 /* For medium screens such as tablets in landscape */
 /* @media only screen and (min-width:960px) and (max-width:1366px){
     section, header, nav, footer{
