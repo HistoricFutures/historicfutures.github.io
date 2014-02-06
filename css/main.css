@@ -1436,4 +1436,481 @@ nav.blog ul li + li a, nav.blog ul li + li a:visited {
       nav.blog ul li + li a, nav.blog ul li + li a:visited {
         background-position: center 10px;
         background-size: auto 45px; } }
+.ie8 {
+  border: 10px solid #f7f9f9;
+  /* navigation */
+  /* fixed nav */
+  /* general layout */ }
+  .ie8 section, .ie8 header, .ie8 nav, .ie8 .footer {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; }
+  .ie8 nav ol {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .ie8 nav li {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 20.0303%;
+    display: block;
+    text-align: center; }
+    .ie8 nav li a, .ie8 nav li a:visited {
+      color: #f7f9f9;
+      display: block;
+      font-weight: 600;
+      min-height: 200px;
+      padding-top: 21.328px;
+      padding-top: 1.333rem;
+      text-decoration: none;
+      border: none;
+      background: #d75b36 url(../img/cotton.svg) center 60% no-repeat;
+      background-size: 90px auto;
+      -webkit-transition: background-color 0.5s ease;
+      -moz-transition: background-color 0.5s ease;
+      -o-transition: background-color 0.5s ease;
+      transition: background-color 0.5s ease; }
+      .ie8 nav li a:hover, .ie8 nav li a:visited:hover {
+        color: #f7f9f9;
+        background-color: #333333;
+        -webkit-transition: background-color 0.5s ease;
+        -moz-transition: background-color 0.5s ease;
+        -o-transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease; }
+  .ie8 nav li + li {
+    display: block;
+    float: left;
+    margin-left: 20.0303%;
+    margin-right: -100%;
+    width: 19.9899%; }
+    .ie8 nav li + li a {
+      background: #9e1c10 url(../img/diamond.svg) center 60% no-repeat;
+      background-size: 90px auto; }
+  .ie8 nav li + li + li {
+    display: block;
+    float: left;
+    margin-left: 40.0202%;
+    margin-right: -100%;
+    width: 20%; }
+    .ie8 nav li + li + li a {
+      background: #466e8c url(../img/tree.svg) center 60% no-repeat;
+      background-size: auto 76px; }
+  .ie8 nav li + li + li + li {
+    display: block;
+    float: left;
+    margin-left: 60.0202%;
+    margin-right: -100%;
+    width: 20%; }
+    .ie8 nav li + li + li + li a {
+      background: #d75b36 url(../img/phone.svg) center 60% no-repeat;
+      background-size: 90px auto; }
+  .ie8 nav li + li + li + li + li {
+    display: block;
+    float: left;
+    margin-left: 80.0202%;
+    margin-right: -100%;
+    width: 20%; }
+    .ie8 nav li + li + li + li + li a {
+      background: #9e1c10 url(../img/fish.svg) center 60% no-repeat;
+      background-size: auto 90px; }
+  .ie8 .landing nav.fixed {
+    position: fixed;
+    top: 0;
+    padding-right: 10px !important;
+    z-index: 2000; }
+    .ie8 .landing nav.fixed ol {
+      padding-right: 10px !important; }
+      .ie8 .landing nav.fixed ol li a {
+        background: #333333;
+        min-height: 0;
+        padding-bottom: 12.003px;
+        padding-bottom: 0.75019rem;
+        padding-top: 12.003px;
+        padding-top: 0.75019rem;
+        opacity: 0.9;
+        -webkit-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+        -moz-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+        -o-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+        transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease; }
+        .ie8 .landing nav.fixed ol li a:hover {
+          opacity: 1;
+          -webkit-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+          -moz-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+          -o-transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease;
+          transition: opacity 0.5s ease, background-color 0.5s ease, min-height 0.5s ease; }
+  .ie8 .landing nav.fixed + #calltoaction {
+    border-top: 200px solid rgba(0, 0, 0, 0.005); }
+  .ie8 .inner {
+    display: block;
+    float: left;
+    margin-left: 9%;
+    margin-right: -100%;
+    width: 82.0248%;
+    clear: left; }
+  .ie8 .text-container {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 75.91436%; }
+  .ie8 #whycare .text-container {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 48.17128%;
+    clear: left; }
+  .ie8 #whycare .bq-container {
+    display: block;
+    float: left;
+    margin-left: 51.82872%;
+    margin-right: -100%;
+    width: 48.17128%; }
+  .ie8 #calltoaction .container1 {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 72.25693%; }
+  .ie8 #calltoaction .container2 {
+    display: block;
+    float: left;
+    margin-left: 75.91436%;
+    margin-right: -100%;
+    width: 24.08564%; }
+    .ie8 #calltoaction .container2 .button a {
+      display: block;
+      text-align: center; }
+  .ie8 #introduction {
+    padding-bottom: 67.33963px;
+    padding-bottom: 4.20873rem;
+    padding-top: 67.33963px;
+    padding-top: 4.20873rem; }
+    .ie8 #introduction .logo {
+      display: block;
+      float: left;
+      margin-left: 12%;
+      margin-right: -100%;
+      width: 16.7562%; }
+      .ie8 #introduction .logo img {
+        width: 100%;
+        height: auto; }
+    .ie8 #introduction .hero {
+      display: block;
+      float: left;
+      margin-left: 31.7562%;
+      margin-right: -100%;
+      width: 56.2686%;
+      font-size: 24px; }
+  .ie8 #ourstory {
+    background: transparent url(../img/logos.png) 0% 21px repeat-x;
+    background-size: 80% auto;
+    padding-top: 75.75708px;
+    padding-top: 4.73482rem; }
+  .ie8 #meetteam {
+    background: transparent url(../img/chair.jpg) top center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100.98419px;
+    padding-top: 6.31151rem;
+    padding-bottom: 100.98419px;
+    padding-bottom: 6.31151rem; }
+    .ie8 #meetteam .inner {
+      position: relative;
+      z-index: 200; }
+      .ie8 #meetteam .inner:before {
+        content: " ";
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        left: -20px;
+        bottom: -20px;
+        border: 20px solid rgba(255, 255, 255, 0.4);
+        z-index: -1000; }
+      .ie8 #meetteam .inner h3 {
+        display: block;
+        float: left;
+        margin-left: 3.65743%;
+        margin-right: -100%;
+        width: 92.68514%;
+        margin-bottom: 23.994px;
+        margin-bottom: 1.49963rem; }
+      .ie8 #meetteam .inner ul {
+        display: block;
+        float: left;
+        margin-left: 3.65743%;
+        margin-right: -100%;
+        width: 92.68514%;
+        position: relative;
+        clear: left; }
+        .ie8 #meetteam .inner ul li {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 74.01348%;
+          clear: left;
+          list-style: none;
+          text-align: center;
+          margin-bottom: 38.83202px;
+          margin-bottom: 2.427rem; }
+          .ie8 #meetteam .inner ul li .img-container {
+            display: block;
+            float: left;
+            margin-left: 0;
+            margin-right: -100%;
+            width: 29.77895%;
+            text-align: center; }
+          .ie8 #meetteam .inner ul li .container {
+            display: block;
+            float: left;
+            margin-left: 35.11052%;
+            margin-right: -100%;
+            width: 64.88948%;
+            text-align: left; }
+          .ie8 #meetteam .inner ul li p {
+            font-size: 16px;
+            font-size: 1rem;
+            text-align: left; }
+          .ie8 #meetteam .inner ul li img {
+            width: 100%;
+            margin-bottom: 18px;
+            margin-bottom: 1.125rem; }
+          .ie8 #meetteam .inner ul li ul {
+            width: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-size: 1rem; }
+            .ie8 #meetteam .inner ul li ul li {
+              margin: 0;
+              margin-bottom: 18px;
+              margin-bottom: 1.125rem;
+              width: auto;
+              clear: none;
+              float: none;
+              text-align: left; }
+        .ie8 #meetteam .inner ul li + li {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 22.04044%;
+          clear: left; }
+        .ie8 #meetteam .inner ul li + li + li {
+          display: block;
+          float: left;
+          margin-left: 25.98652%;
+          margin-right: -100%;
+          width: 22.04044%;
+          clear: none; }
+        .ie8 #meetteam .inner ul li + li + li + li {
+          display: block;
+          float: left;
+          margin-left: 51.97304%;
+          margin-right: -100%;
+          width: 22.04044%; }
+        .ie8 #meetteam .inner ul li + li + li + li + li {
+          display: block;
+          float: left;
+          margin-left: 77.95956%;
+          margin-right: -100%;
+          width: 22.04044%; }
+        .ie8 #meetteam .inner ul li + li + li + li + li + li {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 22.04044%;
+          clear: left; }
+        .ie8 #meetteam .inner ul li + li + li + li + li + li + li {
+          display: block;
+          float: left;
+          margin-left: 25.98652%;
+          margin-right: -100%;
+          width: 22.04044%;
+          clear: none; }
+        .ie8 #meetteam .inner ul li + li + li + li + li + li + li + li {
+          display: block;
+          float: left;
+          margin-left: 51.97304%;
+          margin-right: -100%;
+          width: 22.04044%; }
+        .ie8 #meetteam .inner ul li + li + li + li + li + li + li + li + li {
+          display: block;
+          float: left;
+          margin-left: 77.95956%;
+          margin-right: -100%;
+          width: 22.04044%; }
+  .ie8 .bricks {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; }
+    .ie8 .bricks span {
+      display: table-cell;
+      vertical-align: middle; }
+    .ie8 .bricks li {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 20.0303%;
+      clear: left;
+      display: table;
+      padding: 16px;
+      padding: 1rem;
+      font-size: 16px;
+      font-size: 1rem;
+      border-left-width: 0px; }
+    .ie8 .bricks li + li {
+      display: block;
+      float: left;
+      margin-left: 20.0303%;
+      margin-right: -100%;
+      width: 39.9899%;
+      clear: none;
+      display: table; }
+    .ie8 .bricks li + li + li {
+      display: block;
+      float: left;
+      margin-left: 60.0202%;
+      margin-right: -100%;
+      width: 40%;
+      clear: none;
+      display: table;
+      border-right-width: 0px; }
+    .ie8 .bricks li + li + li + li {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 35.0202%;
+      clear: left;
+      display: table;
+      border-left-width: 0px;
+      border-bottom-width: 10px; }
+    .ie8 .bricks li + li + li + li + li {
+      display: block;
+      float: left;
+      margin-left: 35.0202%;
+      margin-right: -100%;
+      width: 35%;
+      clear: none;
+      border-bottom-width: 10px;
+      display: table; }
+    .ie8 .bricks li + li + li + li + li + li {
+      display: block;
+      float: left;
+      margin-left: 70.0202%;
+      margin-right: -100%;
+      width: 30%;
+      clear: none;
+      display: table;
+      border-right-width: 0px;
+      border-bottom-width: 10px; }
+  .ie8 #whycare .bricks li {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 35.0202%;
+    clear: left;
+    display: table;
+    padding: 16px;
+    padding: 1rem;
+    font-size: 16px;
+    font-size: 1rem;
+    border-left-width: 10px; }
+  .ie8 #whycare .bricks li + li {
+    display: block;
+    float: left;
+    margin-left: 35.0202%;
+    margin-right: -100%;
+    width: 35%;
+    clear: none;
+    display: table; }
+  .ie8 #whycare .bricks li + li + li {
+    display: block;
+    float: left;
+    margin-left: 70.0202%;
+    margin-right: -100%;
+    width: 30%;
+    clear: none;
+    border-right-width: 10px;
+    display: table; }
+  .ie8 #whycare .bricks li + li + li + li {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 40.0202%;
+    clear: left;
+    border-left-width: 10px;
+    border-bottom-width: 10px;
+    display: table; }
+  .ie8 #whycare .bricks li + li + li + li + li {
+    display: block;
+    float: left;
+    margin-left: 40.0202%;
+    margin-right: -100%;
+    width: 60%;
+    clear: none;
+    border-bottom-width: 10px;
+    display: table;
+    border-right-width: 10px; }
+  .ie8 #ourthinking h2 {
+    margin-bottom: 0; }
+  .ie8 #ourthinking .container {
+    display: block;
+    float: left;
+    margin-left: 3.65743%;
+    margin-right: -100%;
+    width: 92.68514%; }
+  .ie8 #getinvolved {
+    overflow: hidden; }
+    .ie8 #getinvolved .container1 {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 48.17128%;
+      clear: left; }
+    .ie8 #getinvolved .container2 {
+      display: block;
+      float: left;
+      margin-left: 51.82872%;
+      margin-right: -100%;
+      width: 48.17128%;
+      border-left: 1px solid #138c8f;
+      padding-left: 28.43022px;
+      padding-left: 1.77689rem;
+      margin-bottom: -99999px;
+      padding-bottom: 99999px; }
+  .ie8 .footer .container1 {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 48.17128%; }
+  .ie8 .footer .container2 {
+    display: block;
+    float: left;
+    margin-left: 51.82872%;
+    margin-right: -100%;
+    width: 48.17128%; }
+  .ie8 #footercta {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; }
+
 /* sratch - todo this should be empty before launch! */
