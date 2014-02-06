@@ -24,12 +24,12 @@
 }
 
 @media only screen and (min-width:960px) {
-	.article{
+	.article, .archive{
 		aside{
 			@include gs-span(l, 4,9);
 			clear:both;
 		}
-		article{
+		article, .archivelist{
 			@include gs-span(l, 4,9);
 			@include padding-top($a-scale-6);
 		
@@ -81,4 +81,10 @@ nav.blog.fixed{
 	top:0;
 	left:0;
 	z-index:1000;
+}
+
+.archive nav.blog ul{
+	li+li{
+		display:none;
+	}
 }
