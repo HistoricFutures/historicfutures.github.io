@@ -1065,14 +1065,14 @@ blockquote {
   background: none; }
 
 @media only screen and (min-width: 960px) {
-  .article aside {
+  .article aside, .archive aside {
     display: block;
     float: left;
     margin-left: 28.7562%;
     margin-right: -100%;
     width: 59.2686%;
     clear: both; }
-  .article article {
+  .article article, .article .archivelist, .archive article, .archive .archivelist {
     display: block;
     float: left;
     margin-left: 28.7562%;
@@ -1080,7 +1080,7 @@ blockquote {
     width: 59.2686%;
     padding-top: 67.33963px;
     padding-top: 4.20873rem; }
-    .article article img {
+    .article article img, .article .archivelist img, .archive article img, .archive .archivelist img {
       max-width: 100%;
       height: auto; } }
 /* navigation */
@@ -1118,5 +1118,8 @@ nav.blog.fixed {
   top: 0;
   left: 0;
   z-index: 1000; }
+
+.archive nav.blog ul li + li {
+  display: none; }
 
 /* sratch - todo this should be empty before launch! */
