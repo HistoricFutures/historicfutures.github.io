@@ -1,6 +1,12 @@
 ---
-published: false
+layout: post
+title: "Wjames and hannah test post"
+categories: tim
+published: true
+author: James 
+excerpt: This is our blog etc etc etc 
 ---
+
 
 ## A New Post
 
