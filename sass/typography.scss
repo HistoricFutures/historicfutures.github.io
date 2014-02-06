@@ -96,6 +96,7 @@ a, a:visited {
 		&:hover {
 			background:$red;
 			@include transition(background 0.5s ease);
+			color:$white;
 		}
 	}
 }

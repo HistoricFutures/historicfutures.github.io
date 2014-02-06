@@ -235,23 +235,44 @@ $brick-border-style-2: 1px solid $darkturquoise;
   @include padding-top($standard-padding-top);
   @include padding-bottom($b-scale-7);
   position:relative;
+  z-index:1000;
   &:before {
     content:" ";
     position:absolute;
-    top:20%;
-    left:30%;
-    right:-30%;
+    top:10%;
+    left:60%;
+    right:-20%;
     bottom:0;
     background:url(../img/logo.svg) top left no-repeat;
     background-size:100% auto;
-    opacity:0.05;
+    opacity:0.03;
+    z-index:-1000;
   }
   a, a:visited {
-    color:$orange;
-    border-color:$orange;
+    color:$turquoise;
+    border-color:$turquoise;
     &:hover {
       color:$red;
       border-color:$red;
+    }
+  }
+  a.back-to-top {
+    display:block;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background:$turquoise;
+    color:$white;
+    @include padding-top($a-scale);
+    @include padding-bottom($a-scale);
+    border:none;
+    text-align:center;
+    @include transition(background 0.5s ease);
+    &:hover {
+      background:$red;
+      @include transition(background 0.5s ease);
     }
   }
 
@@ -259,7 +280,8 @@ $brick-border-style-2: 1px solid $darkturquoise;
 
 #map_canvas {
   width:100%;
-  padding-bottom:50%;
+  height:400px;
+  
   border:5px solid lighten($darkgrey, 2);
   @include margin-top($p-margin-bottom);
   @include margin-bottom($p-margin-bottom);
@@ -618,6 +640,9 @@ $brick-border-style-2: 1px solid $darkturquoise;
 .footer {
   .container1 {
     @include gs-span(l,2,5,(2,10));
+  }
+  .container2 {
+    @include gs-span(l,7,10,(2,10));
   }
 }
 
