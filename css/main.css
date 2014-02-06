@@ -230,10 +230,22 @@ section, header, nav, footer {
   padding-top: 56.83202px;
   padding-top: 3.552rem;
   padding-bottom: 38.83202px;
-  padding-bottom: 2.427rem; }
+  padding-bottom: 2.427rem;
+  position: relative; }
+  #ourstory:after {
+    background: url(../img/down.svg) center center no-repeat;
+    background-size: 32px auto;
+    content: "";
+    display: block;
+    height: 32px;
+    position: absolute;
+    bottom: -16px;
+    width: 100%;
+    z-index: 1000; }
 
 #meetteam {
-  background: #f0f3f3; }
+  background: #f0f3f3;
+  position: relative; }
   #meetteam .inner {
     background: #f7f9f9;
     padding-bottom: 38.83202px;
@@ -242,6 +254,15 @@ section, header, nav, footer {
     border-radius: 100%;
     max-width: 150px;
     height: auto; }
+  #meetteam:after {
+    background: url(../img/down.svg) center center no-repeat;
+    background-size: 32px auto;
+    content: "";
+    display: block;
+    height: 32px;
+    position: absolute;
+    bottom: -16px;
+    width: 100%; }
 
 /* get involved */
 #getinvolved {
@@ -546,8 +567,8 @@ section, header, nav, footer {
       padding-top: 21px;
       text-decoration: none;
       border: none;
-      background: #d75b36 url(../img/cotton.svg) center center no-repeat;
-      background-size: auto 35%;
+      background: #d75b36 url(../img/cotton.svg) center 60% no-repeat;
+      background-size: 90px auto;
       -webkit-transition: background-color 0.5s ease;
       -moz-transition: background-color 0.5s ease;
       -o-transition: background-color 0.5s ease;
@@ -566,8 +587,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 19.9899%; }
     nav li + li a {
-      background: #9e1c10 url(../img/diamond.svg) center center no-repeat;
-      background-size: auto 35%; }
+      background: #9e1c10 url(../img/diamond.svg) center 60% no-repeat;
+      background-size: 90px auto; }
   nav li + li + li {
     display: block;
     float: left;
@@ -575,8 +596,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 20%; }
     nav li + li + li a {
-      background: #466e8c url(../img/tree.svg) center center no-repeat;
-      background-size: auto 35%; }
+      background: #466e8c url(../img/tree.svg) center 60% no-repeat;
+      background-size: auto 76px; }
   nav li + li + li + li {
     display: block;
     float: left;
@@ -584,8 +605,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 20%; }
     nav li + li + li + li a {
-      background: #d75b36 url(../img/phone.svg) center center no-repeat;
-      background-size: auto 35%; }
+      background: #d75b36 url(../img/phone.svg) center 60% no-repeat;
+      background-size: 90px auto; }
   nav li + li + li + li + li {
     display: block;
     float: left;
@@ -593,8 +614,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 20%; }
     nav li + li + li + li + li a {
-      background: #9e1c10 url(../img/fish.svg) center center no-repeat;
-      background-size: auto 35%; }
+      background: #9e1c10 url(../img/fish.svg) center 60% no-repeat;
+      background-size: auto 90px; }
 
   /* general layout */
   .inner {
@@ -931,24 +952,18 @@ section, header, nav, footer {
       margin-left: 0;
       margin-right: -100%;
       width: 48.17128%;
-      clear: left;
-      padding-right: 67.33963px;
-      padding-right: 4.20873rem; }
+      clear: left; }
     #getinvolved .container2 {
       display: block;
       float: left;
-      margin-left: 48.17128%;
+      margin-left: 51.82872%;
       margin-right: -100%;
-      width: 51.82872%;
+      width: 48.17128%;
       border-left: 1px solid #138c8f;
+      padding-left: 28.43022px;
+      padding-left: 1.77689rem;
       margin-bottom: -99999px;
       padding-bottom: 99999px; }
-      #getinvolved .container2 .inside {
-        display: block;
-        float: left;
-        margin-left: 7.05676%;
-        margin-right: -100%;
-        width: 92.94324%; }
 
   .footer .container1 {
     display: block;
@@ -1003,6 +1018,11 @@ p {
   margin-bottom: 18px;
   margin-bottom: 1.125rem; }
 
+p.info {
+  font-size: 16px;
+  font-size: 1rem;
+  font-style: italic; }
+
 /* heading styles */
 h1 {
   font-weight: 800;
@@ -1027,10 +1047,22 @@ h2:after {
   width: 48px;
   height: 4px;
   content: "";
-  background: #9E1C10;
+  background: #9e1c10;
   position: absolute;
   left: 0;
   bottom: 0; }
+
+/* colours of h2 / underline for specific sections */
+#whycare h2:after {
+  background: #d75b36; }
+
+#ourstory h2:after {
+  background: #138c8f; }
+
+#ourthinking h2 {
+  color: #333333; }
+  #ourthinking h2:after {
+    background: #f7f9f9; }
 
 h3 {
   font-weight: 600;

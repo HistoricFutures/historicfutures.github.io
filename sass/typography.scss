@@ -20,6 +20,11 @@ p {
 	@include margin-bottom($p-margin-bottom);
 }
 
+p.info {
+	@include font-size($a-scale);
+	font-style:italic;
+}
+
 /* heading styles */
 
 h1{
@@ -42,10 +47,33 @@ h2:after{ /* line decoration under h2 */
   width:48px;
   height:4px;
   content:"";
-  background:#9E1C10;
+  background:$red;
   position:absolute;
   left:0;
   bottom:0;
+}
+
+/* colours of h2 / underline for specific sections */
+
+#whycare {
+	h2:after {
+		background:$orange;
+	}
+}
+
+#ourstory {
+	h2:after {
+		background:$turquoise;
+	}
+}
+
+#ourthinking {
+	h2{
+		color:$darkgrey;
+		&:after {
+			background:$white;
+		}
+	}
 }
 
 h3 {

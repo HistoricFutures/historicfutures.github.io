@@ -106,10 +106,23 @@
 #ourstory{
   @include padding-top($standard-padding-top);
   @include padding-bottom($standard-padding-bottom);
+  position:relative;
+  &:after{
+      background:url(../img/down.svg) center center no-repeat;
+      background-size:32px auto;
+      content:"";
+      display:block;
+      height:32px;
+      position:absolute;
+      bottom:-16px;
+      width:100%;
+      z-index: 1000;
+    }
 }
 
 #meetteam{
     background:$lightgrey;
+    position:relative;
   .inner{
     background:$white;
     @include padding-bottom($standard-padding-bottom);
@@ -119,6 +132,16 @@
     max-width:150px;
     height:auto;
   }
+    &:after{
+      background:url(../img/down.svg) center center no-repeat;
+      background-size:32px auto;
+      content:"";
+      display:block;
+      height:32px;
+      position:absolute;
+      bottom:-16px;
+      width:100%;
+    }
 }
 
 /* get involved */
@@ -454,8 +477,8 @@ $brick-border-style-2: 1px solid $darkturquoise;
         padding-top:21px;
         text-decoration:none;
         border:none;
-        background:$orange url(../img/cotton.svg) center center no-repeat;
-        background-size:auto 35%;
+        background:$orange url(../img/cotton.svg) center 60% no-repeat;
+        background-size:90px auto;
         @include transition(background-color 0.5s ease);
         &:hover {
           color:$white;
@@ -467,30 +490,30 @@ $brick-border-style-2: 1px solid $darkturquoise;
     li+li{
       @include gs-span(n, 2,3);
       a {
-        background:$red url(../img/diamond.svg) center center no-repeat;
-        background-size:auto 35%;
+        background:$red url(../img/diamond.svg) center 60% no-repeat;
+        background-size:90px auto;
       }
     }
     li+li+li{
       @include gs-span(n, 4,5);
       a {
-        background:$blue url(../img/tree.svg) center center no-repeat;
-        background-size:auto 35%;
+        background:$blue url(../img/tree.svg) center 60% no-repeat;
+        background-size: auto 76px;
       }
        
     }
     li+li+li+li{
       @include gs-span(n, 6,7);
       a {
-        background:$orange url(../img/phone.svg) center center no-repeat;
-        background-size:auto 35%;
+        background:$orange url(../img/phone.svg) center 60% no-repeat;
+        background-size:90px auto;
       }
     }
     li+li+li+li+li{
       @include gs-span(n, 8);
       a {
-         background:$red url(../img/fish.svg) center center no-repeat;
-         background-size:auto 35%;
+         background:$red url(../img/fish.svg) center 60% no-repeat;
+         background-size:auto 90px;
       }
     }
   }
@@ -756,16 +779,14 @@ $brick-border-style-2: 1px solid $darkturquoise;
   .container1 {
     @include gs-span(l,2,5,(2,10));
     clear:left;
-    @include padding-right($a-scale-6);
   }
   .container2 {
-    @include gs-span(l,6,10,(2,10));
+    @include gs-span(l,7,10,(2,10));
     border-left:1px solid $turquoise;
+    @include padding-left($a-scale-3);
     margin-bottom: -99999px;
   padding-bottom: 99999px;
-    .inside {
-      @include gs-span(l,7,10,(6,10));
-    }
+
   }
 }
 
