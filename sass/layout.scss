@@ -706,7 +706,27 @@ $brick-border-style-2: 1px solid $darkturquoise;
 }
 
 #whycare .bricks {
-  
+  li {
+    @include gs-span(n,1,2);
+    clear:left;
+    display:table;
+    @include padding($a-scale);
+    @include font-size($a-scale);
+    
+    
+  }
+  li+li {
+    @include gs-span(n,3,6);
+    clear:none;
+
+    display:table;
+  }
+  li+li+li {
+    @include gs-span(n,7,8);
+    clear:none;
+
+    display:table;
+  }
   li+li+li+li {
     @include gs-span(n,1,3);
     clear:left;

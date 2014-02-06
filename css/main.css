@@ -869,6 +869,34 @@ section, header, nav, footer {
       clear: none;
       display: table; }
 
+  #whycare .bricks li {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 35.0202%;
+    clear: left;
+    display: table;
+    padding: 16px;
+    padding: 1rem;
+    font-size: 16px;
+    font-size: 1rem; }
+  #whycare .bricks li + li {
+    display: block;
+    float: left;
+    margin-left: 35.0202%;
+    margin-right: -100%;
+    width: 35%;
+    clear: none;
+    display: table; }
+  #whycare .bricks li + li + li {
+    display: block;
+    float: left;
+    margin-left: 70.0202%;
+    margin-right: -100%;
+    width: 30%;
+    clear: none;
+    display: table; }
   #whycare .bricks li + li + li + li {
     display: block;
     float: left;
