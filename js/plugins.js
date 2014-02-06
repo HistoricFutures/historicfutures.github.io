@@ -22,36 +22,6 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-
-$(document).ready(function() {
-  var navpos = $('nav').offset();
-  console.log(navpos.top);
-    $(window).bind('scroll', function() {
-      if ($(window).scrollTop() > navpos.top) {
-        $('nav').addClass('fixed');
-       }
-       else {
-         $('nav').removeClass('fixed');
-       }
-    });
-});
-
-
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
 /* equal-heights js */
 /*global window, $, jQuery*/
 (function ($) {
@@ -97,3 +67,33 @@ $(function() {
         });
     };
 }(jQuery));
+
+$(document).ready(function() {
+  var navpos = $('nav').offset();
+  console.log(navpos.top);
+    $(window).bind('scroll', function() {
+      if ($(window).scrollTop() > navpos.top) {
+        $('nav').addClass('fixed');
+       }
+       else {
+         $('nav').removeClass('fixed');
+       }
+    });
+});
+
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
