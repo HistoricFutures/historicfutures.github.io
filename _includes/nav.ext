@@ -1,4 +1,4 @@
-<nav>
+<nav role="navigation">
 	<ul>
 		<li><a href="/" title="Find out more about Historic Futures">About</a></li>
 		<li><a href="/" title="Find out more about Historic Futures">Home</a></li>

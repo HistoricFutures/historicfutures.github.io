@@ -1,4 +1,6 @@
 
+
+/* article specific */
 .article{
 		article{
 			h1,h2{
@@ -51,5 +53,20 @@
 			@include font-size($a-scale-6);
 			@include font-size($a-scale-3);
 		}
+	}
+}
+
+/* navigation */
+nav.fixed{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+	ol li a{
+		background:$darkgrey !important;
+		max-height:10px !important;
+		height:10px !important;
+		min-height:60px !important;
+		//padding-top:0;
 	}
 }
