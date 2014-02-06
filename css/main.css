@@ -333,7 +333,9 @@ section, header, nav, footer {
   padding-bottom: 6.31151rem;
   position: relative;
   z-index: 1000;
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: 16px;
+  font-size: 1rem; }
   .footer:before {
     content: " ";
     position: absolute;
@@ -345,6 +347,8 @@ section, header, nav, footer {
     background-size: 100% auto;
     opacity: 0.03;
     z-index: -1000; }
+  .footer span {
+    display: block; }
   .footer a, .footer a:visited {
     color: #138c8f;
     border-color: #138c8f; }
@@ -413,6 +417,24 @@ section, header, nav, footer {
 
   #meetteam {
     text-align: center; }
+    #meetteam .inner {
+      background: #f0f3f3; }
+    #meetteam ul li {
+      list-style: none;
+      margin-bottom: 28.43022px;
+      margin-bottom: 1.77689rem;
+      border-bottom: 2px solid #f7f9f9;
+      padding-bottom: 16px;
+      padding-bottom: 1rem; }
+      #meetteam ul li ul li {
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: 18px;
+        margin-bottom: 1.125rem; }
+      #meetteam ul li:last-child {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none; }
 
   .bricks {
     clear: both;
@@ -600,13 +622,22 @@ section, header, nav, footer {
         bottom: -20px;
         border: 20px solid rgba(255, 255, 255, 0.4);
         z-index: -1000; }
+      #meetteam .inner h3 {
+        display: block;
+        float: left;
+        margin-left: 3.65743%;
+        margin-right: -100%;
+        width: 92.68514%;
+        margin-bottom: 23.994px;
+        margin-bottom: 1.49963rem; }
       #meetteam .inner ul {
         display: block;
         float: left;
         margin-left: 3.65743%;
         margin-right: -100%;
         width: 92.68514%;
-        position: relative; }
+        position: relative;
+        clear: left; }
         #meetteam .inner ul li {
           display: block;
           float: left;
