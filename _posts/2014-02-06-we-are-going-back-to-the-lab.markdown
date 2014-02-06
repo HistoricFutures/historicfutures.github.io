@@ -21,6 +21,3 @@ Many organisations will already have an appreciation of how difficult it can be 
 
 I believe any solution will need to provide a mechanism for data to move through the global value chain as efficiently as the physical goods themselves. For business throughout the value chain to have an expectation that they will collect, manage and transmit this data in format their customer can utilise. Only then will we have created a scalable solution that works everywhere and delivers reliable information that can be used to make a difference. It raises serious questions about who has access to which data and on what basis but has the power to radically improve triple bottom line outcomes for global value chains. After 11 years working on such solutions “in the field” it’s time to go back to lab – analyse the findings, consult the stakeholders, update the vision – to go faster and more cost effectively than ever. Can you help? 
 
-Tim Wilson
-Historic Futures Ltd
-
