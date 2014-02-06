@@ -29,6 +29,12 @@
     clear:both;
   }
 
+.logo {
+  background:url(../img/logo.svg) center center no-repeat;
+  background-size:contain;
+  padding-bottom: 20%;
+  @include margin-bottom($p-margin-bottom);
+}
 
 
 /* introduction */
