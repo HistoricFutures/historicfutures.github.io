@@ -443,7 +443,11 @@ section, header, nav, footer {
     float: left;
     margin-left: 0;
     width: 100%;
-    clear: left; } }
+    clear: left; }
+
+  #ourthinking {
+    background-position: center 90px;
+    background-size: 101px auto; } }
 /* For medium screens such as tablets in landscape */
 /* @media only screen and (min-width:960px) and (max-width:1366px){
     section, header, nav, footer{

@@ -345,6 +345,10 @@ $brick-border-style-2: 1px solid $darkturquoise;
     @include gs-span(s,all);
     clear:left;
   }
+  #ourthinking {
+    background-position:center 90px;
+    background-size: 101px auto;
+  }
 }
 
 
