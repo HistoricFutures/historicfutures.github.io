@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "We're going back to the lab"
-date: 2014-01-28
 categories: tim
 published: true
 author: Tim Wilson
