@@ -238,6 +238,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
   position:relative;
   z-index:1000;
   overflow:hidden;
+  position:relative;
   @include font-size($a-scale);
   &:before {
     content:" ";

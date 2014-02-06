@@ -2,15 +2,21 @@
 {% include footer-cta.ext %}
         <div class="inner">
             <div class="container1">
-            <p class="copyright">© Historic Futures 2004 – 2014</p>
-
-            
-                <div>
-                    <span>Carpenters’ Workshops</span> <span>Blenheim Palace
-                    Sawmills</span> <span>Combe</span> <span>Witney</span>
-                    <span>OXON</span> <span>OX29 8ET</span>
-                    <span>England</span>
-                </div>
+                <div itemscope itemtype="http://schema.org/Corporation">
+                <a itemprop="url" href="http://historicfutures.com">
+                <span itemprop="name">Historic Futures</span>
+                </a>
+                <div itemprop="description" class="visuallyhidden">We make it possible for companies to collect and manage value chain data, from primary production to finished product and to communicate good practice to their customers.</div>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span>Carpenters’ Workshops</span>
+                <span itemprop="streetAddress">Blenheim Palace Sawmills</span>
+                <span itemprop="addressLocality">Coombe</span>
+                <span>Witney</span>
+                <span itemprop="addressRegion">OXON</span>
+                <span itemprop="postalCode">OX29 8ET</span>
+                <span>England</span>
+            </div>
+            </div>
                 
             
             <div id="map_canvas">
@@ -33,6 +39,7 @@
                     <li class="twitter"><a href="#">Follow us on Twitter</a></li>
                     <li class="linkedin"><a href="#">Connect on LinkedIN</a></li>
                 </ul>
+                    <p class="copyright">&copy; Historic Futures 2004 &ndash; 2014</p>
         </div>
 
             <a class="back-to-top" href="#top">Back to the top</a>
