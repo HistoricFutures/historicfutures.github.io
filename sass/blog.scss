@@ -25,18 +25,14 @@
 
 @media only screen and (min-width:960px) {
 	.article{
-		nav{
-			@include gs-span(n, all);
-			clear:both;
-			text-align:center
-		}
 		aside{
-			@include gs-span(l, all);
+			@include gs-span(l, 4,9);
 			clear:both;
 		}
 		article{
-			@include gs-span(l, 3,10);
-			clear:both;
+			@include gs-span(l, 4,9);
+			@include padding-top($a-scale-6);
+		
 			img{
 				max-width:100%;
 				height:auto;
@@ -50,23 +46,39 @@
 
 	.article{
 		article{
-			@include font-size($a-scale-6);
-			@include font-size($a-scale-3);
+			//@include font-size($a-scale-6);
+			//@include font-size($a-scale-3);
 		}
 	}
 }
-
 /* navigation */
-nav.fixed{
+nav.blog{
+	@include gs-span(n, 1);
+	ul{
+	li{
+		@include gs-span(n, all);
+		clear:left;
+		a, a:visited {
+        background:$turquoise url(../img/logo.svg) center center no-repeat;
+        @include transition(background-color 0.5s ease);
+        &:hover {
+          color:$white;
+          background-color:$darkgrey;
+          @include transition(background-color 0.5s ease);
+        }
+      }
+	}
+	li+li{
+		a, a:visited{
+			background:$red url(../img/fish.svg) center center no-repeat;
+		}
+	}
+}
+}
+
+nav.blog.fixed{
 	position:fixed;
 	top:0;
 	left:0;
 	z-index:1000;
-	ol li a{
-		background:$darkgrey !important;
-		max-height:10px !important;
-		height:10px !important;
-		min-height:60px !important;
-		//padding-top:0;
-	}
 }

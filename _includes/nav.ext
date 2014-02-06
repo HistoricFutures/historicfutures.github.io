@@ -1,7 +1,6 @@
-<nav role="navigation">
+<nav role="navigation" class="blog">
 	<ul>
-		<li><a href="/" title="Find out more about Historic Futures">About</a></li>
-		<li><a href="/" title="Find out more about Historic Futures">Home</a></li>
-		<li><a href="/archive.html" title="Browse the journal archives">Journal</a></li>
+		<li><a href="/" title="Find out more about Historic Futures">Historic Futures</a></li>
+		<li><a href="/archive.html" title="Browse the journal archives">Our thinking</a></li>
 	</ul>
 </nav>
