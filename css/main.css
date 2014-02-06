@@ -294,57 +294,57 @@ section, header, nav, footer {
 .bricks {
   margin-bottom: 18px;
   margin-bottom: 1.125rem;
-  background: #9e1c10; }
+  background: #f7f9f9; }
   .bricks li {
     padding: 16px;
     padding: 1rem;
     background: #9e1c10;
-    border: 1px solid #951a0f;
+    border: 5px solid #f7f9f9;
     color: #f7f9f9;
     font-size: 16px;
     font-size: 1rem; }
   .bricks li + li {
     background: #d75b36;
-    border: 1px solid #cb4e28; }
+    border: 5px solid #f7f9f9; }
   .bricks li + li + li {
     background: #9e1c10;
-    border: 1px solid #951a0f; }
+    border: 5px solid #f7f9f9; }
   .bricks li + li + li + li {
     background: #d75b36;
-    border: 1px solid #cb4e28; }
+    border: 5px solid #f7f9f9; }
   .bricks li + li + li + li + li {
     background: #9e1c10;
-    border: 1px solid #951a0f; }
+    border: 5px solid #f7f9f9; }
   .bricks li + li + li + li + li + li {
     background: #d75b36;
-    border: 1px solid #cb4e28; }
+    border: 5px solid #f7f9f9; }
 
 #whycare .bricks {
   margin-bottom: 0;
-  background: #3e617b; }
+  background: #466e8c; }
   #whycare .bricks li {
     padding: 16px;
     padding: 1rem;
     background: #3e617b;
-    border: 1px solid #3a5b74;
+    border: 5px solid #466e8c;
     color: #f7f9f9;
     font-size: 16px;
     font-size: 1rem; }
   #whycare .bricks li + li {
     background: #138c8f;
-    border: 1px solid #128386; }
+    border: 5px solid #466e8c; }
   #whycare .bricks li + li + li {
     background: #3e617b;
-    border: 1px solid #3a5b74; }
+    border: 5px solid #466e8c; }
   #whycare .bricks li + li + li + li {
     background: #138c8f;
-    border: 1px solid #128386; }
+    border: 5px solid #466e8c; }
   #whycare .bricks li + li + li + li + li {
     background: #3e617b;
-    border: 1px solid #3a5b74; }
+    border: 5px solid #466e8c; }
   #whycare .bricks li + li + li + li + li + li {
     background: #138c8f;
-    border: 1px solid #128386; }
+    border: 5px solid #466e8c; }
 
 /* footer styling */
 .footer {
@@ -884,7 +884,8 @@ section, header, nav, footer {
       padding: 16px;
       padding: 1rem;
       font-size: 16px;
-      font-size: 1rem; }
+      font-size: 1rem;
+      border-left-width: 0px; }
     .bricks li + li {
       display: block;
       float: left;
@@ -900,7 +901,8 @@ section, header, nav, footer {
       margin-right: -100%;
       width: 40%;
       clear: none;
-      display: table; }
+      display: table;
+      border-right-width: 0px; }
     .bricks li + li + li + li {
       display: block;
       float: left;
@@ -908,7 +910,9 @@ section, header, nav, footer {
       margin-right: -100%;
       width: 35.0202%;
       clear: left;
-      display: table; }
+      display: table;
+      border-left-width: 0px;
+      border-bottom-width: 10px; }
     .bricks li + li + li + li + li {
       display: block;
       float: left;
@@ -916,6 +920,7 @@ section, header, nav, footer {
       margin-right: -100%;
       width: 35%;
       clear: none;
+      border-bottom-width: 10px;
       display: table; }
     .bricks li + li + li + li + li + li {
       display: block;
@@ -924,7 +929,9 @@ section, header, nav, footer {
       margin-right: -100%;
       width: 30%;
       clear: none;
-      display: table; }
+      display: table;
+      border-right-width: 0px;
+      border-bottom-width: 10px; }
 
   #whycare .bricks li {
     display: block;
@@ -937,7 +944,8 @@ section, header, nav, footer {
     padding: 16px;
     padding: 1rem;
     font-size: 16px;
-    font-size: 1rem; }
+    font-size: 1rem;
+    border-left-width: 10px; }
   #whycare .bricks li + li {
     display: block;
     float: left;
@@ -953,6 +961,7 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 30%;
     clear: none;
+    border-right-width: 10px;
     display: table; }
   #whycare .bricks li + li + li + li {
     display: block;
@@ -961,6 +970,8 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 40.0202%;
     clear: left;
+    border-left-width: 10px;
+    border-bottom-width: 10px;
     display: table; }
   #whycare .bricks li + li + li + li + li {
     display: block;
@@ -969,7 +980,9 @@ section, header, nav, footer {
     margin-right: -100%;
     width: 60%;
     clear: none;
-    display: table; }
+    border-bottom-width: 10px;
+    display: table;
+    border-right-width: 10px; }
 
   #ourthinking h2 {
     margin-bottom: 0; }
