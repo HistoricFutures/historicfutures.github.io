@@ -995,47 +995,58 @@ blockquote {
   background: none; }
 
 @media only screen and (min-width: 960px) {
-  .article nav {
-    clear: both;
-    display: block;
-    float: left;
-    margin-left: 0;
-    width: 100%;
-    clear: both;
-    text-align: center; }
   .article aside {
-    clear: both;
     display: block;
     float: left;
-    margin-left: 0;
-    width: 100%;
+    margin-left: 28.7562%;
+    margin-right: -100%;
+    width: 59.2686%;
     clear: both; }
   .article article {
     display: block;
     float: left;
-    margin-left: 12%;
+    margin-left: 28.7562%;
     margin-right: -100%;
-    width: 79.0248%;
-    clear: both; }
+    width: 59.2686%;
+    padding-top: 67.33963px;
+    padding-top: 4.20873rem; }
     .article article img {
       max-width: 100%;
       height: auto; } }
-@media only screen and (min-width: 1300px) {
-  .article article {
-    font-size: 67.33963px;
-    font-size: 4.20873rem;
-    font-size: 28.43022px;
-    font-size: 1.77689rem; } }
 /* navigation */
-nav.fixed {
+nav.blog {
+  display: block;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+  width: 20.0303%; }
+  nav.blog ul li {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    clear: left; }
+    nav.blog ul li a, nav.blog ul li a:visited {
+      background: #138c8f url(../img/logo.svg) center center no-repeat;
+      -webkit-transition: background-color 0.5s ease;
+      -moz-transition: background-color 0.5s ease;
+      -o-transition: background-color 0.5s ease;
+      transition: background-color 0.5s ease; }
+      nav.blog ul li a:hover, nav.blog ul li a:visited:hover {
+        color: #f7f9f9;
+        background-color: #333333;
+        -webkit-transition: background-color 0.5s ease;
+        -moz-transition: background-color 0.5s ease;
+        -o-transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease; }
+  nav.blog ul li + li a, nav.blog ul li + li a:visited {
+    background: #9e1c10 url(../img/fish.svg) center center no-repeat; }
+
+nav.blog.fixed {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000; }
-  nav.fixed ol li a {
-    background: #333333 !important;
-    max-height: 10px !important;
-    height: 10px !important;
-    min-height: 60px !important; }
 
 /* sratch - todo this should be empty before launch! */
