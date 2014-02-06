@@ -263,6 +263,7 @@ $brick-border-style-2: 1px solid $darkturquoise;
   z-index:1000;
   overflow:hidden;
   position:relative;
+  border-bottom:10px solid $white;
   @include font-size($a-scale);
   &:before {
     content:" ";
@@ -453,6 +454,10 @@ $brick-border-style-2: 1px solid $darkturquoise;
 
   section, header, nav, .footer{
     @include gs-span(l, all);
+  }
+
+  body {
+    border:10px solid $white;
   }
 
   /* navigation */

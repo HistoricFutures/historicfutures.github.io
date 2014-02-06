@@ -356,6 +356,7 @@ section, header, nav, footer {
   z-index: 1000;
   overflow: hidden;
   position: relative;
+  border-bottom: 10px solid #f7f9f9;
   font-size: 16px;
   font-size: 1rem; }
   .footer:before {
@@ -544,6 +545,9 @@ section, header, nav, footer {
     float: left;
     margin-left: 0;
     width: 100%; }
+
+  body {
+    border: 10px solid #f7f9f9; }
 
   /* navigation */
   nav ol {
