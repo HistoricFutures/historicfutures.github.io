@@ -12,7 +12,7 @@
             <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <span>Carpenters’ Workshops</span>
                 <span itemprop="streetAddress">Blenheim Palace Sawmills</span>
-                <span itemprop="addressLocality">Coombe</span>
+                <span itemprop="addressLocality">Combe</span>
                 <span>Witney</span>
                 <span itemprop="addressRegion">OXON</span>
                 <span itemprop="postalCode">OX29 8ET</span>
