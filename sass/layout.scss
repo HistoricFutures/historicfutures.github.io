@@ -481,15 +481,15 @@ $brick-border-style-2: 5px solid $blue;
       margin:0;
       padding:0;
       list-style:none;
+      overflow:hidden;
     }
     li{
       @include gs-span(n, 1);
-     
-      display:block;
       text-align:center;
+      display:inline-block;
       a, a:visited {
         color:$white;
-        display:block;
+        display:inline-block;
         font-weight:600;
         min-height:200px;
         @include padding-top($a-scale-2);
@@ -498,6 +498,7 @@ $brick-border-style-2: 5px solid $blue;
         background:$orange url(../img/cotton.svg) center 60% no-repeat;
         background-size:90px auto;
         @include transition(background-color 0.5s ease);
+        width:104%;
         &:hover {
           color:$white;
           background-color:$darkgrey;
