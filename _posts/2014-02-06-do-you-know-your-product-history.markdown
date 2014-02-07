@@ -2,7 +2,7 @@
 layout: post
 title: "Do you know your product history? "
 categories: tim
-published: false
+published: true
 accepted: true
 date: 2014-02-07 10:44am
 author: Tim Wilson
