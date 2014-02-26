@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don't ask the supplier?"
+title: "Don't ask the supplier..."
 categories: tim
 published: true
 accepted: true
@@ -23,7 +23,7 @@ What is really intriguing is that in many cases, the customer knows that the sup
 Every year the entire Uzbek cotton harvest gets sold, but doesn't apparently make it through to consumers. The number of illegally harvested trees goes up every year, but none of them end up in the products in the shops. Labelling organisations, such as Fair Trade, FSC and Rainforest Alliance, are all growing and this is at least partly in response to the need for better value chain management. From my extensive work in this sector, it is clear that even within these networks it is not possible to accurately describe the total value chain.
 
 ## Tomorrow’s solution…
-Many organisations will already have an appreciation of how difficult it can be to collect accurate, verifiable information from their global supply chains. It seems unlikely that there will (or should) be an independently certified labelling scheme for single issue or product.
+Many organisations will already have an appreciation of how difficult it can be to collect accurate, verifiable information from their global supply chains. It seems unlikely that there will (or should) be an independently certified labelling scheme for every single issue or product.
 
 Any answer to this problem will need to provide a mechanism for data to move through the global value chain as efficiently as the physical goods themselves. Businesses throughout the chain should have an expectation that they will collect, manage and transmit this data in a format their customers can use.
 Of course this raises serious questions about who has access to data and on what basis, but it has the power to improve triple bottom line reporting.
