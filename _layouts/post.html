@@ -4,7 +4,7 @@ body: article
 ---
 {% include nav.ext %}
 <article>
-   {% for post in site.posts limit:2  %}
+   {% for post in site.posts limit:1  %}
         <h1>{{ post.title }}</h1>
         <h2 class="meta">By {{ post.author }} &mdash; {{ page.date | date: "%-d %B %Y" }}</h2>
 	    {{ post.content }}
