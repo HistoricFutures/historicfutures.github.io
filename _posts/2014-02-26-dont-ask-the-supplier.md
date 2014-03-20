@@ -2,7 +2,7 @@
 layout: post
 title: "Don't ask the supplier..."
 categories: tim
-published: false
+published: true
 accepted: true
 date: "2014-02-26 10:44am"
 author: Tim Wilson
