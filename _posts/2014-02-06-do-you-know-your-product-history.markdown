@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Do you know your product history? "
+title: "Do you know your product history?"
 categories: tim
 published: true
 accepted: true
