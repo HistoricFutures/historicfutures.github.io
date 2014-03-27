@@ -2,11 +2,26 @@
 layout: post
 title: "Is collecting accurate value chain data a 'wicked' problem?"
 categories: tim
-published: false
+published: true
 accepted: true
-date: 2014-03-27 10:44am
+date: "2014-03-27 10:44am"
 author: Tim Wilson
-excerpt: The greatest component of the environmental impact of a product is often not its use, but its production. In some cases the global value chain can account for up to 80% of the total impact. While it is clear that this will vary significantly from one product to another, it seems logical that the process of making something can use more resources and affect more systems than using it.
+excerpt: "The greatest component of the environmental impact of a product is often not its use, but its production. In some cases the global value chain can account for up to 80% of the total impact. While it is clear that this will vary significantly from one product to another, it seems logical that the process of making something can use more resources and affect more systems than using it."
 ---
 
-Testing 123
+The greatest component of the environmental impact of a product is often not its use, [but its production](http://www.ghgprotocol.org/standards/scope-3-standard). In some cases the global value chain can account for up to [80%](http://www.asosplc.com/responsibility/sustainable-business/the-environment/carbon-and-energy.aspx) of the total impact. While it is clear that this will vary significantly from one product to another, it seems logical that the process of making something can use more resources and affect more systems than using it. 
+
+Take bread. Growing, harvesting and milling wheat, then mixing it with other ingredients (which each have their own upstream value-chain) to form dough, and baking that into a loaf needs more resources and interacts with more systems than eating it – or leaving it to go mouldy in the cupboard and then throwing it away. However, this estimation looks very different for something like a washing machine or a car. 
+
+Much work has been done to estimate the environmental impact of products, perhaps most significantly on the energy required throughout the product life-cycle. This work has been used to estimate greenhouse gas (GHG) emissions and contributions to global warming. In 2011 the [Scope 3 GHG protocol](http://www.ghgprotocol.org/standards/scope-3-standard) was released, allowing better estimation of upstream and downstream value chain emissions. But two things leap out at me: firstly we’re only estimating, and secondly what about all the other forms of impact on living and non-living systems? 
+
+Anyone who has an electricity meter can attest to the inaccuracies of estimation by the periodic balancing bill they get to make the estimates more closely reflect real life. Importantly, in the case of domestic electricity consumption, the actual usage is being measured – almost everywhere – so the estimates can get better and better over time. The difference between my household’s consumption and my neighbour’s gets measured and accounted for. I have a clear personal financial incentive to use less. This is simply not the case for almost every product I buy. The energy used in the upstream value-chain has not even been estimated, let alone measured. For those where estimates have been made, there is typically no comparable data between similar products to allow me to shop “better”. Remember that for many products this will represent the majority of the energy footprint - the proverbial “hot-spot”. 
+
+And what if we are interested in the effect of our purchases on other systems: water, people, forests, marine life, soil and so on (and so on)? Is approximately 80% of the impact buried deep in the value-chain for these systems too? Some frameworks similar to those for GHG’s are beginning to be built, but for others it is just too complicated. There are a plethora of labelling schemes that set standards for producers to meet, but they are typically focused on one system – forests or fisheries for example – and so only apply to part of the problem. It may be possible to learn that some proportion of the fibre in my paper came from a forest that is managed to a given standard, but nothing about the forest itself, or any of the processes that turned the wood into paper. 
+
+Don’t get me wrong: estimation is critical, models are fantastic, labelling schemes are great – but surely we must also set out to measure what is actually happening. We must collect actual information from real value-chains about specific products, and do so continuously, at scale. We must use that to inform people about how products are actually made: not just consumers, but regulators and businesses. We must use it to differentiate the good performers from the bad, to harness the power of competitive commerce to drive measurable improvement with a clear ROI. We must use it to make better models which provide more accurate estimates to underpin planning. 
+
+It sounds like common sense, but in reality the majority of organisations are unable to do this. The number of manufactured products where it is possible to understand even which businesses were involved in making them – let alone where in the world they were or what processes were run – is negligible. The reasons include lack of awareness of the problem, lack of strategies to engage, and lack of tools to support. Collecting real, accurate and verifiable production data from entire value-chains might be considered a [‘wicked problem’](http://en.wikipedia.org/wiki/Wicked_problem): the changing landscape doesn’t make it easy to plan a way forward. 
+
+On the other hand, it seems rather a simple logic problem – for any product that we need more information about, we just need to discover the process that made it. From there, we can find out who was responsible and what they used in the process (the inputs). Those inputs are products too, so we can ask exactly the same question again, and again until we have enough information. How hard can it be? 
+
