@@ -25,3 +25,4 @@ It sounds like common sense, but in reality the majority of organisations are un
 
 On the other hand, it seems rather a simple logic problem – for any product that we need more information about, we just need to discover the process that made it. From there, we can find out who was responsible and what they used in the process (the inputs). Those inputs are products too, so we can ask exactly the same question again, and again until we have enough information. How hard can it be? 
 
+Take our survey [here](https://www.surveymonkey.com/s/ValueChainMapping) and tell us what you think. 
