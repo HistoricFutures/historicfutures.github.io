@@ -20,3 +20,4 @@ _“Fashion Revolution Day is the perfect opportunity to show that confidentiali
 
 _“When it comes to greater traceability and accountability in the fashion industry things are gradually improving, but slowly. There is a lot of talk about QR codes and apps which aim to give consumers information about who made the garment they purchased or grew the cotton that went into it, but the data needs to flow through the value chain to get these answers, and very few companies have that level of data about their supply chains, yet.” _
 
+Historic Futures Ltd, 22nd April 2014. 
