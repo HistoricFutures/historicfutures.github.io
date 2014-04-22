@@ -2,7 +2,7 @@
 layout: post
 title: "Fashion Revolution Day. Who Made Your Clothes?"
 categories: tim
-published: false
+published: true
 accepted: true
 date: "2014-04-22 10:44am"
 author: Tim Wilson
