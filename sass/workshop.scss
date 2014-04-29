@@ -1,0 +1,187 @@
+/* Styles for the workshop advert page */
+
+.workshop {
+	background:$darkgrey;
+	width:100%;
+	float:left;
+	
+	header {
+		background:$orange;
+		color:$white;
+		.inner {	
+			@include padding-top($b-scale-2);
+		}
+		h1 span {
+			@include font-size($a-scale-2);
+			font-weight:normal;
+		}
+		
+	}
+	article {
+		color:$white;
+	}
+	@extend .article;
+	dd, dt {
+		display:block;
+		@include padding($a-scale);
+		background:$blue;
+		color:$white;
+		a {
+			color:$white;
+			border-color:$white;
+		}
+	}
+	dt {
+		background:$darkblue;
+		@include margin-top($a-scale);
+	}
+	.list-group {
+		margin-left:0;
+		li {
+			display:block;
+			background:$lightgrey;
+			@include padding($a-scale--2);
+			color:$darkgrey;
+			&:nth-child(odd) {
+				background:darken($lightgrey,5);
+			}
+		}
+	}
+}
+
+.sign-up-form {
+	@include padding-top($standard-padding-top);
+	@include padding-bottom($standard-padding-bottom);
+	background:$turquoise;
+	color:$white;
+	.indicates-required, .asterisk {
+		display:none;
+	}
+}
+
+.getintouch {
+	background:$lightgrey;
+	@include padding-top($standard-padding-top);
+	@include padding-bottom($standard-padding-bottom);
+	.container2 {
+		.button {
+		    	a {
+		        	display:block;
+		        	text-align:center;
+		      	}
+		    }
+	}
+}
+
+
+/* LARGE SCREENS */
+@media only screen and (min-width:960px) {
+	.workshop {
+		header {
+			@include gs-span(l,all);
+			.inner {
+				@include gs-span(l,4,9);
+				clear:none;
+			}
+		}
+		.container {
+			@include gs-span(l,all);
+			position:relative;
+			&:before {
+			    content:" ";
+			    position:absolute;
+			    top:30%;
+			    left:0%;
+			    right:50%;
+			    bottom:0%;
+			    background:url(../img/tree-turquoise.svg) left bottom no-repeat;
+			    background-size:contain;
+			    opacity:0.1;
+			    z-index:-200;
+			}
+		}
+		article {
+			@include gs-span(l,4,9);
+			clear:none;
+		}
+		.info {
+			@include gs-span(n,1);
+			clear:both;
+			@include margin-top($a-scale-6 - $a-scale);
+		}
+		dd, dt {
+			@include gs-span(n, all);
+			width:102%; /* to fix lining up with nav box - which has mystery 102% width on it */
+			clear:left;
+		}
+	}
+	.sign-up-form {
+		@include gs-span(l,all);
+		clear:both;
+		form {
+			@include gs-span(l,4,9,(2,10));
+		}
+	}
+	.getintouch {
+		@include gs-span(l,all);
+		.container1 {
+		    @include gs-span(l,2,7,(2,10));
+		}
+		.container2 {
+		    @include gs-span(l,9,10,(2,10));
+  		}
+	}
+}
+
+
+/* SMALL SCREENS */
+@media only screen and (max-width:959px) {
+	.workshop {
+		header {
+			@include gs-span(s,all);
+			background:none;
+			//color:inherit;
+			.inner {
+				@include gs-span(s,2,4);
+				padding-top:0;
+				clear:both;
+			}
+		}
+		article {
+			@include gs-span(s,2,4);
+			clear:both;
+			@include padding-top($standard-small-screen-padding-top);
+			@include padding-bottom($standard-small-screen-padding-bottom);
+		}
+		.info {
+			@include gs-span(s,2,4);
+			clear:both;
+		}
+		dd, dt {
+			@include gs-span(s, all);
+			clear:both;
+		}
+	}
+	.sign-up-form {
+		@include gs-span(s,all);
+		@include padding-top($standard-small-screen-padding-top);
+		@include padding-bottom($standard-small-screen-padding-bottom);
+		clear:both;
+		form {
+			@include gs-span(s,2,4);
+		}
+	}
+	.getintouch {
+		@include gs-span(s,all);
+		@include padding-top($standard-small-screen-padding-top);
+		@include padding-bottom($standard-small-screen-padding-bottom);
+		.container1 {
+		    @include gs-span(s,2,4);
+		}
+		.container2 {
+		    @include gs-span(s,2,4);
+		    clear:both;
+		    
+  		}
+	}
+}

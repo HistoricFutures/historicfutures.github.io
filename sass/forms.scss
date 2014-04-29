@@ -1,0 +1,41 @@
+/* general form styling */
+
+
+input, label {
+	display:block;
+	width:100%;
+	-webkit-appearance:none;
+	border:0;
+}
+
+input {
+	@include font-size($b-scale-2);
+	@include padding($a-scale--2);
+	@include margin-bottom($a-scale-2);
+	border:2px solid $darkturquoise;
+	@include border-radius(5px);
+}
+
+input[type="submit"] {
+	background:$orange;
+	@include box-shadow();
+		@include border-radius(5px);
+		color:$white;
+		font-weight:600;
+		border:none;
+		@include transition(background 0.5s ease);
+		display:inline-block;
+		&:hover {
+			background:$red;
+			@include transition(background 0.5s ease);
+			color:$white;
+			cursor:pointer;
+		}
+}
+
+/* SMALL SCREENS */
+@media only screen and (max-width:959px) {
+	input {
+		@include font-size($a-scale);
+	}
+}

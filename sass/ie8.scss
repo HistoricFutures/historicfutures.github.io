@@ -1,6 +1,6 @@
 .ie8 {
 
-border:10px solid $white;
+  border:10px solid $white;
 
   section, header, nav, .footer{
     @include gs-span(l, all, all, false, ie);
@@ -419,10 +419,57 @@ article {
 }
 }
 }
-
-
-
 }
+
+/* Workshop page styling */
+.workshop .ie8 {
+    width:100%;
+    float:left;
+    header {
+      @include gs-span(l,all,all,false,ie);
+      .inner {
+        @include gs-span(l,4,9,false,ie);
+        clear:none;
+      }
+    }
+    .container {
+      @include gs-span(l,all,false,ie);
+
+    }
+    article {
+      @include gs-span(l,4,9,false,ie);
+      clear:none;
+    }
+    .info {
+      @include gs-span(n,1,1,false,ie);
+      clear:both;
+      @include margin-top($a-scale-6 - $a-scale);
+    }
+    dd, dt {
+      @include gs-span(n, all, all, false, ie);
+      clear:left;
+    }
+  .sign-up-form {
+    @include gs-span(l,all, all, false, ie);
+    clear:both;
+    form {
+      @include gs-span(l,4,9,(2,10), ie);
+    }
+  }
+  .getintouch {
+    @include gs-span(l,all,all, false, ie);
+    .container1 {
+        @include gs-span(l,2,7,(2,10), ie);
+    }
+    .container2 {
+        @include gs-span(l,9,10,(2,10), ie);
+      }
+  }
+}
+
+
+
+
 
 
 

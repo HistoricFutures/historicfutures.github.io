@@ -27,6 +27,16 @@
 				@include margin-bottom($a-scale);
 				padding-bottom:0;
 			}
+			ul, ol {
+				@include margin-bottom($p-margin-bottom);
+				@include margin-left($a-scale-2);
+				li {
+					@include margin-bottom($b-scale--2);
+				}
+			}
+			ul li {
+				list-style:square;
+			}
 	}
 }
 
