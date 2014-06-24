@@ -1,12 +1,12 @@
 <section id="calltoaction">
         <div class="inner">
             <div class="container1">
-               <!--{% include cta-blurb.ext %}-->
-               <p><strong>Come to our  26th June Workshop:</strong> What are the business cases for value chain mapping?</p>
+               {% include cta-blurb.ext %}
+               <!--<p><strong>Come to our  26th June Workshop:</strong> What are the business cases for value chain mapping?</p>-->
             </div>
 
             <div class="container2">
-                <p class="button"><a href="/workshop.html" title="Sign up for our workshop">Sign up</a></p>
+                <p class="button"><a href="#getinvolved" title="Get involved">Get involved</a></p>
             </div>
         </div>
     </section>
