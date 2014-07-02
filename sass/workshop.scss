@@ -4,6 +4,19 @@
 	background:$darkgrey;
 	width:100%;
 	float:left;
+	hr {
+		border-color:$turquoise;
+	}
+	.getintouch {
+		background:$turquoise;
+		color:$white;
+		.button a {
+			background:$orange;
+			&:hover {
+				background:$red;
+			}
+		}
+	}
 	
 	header {
 		background:$orange;
@@ -19,6 +32,10 @@
 	}
 	article {
 		color:$white;
+		a {
+			color:$orange;
+			border-color:$orange;
+		}
 	}
 	@extend .article;
 	dd, dt {
