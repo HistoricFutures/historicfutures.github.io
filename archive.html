@@ -14,7 +14,7 @@ body: archive
     {% for post in site.posts limit:100  %}
     <section>
         <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-        <h3 class="meta"><span>By</span> {{ post.author }} &mdash; {{ post.date | date: "%-d %B %Y" }}</h3>
+        <h3 class="meta"><span>By</span> {{ post.author }} <!--&mdash; {{ post.date | date: "%-d %B %Y" }}--></h3>
 	    </section>
     {% endfor %}
   
