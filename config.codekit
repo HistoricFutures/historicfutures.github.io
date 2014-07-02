@@ -335,6 +335,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/workshop-photo-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57973,
+		"inputAbbreviatedPath": "\/_site\/img\/workshop-photo-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/workshop-photo-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/workshop-photo-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56683,
+		"inputAbbreviatedPath": "\/_site\/img\/workshop-photo-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/workshop-photo-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/workshop-photo-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58622,
+		"inputAbbreviatedPath": "\/_site\/img\/workshop-photo-4.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/workshop-photo-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/workshop-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -921,6 +954,39 @@
 		"initialSize": 1056,
 		"inputAbbreviatedPath": "\/img\/twitter-icon.png",
 		"outputAbbreviatedPath": "\/img\/twitter-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/workshop-photo-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57973,
+		"inputAbbreviatedPath": "\/img\/workshop-photo-2.jpg",
+		"outputAbbreviatedPath": "\/img\/workshop-photo-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/workshop-photo-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56683,
+		"inputAbbreviatedPath": "\/img\/workshop-photo-3.jpg",
+		"outputAbbreviatedPath": "\/img\/workshop-photo-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/workshop-photo-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58622,
+		"inputAbbreviatedPath": "\/img\/workshop-photo-4.jpg",
+		"outputAbbreviatedPath": "\/img\/workshop-photo-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
