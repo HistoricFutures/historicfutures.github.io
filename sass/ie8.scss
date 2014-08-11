@@ -108,6 +108,7 @@
 
 .text-container {
   @include gs-span(l,2,8,(2,10), ie);
+  clear:left;
 }
 
 #whycare {
@@ -515,6 +516,22 @@ article {
   .article article h2.meta{
     background-image: url(../img/greyfish.png);
   }
+
+
+.video {
+  @include gs-span(l,all,all,false,ie);
+  clear:left;
+}
+
+#iso {
+  .img-container {
+    @include gs-span(n,1,1,false,ie);
+  }
+  .text-container {
+    @include gs-span(l,5,11,false,ie);
+    clear:none;
+    }
+}
 }
 
 /* ==========================================================================
@@ -527,3 +544,5 @@ article {
     color: #000;
     padding: 0.2em 0;
 }
+
+

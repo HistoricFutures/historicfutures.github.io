@@ -121,17 +121,7 @@ img {
   @include padding-top($standard-padding-top);
   @include padding-bottom($standard-padding-bottom);
   position:relative;
-  &:after{
-      background:url(../img/down.svg) center center no-repeat;
-      background-size:32px auto;
-      content:"";
-      display:block;
-      height:32px;
-      position:absolute;
-      bottom:-16px;
-      width:100%;
-      z-index: 1000;
-    }
+  
 }
 
 #meetteam{
@@ -368,6 +358,29 @@ $brick-border-style-2: 5px solid $blue;
   }
 }
 
+/* ISO shared styles */
+
+#iso {
+  background:$orange;
+  @include padding-top($a-scale-2);
+  @include padding-bottom($a-scale-2);
+  position:relative;
+  .text-container {
+    color:$white;
+  }
+  &:after{
+      background:url(../img/down-alt.svg) center center no-repeat;
+      background-size:32px auto;
+      content:"";
+      display:block;
+      height:32px;
+      position:absolute;
+      bottom:-16px;
+      width:100%;
+      z-index: 1000;
+    }
+}
+
 /* For small screens such as smartphones */
 
 @media only screen and (min-width:320px) and (max-width:959px){
@@ -452,6 +465,31 @@ $brick-border-style-2: 5px solid $blue;
   .footer {
     text-align:center;
   }
+
+    .video {
+  @include gs-span(s,all);
+  clear:left;
+}
+
+/* iso */
+
+#iso {
+
+  .img-container {
+    @include gs-span(s,all);
+    text-align:center;
+    @include padding-bottom($a-scale);
+    img {
+      width:50%;
+      max-width:250px;
+    }
+  }
+  .text-container {
+    @include gs-span(s,all);
+    clear:none;
+  }
+
+}
 }
 
 
@@ -584,6 +622,7 @@ $brick-border-style-2: 5px solid $blue;
 
 .text-container {
   @include gs-span(l,2,8,(2,10));
+  clear:left;
 }
 
 #whycare {
@@ -633,6 +672,22 @@ $brick-border-style-2: 5px solid $blue;
   @include padding-top($b-scale-6);
 
   }
+.video {
+  @include gs-span(l,all);
+  clear:left;
+}
+
+#iso {
+
+  .img-container {
+    @include gs-span(n,1,1);
+  }
+  .text-container {
+    @include gs-span(l,5,11);
+    clear:none;
+  }
+
+}
 
 #meetteam{
   background:transparent url(../img/chair.jpg) top center no-repeat;
@@ -866,5 +921,9 @@ $brick-border-style-2: 5px solid $blue;
   @include gs-span(l, all);
   }
 
+  
+
 }
+
+
 
