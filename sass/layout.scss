@@ -469,6 +469,7 @@ $brick-border-style-2: 5px solid $blue;
     .video {
   @include gs-span(s,all);
   clear:left;
+  @include margin-bottom($a-scale-2);
 }
 
 /* iso */
