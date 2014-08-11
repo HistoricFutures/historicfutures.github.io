@@ -112,6 +112,10 @@ a, a:visited {
 	}
 }
 
+a.img-link, a.img-link:visited {
+	border:none;
+}
+
 h3 {
 	a, a:visited {
 		border-bottom:none !important;
