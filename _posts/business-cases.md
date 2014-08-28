@@ -2,7 +2,7 @@
 layout: post
 title: Understanding the origin of products is key to ending supply chain scandals
 categories: tim
-published: false
+published: true
 accepted: true
 date: "2014-08-28 10:44am"
 author: Tim Wilson
