@@ -9,7 +9,7 @@ Historic Futures are looking for a technical lead with enthusiasm and skill, exp
 
 Historic Futures work with many of the world's leading brands to tell the story behind the products they sell, connecting primary production with consumers. Watch the video on our [homepage](/) to get a feel for what we do.
 
-The small team works remotely most of the time, typically meeting together on Mondays to plan and review at our Oxfordshire based office. We make extensive use of Slack, Google Hangouts, Skype and other collaborative tools. We take the security of our customers data very seriously, our ISMS has been ISO 27001 certified.
+Our small team works remotely most of the time, typically meeting together on Mondays to plan and review at our Oxfordshire based office. We make extensive use of Slack, Google Hangouts, Skype and other collaborative tools.
 
 _Reporting to the Technical Director, the role includes:_
 
@@ -37,10 +37,12 @@ _Reporting to the Technical Director, the role includes:_
 
 We use a Service Oriented Architecture built as RESTful Hypermedia Micro Services using Django, Python, Docker, EC2, Postgres & MongoDB. We use Lean / Agile methodologies.
 
+We take the security of our customers data very seriously, our ISMS has been ISO 27001 certified.
+
 ## Package
 
 Competitive salary, pension, critical illness, life insurance, 25 days holiday, flexible, remote working.
 
 ## How to apply:
 
-Please send a covering note via email to [info@historicfutures.com](mailto:info@historicfutures.com) with a link to your linkedin profile or an attached CV.
+Please send a covering note via email to [info@historicfutures.com](mailto:info@historicfutures.com) with a link to your linkedin profile or an attached CV. Not sure if this role is right for you? Drop us a [note](mailto:info@historicfutures.com) and we give you a call.
