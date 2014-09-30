@@ -29,7 +29,7 @@ _Reporting to the Technical Director, the role includes:_
 * A broad and current knowledge of, and interest in, digital technologies and trends
 * The confidence to work independently or as part of a team, often on multiple projects, prioritising your workload accordingly
 * Excellent communication skills
-* That loves learning and mentoring others
+* a love of learning, and mentoring others
 * Integrity, and values that match ours
 
 
@@ -45,4 +45,4 @@ Competitive salary, pension, critical illness, life insurance, 25 days holiday, 
 
 ## How to apply:
 
-Please send a covering note via email to [info@historicfutures.com](mailto:info@historicfutures.com) with a link to your linkedin profile or an attached CV. Not sure if this role is right for you? Drop us a [note](mailto:info@historicfutures.com) and we give you a call.
+Please send a covering note via email to [info@historicfutures.com](mailto:info@historicfutures.com) with a link to your linkedin profile or an attached CV. Not sure if this role is right for you? Drop us a [note](mailto:info@historicfutures.com) and we'll call you back to discuss.
