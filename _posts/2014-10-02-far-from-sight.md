@@ -2,7 +2,7 @@
 layout: post
 title: "Far from sight, close to the heart?"
 categories: Carlos
-published: false
+published: true
 accepted: true
 date: "2014-10-02 10:44am"
 author: Carlos Ferreira
