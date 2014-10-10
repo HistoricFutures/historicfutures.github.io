@@ -27,9 +27,10 @@ _Reporting to the Technical Director, the role includes:_
 * A technical degree
 * At least two years experience in a technical leadership role, ideally with a demonstrable track record of delivering projects in a start-up environment
 * A broad and current knowledge of, and interest in, digital technologies and trends
+* A deep understanding of how the web works and how to harness its power
 * The confidence to work independently or as part of a team, often on multiple projects, prioritising your workload accordingly
 * Excellent communication skills
-* a love of learning, and mentoring others
+* A love of learning, and mentoring others
 * Integrity, and values that match ours
 
 
