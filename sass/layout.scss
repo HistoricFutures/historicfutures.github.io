@@ -491,6 +491,18 @@ $brick-border-style-2: 5px solid $blue;
   }
 
 }
+#string3-banner {
+  @include font-size($b-scale--2);
+  .string3-branding {
+    @include font-size($a-scale);
+  }
+    .img-container, .text-container1, .text-container2 {
+    @include gs-span(s,2,4);
+    clear:both;
+    text-align:center;
+  }
+  
+}
 }
 
 
@@ -688,6 +700,22 @@ $brick-border-style-2: 5px solid $blue;
     clear:none;
   }
 
+}
+
+#string3-banner {
+    .img-container {
+    @include gs-span(l,3);
+    @include padding-top($a-scale);
+  }
+  .text-container1 {
+    @include gs-span(l,5,7);
+    clear:none;
+    @include padding-top($a-scale);
+  }
+  .text-container2 {
+    @include gs-span(l,9,10);
+    clear:none;
+  }
 }
 
 #meetteam{
