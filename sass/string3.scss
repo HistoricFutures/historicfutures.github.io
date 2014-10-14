@@ -1,0 +1,100 @@
+$letter-spacing: 0.15em;
+$string3-base-font:'Muli', Helvetica, Arial, sans-serif;
+
+/* == Brand colours == */
+$turquoise:#138C8F;
+$orange:#D75B36;
+$blue:#466E8C;
+$red:#9E1C10;
+$green:#819C79;
+$bluegrey:#E5EFF0;
+
+
+/* == Additional colours == */
+$off-white:#FFFCF5;
+$grey90:mix(#000000,$off-white,90%);
+$grey80:mix(#000000,$off-white,80%);
+$grey70:mix(#000000,$off-white,70%);
+$grey60:mix(#000000,$off-white,60%);
+$grey40:mix(#000000,$off-white,40%);
+$grey20:mix(#000000,$off-white,20%);
+$grey10:mix(#000000,$off-white,10%);
+$grey5:mix(#000000,$off-white,5%);
+
+$lightturquoise:mix($turquoise,$off-white,50%);
+
+
+
+
+#string3-banner {
+	
+	font-family:$string3-base-font;
+	font-weight:300;
+
+	color:$grey80;
+	a, a:visited {
+		background: url(../img/string3-bg.jpg) bottom center no-repeat;
+		background-size:cover;
+		display:block;
+		width:100%;
+		float:left;
+		border:0;
+		@include padding-top($a-scale-3);
+		@include padding-bottom($a-scale);
+		@include transition(background-position 1s ease);
+	
+
+&:hover {
+	color:$grey80;
+	@include transition(background-position 1s ease);
+	background-position:top center;
+	.faux-button {
+		background:$grey10;
+		@include transition(all 1s ease);
+	}
+}
+
+&:active {
+	.faux-button {
+		background:$green;
+		@include transition(all 1s ease);
+	}
+}
+}
+}
+
+sup {
+		vertical-align:top;
+		font-size:0.62em;
+	}
+
+
+.string3-branding {
+	text-transform:uppercase;
+	letter-spacing:$letter-spacing;
+	border-bottom:none;
+	color:#323230;
+	text-align:center;
+	@include font-size($b-scale-2);
+	
+	display:block;
+	//@include padding-bottom($a-scale-3);
+	//@include padding-top($a-scale-2);
+}
+
+
+.faux-button {
+	@include box-sizing();
+	@include padding($a-scale);
+
+	border:2px solid $turquoise;
+	color:$turquoise;
+	@include border-radius(6px);
+	text-transform:uppercase;
+	letter-spacing:$letter-spacing;
+	display:inline-block;
+	text-align:center;
+	background:transparent;
+	@include transition(all 1s ease);
+
+}
