@@ -5,7 +5,7 @@ published: true
 
 ---
 
-Historic Futures are looking for a technical lead with enthusiasm and skill, experienced in delivering high quality, beautiful web applications. Proven technical and team leading skills are vital for this remote player-manager role.
+Historic Futures are looking for a technical lead with enthusiasm and skill, experienced in delivering high quality, beautiful web applications. Proven technical and team leading skills are vital for this remote player-leader role.
 
 Historic Futures work with many of the world's leading brands to tell the story behind the products they sell, connecting primary production with consumers. Watch the video on our [homepage](/) to get a feel for what we do.
 
