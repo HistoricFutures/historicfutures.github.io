@@ -2,7 +2,7 @@
 layout: post
 title: "Future Fabrics Expo: tracing the value chain of our textiles"
 categories: Charlotte
-published: false
+published: true
 accepted: true
 date: "2014-10-15 10:44am"
 author: Charlotte Turner
