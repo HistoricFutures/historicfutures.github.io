@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Future Fabrics Expo: tracing the value chain of our textiles"
+title: "Future Fabrics Expo: Tracing the value chain of our textiles"
 categories: Charlotte
 published: true
 accepted: true
@@ -20,4 +20,4 @@ Leading up to the expo we had [interviewed Historic Futures co-founder and direc
 
 We have seen that a more holistic understanding of the fashion and textiles value chain is essential to really understand the impact we are having on the environment and on communities, and to allow us to see ways to slow down, stop, and even reverse this damage. The Future Fabrics Expo has therefore become recognised as a key platform for showcasing both [sustainable textiles](http://www.thesustainableangle.org/futurefabricsexpo/EnvironmentalCriteria.aspx), and initiatives and tools that will help us understand and limit this negative impact, from a range of organisations, including Historic Futures, government supported projects such as the [WRAP Knowledge Hub](http://ckh.wrap.org.uk), and ground-breaking academic and industrial research projects. 
 
-Even if you missed the expo (find out what happened [here](http://thesustainableangle.wordpress.com/2014/10/02/4th-future-fabrics-expo-textile-innovations/)), you can still visit www.futurefabricsvirtualexpo.com all year round to discover a wide range of the low impact fabrics on display at the expo, plus a range of tools and resources to help on the journey to reducing the environmental impact of your value chain. 
+Even if you missed the expo (find out what happened [here](http://thesustainableangle.wordpress.com/2014/10/02/4th-future-fabrics-expo-textile-innovations/)), you can still visit www.futurefabricsvirtualexpo.com all year round to discover a wide range of the low impact fabrics on display at the expo, plus a range of tools and resources to help on the journey to reducing the environmental impact of your value chain.
