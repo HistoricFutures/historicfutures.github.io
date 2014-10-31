@@ -2,7 +2,7 @@
 layout: post
 title: "Does the consumer really care?"
 categories: Marylyn
-published: false
+published: true
 accepted: true
 date: "2014-10-31 10:44am"
 author: Marylyn Carrigan
