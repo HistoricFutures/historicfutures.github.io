@@ -14,7 +14,7 @@ It is a commonly held belief that 3rd party responsible sourcing schemes provide
 If a given brand already has a responsible raw material strategy and are working with a 3rd party ‘responsible sourcing scheme’  – why would they want, or need, visibility into the extended supply-chain?  The short answer is – the combination of both is more powerful than either approach in isolation. 
 
 ## Proliferation of schemes
-_Will we need many ‘schemes’? How will information be shared without being duplicated? _
+_Will we need many ‘schemes’? How will information be shared without being duplicated?_
 
 A [recent report from Boston Consulting Group](https://www.bcgperspectives.com/content/articles/consumer_products_sustainability_when_social_responsibility_leads_growth/?utm_source=Master+List&utm_campaign=b8f2d07db0-BCG+July+2014&utm_medium=email&utm_term=0_92af8574fc-b8f2d07db0-5772869) highlights the growth potential for major brands who engage meaningfully in the development of products that support “responsible consumption” (RC). The reports points out that RC products frequently represent the only source of category growth and emphasizes how the smaller, responsibility focused brands are growing faster than the so-called A- brands. The report goes on to say that certification, and on-pack labelling are key drivers for consumer confidence in RC products and – when done well – labelling from a trusted 3rd party scheme can drive a price differential of up to 20-25%. The study was focused on FMCG products.
 
