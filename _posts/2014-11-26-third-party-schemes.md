@@ -2,7 +2,7 @@
 layout: post
 title: "Do we need 3rd party responsible sourcing schemes as well as traceability tools?"
 categories: Tim
-published: false
+published: true
 accepted: true
 date: "2014-11-26 10:44am"
 author: Tim Wilson
@@ -30,4 +30,4 @@ It is important to stress that 3rd party certified responsible sourcing schemes 
 
 Introducing mechanisms to drive improved data flow throughout the network (through value chain mapping and product traceability) to deliver reliable data on network performance has the power to not only improve the efficacy of the 3rd party certified responsible sourcing schemes but also to allow the development of conventional trade mechanisms - optimising price and availability of product which measurably improves outcomes for all actors. Once in place, dynamic value chain maps (i.e. where information on the structure of the trading network is kept up to date over time as the configuration changes) can support improved brand resonance.
 
-Tim Wilson. 
+Tim Wilson.
