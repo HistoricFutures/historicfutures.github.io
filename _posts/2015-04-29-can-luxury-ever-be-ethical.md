@@ -25,5 +25,7 @@ The very small number of employees in a typical jewellery SME means that busines
 Luxury providers faces the need to future-proof their practices, a task which requires adopting CSR across long and complex supply chains. Each new PR blunder creates yet another wave of questions, and at the very least hurts reputations for all companies in the long term, not to mention having the potential to result in a patchwork of regulation, making industry operations more difficult by increasing compliance costs. What’s more, it is at the level of SMEs that non-compliance to business responsibility could prove to be the “soft underbelly” of the CSR armour that luxury industries are building. Specific actions must include increased transparency along supply chains, with the implementation of traceability mechanisms and best practice, as well as more effort to communicate the added value of their recent CSR initiatives. Furthermore, the entrenched trust between buyers and sellers must be complemented by public disclosure of facts and figures which can assure other stakeholders. While consumers may not be actively requiring that responsible business practices be at the heart of all the luxury products they purchase right now, these industries cannot afford to become complacent; being responsible may be the key to survival when the next corporate scandal happens.
 
 Dr Carlos Ferreira
+
 Centre for Business in Society (CBiS)
+
 Coventry University
