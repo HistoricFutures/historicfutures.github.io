@@ -2,7 +2,7 @@
 layout: post
 title: "Can luxury ever be ethical?"
 categories: Carlos
-published: false
+published: true
 accepted: true
 date: "2014-04-29 10:44am"
 author: Carlos Ferreira
