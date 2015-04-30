@@ -188,6 +188,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/css\/syntax.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -204,17 +213,6 @@
 		"initialSize": 8569,
 		"inputAbbreviatedPath": "\/_site\/img\/as.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/as.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/c.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 34428,
-		"inputAbbreviatedPath": "\/_site\/img\/c.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/c.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1001,17 +999,6 @@
 		"initialSize": 8569,
 		"inputAbbreviatedPath": "\/img\/as.jpg",
 		"outputAbbreviatedPath": "\/img\/as.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/c.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 34428,
-		"inputAbbreviatedPath": "\/img\/c.jpg",
-		"outputAbbreviatedPath": "\/img\/c.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
