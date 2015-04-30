@@ -246,6 +246,20 @@
       li+li+li+li+li+li+li+li+li {
         @include gs-span(l,9,9,(3,9), ie);
       }
+      li+li+li+li+li+li+li+li+li+li {
+        @include gs-span(l,3,3,(3,9), ie);
+        clear:left;
+      }
+      li+li+li+li+li+li+li+li+li+li+li {
+        @include gs-span(l,5,5,(3,9), ie);
+        clear:none;
+      }
+      li+li+li+li+li+li+li+li+li+li+li+li {
+        @include gs-span(l,7,7,(3,9), ie);
+      }
+      li+li+li+li+li+li+li+li+li+li+li+li+li {
+        @include gs-span(l,9,9,(3,9), ie);
+      }
 
     }
   }
