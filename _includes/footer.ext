@@ -1,33 +1,8 @@
 <footer class="footer">
 {% include footer-cta.ext %}
         <div class="inner">
-            <div class="container1">
-            <div id="map_canvas">
-            </div>
-                <div itemscope itemtype="http://schema.org/Corporation">
-                <a itemprop="url" href="http://historicfutures.com">
-                <span itemprop="name">Historic Futures</span>
-                </a>
-                <div itemprop="description" class="visuallyhidden">We make it possible for companies to collect and manage value chain data, from primary production to finished product and to communicate good practice to their customers.</div>
-            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                <span>Carpenters’ Workshops</span>
-                <span itemprop="streetAddress">Blenheim Palace Sawmills</span>
-                <span itemprop="addressLocality">Combe</span>
-                <span>Witney</span>
-                <span itemprop="addressRegion">OXON</span>
-                <span itemprop="postalCode">OX29 8ET</span>
-                <span>England</span>
-            </div>
-            </div>
-                
             
-            
-
-            <a href=
-            "http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=OX29+8ET&amp;sll=51.832344,-1.396616&amp;sspn=143.97097,360&amp;gl=uk&amp;ie=UTF8&amp;hq=&amp;hnear=Witney,+Oxfordshire+OX29+8ET,+United+Kingdom&amp;t=h&amp;z=16">Location
-            on Map</a> 
-        </div>
-        <div class="container2">
+        <div class="container1">
             <h3>Email us at</h3>
                 <p class="button"><a href="mailto:&#105;&#110;&#102;&#111;&#64;&#104;&#105;&#115;&#116;&#111;&#114;&#105;&#99;&#102;&#117;&#116;&#117;&#114;&#101;&#115;&#46;&#99;&#111;&#109;">&#105;&#110;&#102;&#111;&#64;&#104;&#105;&#115;&#116;&#111;&#114;&#105;&#99;&#102;&#117;&#116;&#117;&#114;&#101;&#115;&#46;&#99;&#111;&#109;</a></p>
                 <p>Please allow up to 3 working days for a response</p>
@@ -41,6 +16,31 @@
                     <li class="linkedin"><a href="http://www.linkedin.com/company/historic-futures-ltd" title="Historic Futures on LinkedIn"><span>Connect on LinkedIn</span></a></li>
                 </ul>
                     <p class="copyright">&copy; Historic Futures 2004 &ndash; 2015</p>
+        </div>
+        <div class="container2">
+            <div id="map_canvas">
+            </div>
+                <div itemscope itemtype="http://schema.org/Corporation">
+                <a itemprop="url" href="http://historicfutures.com">
+                <span itemprop="name">Historic Futures</span>
+                </a>
+                <div itemprop="description" class="visuallyhidden">We make it possible for companies to collect and manage value chain data, from primary production to finished product and to communicate good practice to their customers.</div>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span>AW House</span>
+                <span itemprop="streetAddress">6/8 Stuart Street</span>
+                <span itemprop="addressLocality">Luton</span>
+                <span itemprop="addressRegion">Bedfordshire</span>
+                <span itemprop="postalCode">LU1 2SJ</span>
+                <span>England</span>
+            </div>
+            </div>
+                
+            
+            
+
+            <!--<a href=
+            "http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=LU1+2SJ&amp;sll=51.877467,-0.41684&amp;sspn=143.97097,360&amp;gl=uk&amp;ie=UTF8&amp;hq=&amp;hnear=Luton,+Bedfordshire+LU1+2SJ,+United+Kingdom&amp;t=h&amp;z=16">Location
+            on Map</a> -->
         </div>
 
             <a class="back-to-top" href="#top">Back to the top</a>
