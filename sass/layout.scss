@@ -821,6 +821,7 @@ $brick-border-style-2: 5px solid $blue;
       }
       li+li+li+li+li+li+li+li+li+li+li {
         @include gs-span(l,5,5,(3,9));
+        clear:none;
       }
       li+li+li+li+li+li+li+li+li+li+li+li {
         @include gs-span(l,7,7,(3,9));
