@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithmic Power & the case for String3"
+title: "The power of algorithms & the case for String3"
 categories: Marshall
 published: true
 accepted: true
