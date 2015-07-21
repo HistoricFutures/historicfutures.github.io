@@ -30,5 +30,5 @@ Given the prevalence of algorithms in supply chains and their extensive ability 
 
 String3 will be launched this Autumn. Sign up to be the first to know when you can start using it [getstring3.com](http://getstring3.com/)
 
-By Marshall Buxton [@marshallbuxton](https://twitter.com/marshallbuxton)& Tim Wilson
+By Marshall Buxton [@marshallbuxton](https://twitter.com/marshallbuxton) & Tim Wilson
  
