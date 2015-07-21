@@ -26,7 +26,7 @@ The power of algorithms to determine what information we’re presented with has
 
 In the context of supply chains, algorithms are used as a means of understanding complexity and making informed decisions. Algorithms are able to sort through and make sense of vast sets of supply-chain data, resolving uncertainty for the manager and directing them towards decisions. In the era of big data, where profit margins rely on exploiting increasingly large and complex data sources, algorithmic decision-making will only become more vital to supply chain management (Krishnan, 2013). Given the influence that algorithms have on behaviour, it is conceivable to imagine a not-so-distant future where algorithms have total control of supply chain decisions, making managers entirely reliant on their software, or replacing them entirely (Cohen, 2015).
  
-Given the prevalence of algorithms in supply chains and their extensive ability to affect behaviour, we’re confident that String3 will nudge users towards better decisions.
+Given the prevalence of algorithms in supply chains and their extensive ability to affect behaviour, we’re confident that String3 will nudge users towards greater responsiveness. 
 
 String3 will be launched this Autumn. Sign up now to be the first to know when you can start using it [getstring3.com](http://getstring3.com/)
 
