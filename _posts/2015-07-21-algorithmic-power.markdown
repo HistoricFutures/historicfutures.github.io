@@ -28,7 +28,7 @@ In the context of supply chains, algorithms are used as a means of understanding
  
 Given the prevalence of algorithms in supply chains and their extensive ability to affect behaviour, we’re confident that String3 will nudge users towards better decisions.
 
-String3 will be launched this Autumn. Sign up to be the first to know when you can start using it [getstring3.com](getstring3.com)
+String3 will be launched this Autumn. Sign up to be the first to know when you can start using it [getstring3.com](http://getstring3.com/)
 
-By Marshall Buxton [@marshallbuxton](@marshallbuxton) & Tim Wilson
+By Marshall Buxton [@marshallbuxton](https://twitter.com/marshallbuxton)& Tim Wilson
  
