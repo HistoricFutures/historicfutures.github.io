@@ -2,7 +2,7 @@
 layout: post
 title: "The Modern Slavery Act: the ongoing journey of what it will mean for business"
 categories: Larissa
-published: false
+published: true
 accepted: true
 date: "2015-08-12 10:44am"
 author: Larissa Prevett
