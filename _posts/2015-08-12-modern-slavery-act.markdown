@@ -10,6 +10,8 @@ excerpt: "On March 26, 2015 the Modern Slavery Bill was passed. For those who fo
 ---
 
 
+[www.clt-envirolaw.com]()
+
 On March 26, 2015 the Modern Slavery Bill was passed. For those who followed the progress of this Bill since its inception, this would seem quite a feat. This is particularly true when one considers that only two years ago the Government was quite adamant that no such piece of legislation was even necessary. 
 
 Its first passage through Parliament beginning in 2013 was unsuccessful. Moreover, it included no obligations for business. Stakeholder pressure, including from the business and investment communities, led to a revival of the Modern Slavery Bill in 2014. Even more telling is that this time round there was an expectation that obligations for business would be incorporated. A consultation was held and in November 2014 the draft Bill was amended to include a transparency in supply chains (TISC) clause.  This has now been enacted.
@@ -46,4 +48,4 @@ Ultimately the gathering of the relevant information and drafting of the stateme
 
 Any additional questions? Contact CLT envirolaw’s Director at [colleen.theron@clt-envirolaw.com]()
 
-[www.clt-envirolaw.com]()
+
