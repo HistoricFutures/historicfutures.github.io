@@ -10,7 +10,8 @@ excerpt: "On March 26, 2015 the Modern Slavery Bill was passed. For those who fo
 ---
 
 
-[www.clt-envirolaw.com]()
+
+[[www.clt-envirolaw.com]()]()
 
 On March 26, 2015 the Modern Slavery Bill was passed. For those who followed the progress of this Bill since its inception, this would seem quite a feat. This is particularly true when one considers that only two years ago the Government was quite adamant that no such piece of legislation was even necessary. 
 
@@ -47,5 +48,3 @@ Moreover, a forward looking business that is subject to human rights disclosure 
 Ultimately the gathering of the relevant information and drafting of the statement and, above all, developing an understanding of the current company position with regards to slavery and human trafficking is in itself a valuable exercise in risk management for any organisation. 
 
 Any additional questions? Contact CLT envirolaw’s Director at [colleen.theron@clt-envirolaw.com]()
-
-
