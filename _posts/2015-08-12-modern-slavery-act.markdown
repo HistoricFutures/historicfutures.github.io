@@ -31,13 +31,15 @@ Whether the TISC clause in the Modern Slavery Act will be an improvement on its 
 
 ## Would should businesses start thinking about?
 Putting the uncertainties to one side: it shouldn’t matter if your organisation is at risk of falling subject to the legislation or not, a forward looking business that does not want to be associated with or complicit in slavery or human trafficking, would start thinking about the following:
-•	the organisation’s structure, its business and its supply chains,
-•	its policies in relation to slavery and human trafficking,
-•	its due diligence processes in relation to slavery and human trafficking in  its business and supply chains,
-•	the parts of its business and supply chains where there is a risk of slavery and human trafficking taking place, and how to assess and manage that risk,
-•	identifying appropriate key performance indicators (KPIs) to establish its effectiveness in ensuring that slavery and human trafficking is not taking place in its business or supply chains
-•	training about slavery and human trafficking that is currently or should be made available to its staff
 
+1. the organisation’s structure, its business and its supply chains,
+2. its policies in relation to slavery and human trafficking,
+3. its due diligence processes in relation to slavery and human trafficking in  its business and supply chains,
+4. the parts of its business and supply chains where there is a risk of slavery and human trafficking taking place, and how to assess and manage that risk,
+5. identifying appropriate key performance indicators (KPIs) to establish its effectiveness in ensuring that slavery and human trafficking is not taking place in its business or supply chains
+6. training about slavery and human trafficking that is currently or should be made available to its staff
+
+## Risk management
 Moreover, a forward looking business that is subject to human rights disclosure requirements under the Companies Act 2006 might want to think about adopting an integrated approach and address the issue of slavery and modern trafficking at strategic level and as part of broader business objectives. 
 
 Ultimately the gathering of the relevant information and drafting of the statement and, above all, developing an understanding of the current company position with regards to slavery and human trafficking is in itself a valuable exercise in risk management for any organisation. 
