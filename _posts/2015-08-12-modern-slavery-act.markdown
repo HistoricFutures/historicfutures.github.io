@@ -11,7 +11,7 @@ excerpt: "On March 26, 2015 the Modern Slavery Bill was passed. For those who fo
 
 
 
-[http://clt-envirolaw.com/]()
+[[http://clt-envirolaw.com/]()](http://clt-envirolaw.com/)
 
 On March 26, 2015 the Modern Slavery Bill was passed. For those who followed the progress of this Bill since its inception, this would seem quite a feat. This is particularly true when one considers that only two years ago the Government was quite adamant that no such piece of legislation was even necessary. 
 
