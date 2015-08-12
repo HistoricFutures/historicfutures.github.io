@@ -45,3 +45,4 @@ Moreover, a forward looking business that is subject to human rights disclosure 
 Ultimately the gathering of the relevant information and drafting of the statement and, above all, developing an understanding of the current company position with regards to slavery and human trafficking is in itself a valuable exercise in risk management for any organisation. 
 
 Any additional questions? Contact CLT envirolaw’s Director at [colleen.theron@clt-envirolaw.com]()
+www.clt-envirolaw.com 
