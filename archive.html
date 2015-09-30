@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Historic Futures
+title: Archive
 published: true
 body: archive
 ---
@@ -10,14 +10,14 @@ body: archive
   <div class="archivelist">
   <h1>Our thinking</h1>
   <p>With more than 10 years working in the field, we have learnt a lot. We will use this space to share some of our past and present thinking about why we think value chain mapping is important and what our plans and aspirations for the future are. Get in touch and tell us what you think - we're always looking for a good debate!</p>
-  
+
     {% for post in site.posts limit:100  %}
     <section>
         <h2><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
         <h3 class="meta"><span>By</span> {{ post.author }} <!--&mdash; {{ post.date | date: "%-d %B %Y" }}--></h3>
 	    </section>
     {% endfor %}
-  
+
   </div>
 
   {% include footer.ext %}

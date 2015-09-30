@@ -1,6 +1,6 @@
 /* Styles for the workshop advert page */
 
-.workshop {
+.workshop, .signup {
 	background:$darkgrey;
 	width:100%;
 	float:left;
@@ -17,18 +17,18 @@
 			}
 		}
 	}
-	
+
 	header {
 		background:$orange;
 		color:$white;
-		.inner {	
+		.inner {
 			@include padding-top($b-scale-2);
 		}
 		h1 span {
 			@include font-size($a-scale-2);
 			font-weight:normal;
 		}
-		
+
 	}
 	article {
 		color:$white;
@@ -66,10 +66,17 @@
 	}
 }
 
+.signup {
+	header {
+		background:$lightgrey;
+		color:$darkgrey;
+	}
+}
+
 .sign-up-form {
 	@include padding-top($standard-padding-top);
 	@include padding-bottom($standard-padding-bottom);
-	background:$turquoise;
+	background:$blue;
 	color:$white;
 	.indicates-required, .asterisk {
 		display:none;
@@ -93,7 +100,7 @@
 
 /* LARGE SCREENS */
 @media only screen and (min-width:960px) {
-	.workshop {
+	.workshop, .signup {
 		header {
 			@include gs-span(l,all);
 			.inner {
@@ -198,7 +205,7 @@
 		.container2 {
 		    @include gs-span(s,2,4);
 		    clear:both;
-		    
+
   		}
 	}
 }

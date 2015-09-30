@@ -1,0 +1,55 @@
+---
+layout: default
+title: Mailing list
+published: true
+body: signup
+---
+
+<header>
+	<nav role="navigation" class="blog">
+	<ul>
+		<li><a href="/" title="Find out more about Historic Futures">Historic Futures</a></li>
+	</ul>
+</nav>
+	<div class="inner">
+		<h1>Sign up for our mailing list</h1>
+    <p>We will send you occasional newsletters about what we're up to at Historic Futures. We won't ever spam you or sell your data.</p>
+	</div>
+</header>
+
+
+
+<!-- Begin Capsule Signup Form -->
+<div class="sign-up-form">
+	<div class="inner">
+    <form action="https://service.capsulecrm.com/service/newlead" method="post">
+<input type="hidden" name="FORM_ID" value="f0cc3338-3c28-47c7-887d-46b353d60034">
+<input type="hidden" name="COMPLETE_URL" value="http://historicfutures.com/signup/thank-you.html">
+<input type="hidden" name="TAG" value="newsletter">
+<input type="hidden" name="TAG" value="website">
+<input type="hidden" name="REVIEW_ID" value="238560">
+<div class="form-field">
+  <label for="email">Your email address</label>
+  <input type="email" name="EMAIL" class="required email" id="email">
+</div>
+<div class="form-field">
+	<label for="personname">Your name <span class="optional">(optional)</span></label>
+	<input type="text" name="PERSON_NAME" id="personname">
+</div>
+<div class="form-field">
+	<label for="orgname">Your organisation <span class="optional">(optional)</span></label>
+	<input type="text" name="ORGANISATION_NAME" id="orgname">
+</div>
+<div class="form-field">
+	<label for="phone">Contact phone number <span class="optional">(optional)</span></label>
+	<input type="phone" name="PHONE" id="phone">
+</div>
+<input type="submit" value="Submit" class="button"/>
+</form>
+
+</div>
+</div>
+
+<!--End sign-up-form-->
+
+  {% include footer.ext %}

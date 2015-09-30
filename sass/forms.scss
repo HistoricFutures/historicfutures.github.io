@@ -12,7 +12,7 @@ input {
 	@include font-size($b-scale-2);
 	@include padding($a-scale--2);
 	@include margin-bottom($a-scale-2);
-	border:2px solid $darkturquoise;
+	border:2px solid $darkblue;
 	@include border-radius(5px);
 }
 
