@@ -16,7 +16,11 @@ input {
 	@include border-radius(5px);
 }
 
-input[type="submit"] {
+#getinvolved input {
+	border: 2px solid lighten($midgrey,50%);
+}
+
+input[type="submit"], #getinvolved input[type="submit"] {
 	background:$orange;
 	@include box-shadow();
 		@include border-radius(5px);
