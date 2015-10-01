@@ -1,26 +1,59 @@
-/* general form styling */
+form {
+	text-align:left;
+}
 
+.form-field {
+	@include margin-bottom($b-scale-2);
+	ul, ol {
+		padding-left:0;
+	}
+	li {
+		list-style:none;
+	}
+}
 
-input, label {
-	display:block;
+label, input, select, textarea {
 	width:100%;
-	-webkit-appearance:none;
-	border:0;
+	outline:none;
 }
 
-input {
-	@include font-size($b-scale-2);
-	@include padding($a-scale--2);
-	@include margin-bottom($a-scale-2);
-	border:2px solid $darkblue;
-	@include border-radius(5px);
+label {
+	color:$white;
 }
 
-#getinvolved input {
-	border: 2px solid lighten($midgrey,50%);
+#getinvolved label {
+	color:$midgrey;
+}
+
+input[type='text'], input[type='password'], input[type='date'], input[type='email'], select, textarea, input[type='url'], input[type='phone'] {
+	font-family:$default;
+	@include font-size($b-scale);
+	@include padding($a-scale);
+	background:$white;
+	border:2px solid lighten($midgrey, 50%);
+	@include border-radius(3px);
+
+	@include box-sizing();
+	@include margin-bottom($a-scale);
+	display:block;
+	line-height:$ratio;
+	outline:none;
+
+	&[disabled] {
+		background:$lightgrey;
+		cursor:not-allowed;
+	}
+}
+
+textarea {
+	overflow:visible;
+	height:auto;
 }
 
 input[type="submit"], #getinvolved input[type="submit"] {
+	font-family:$default;
+	@include font-size($a-scale-2);
+	@include padding($b-scale);
 	background:$orange;
 	@include box-shadow();
 		@include border-radius(5px);
@@ -37,9 +70,31 @@ input[type="submit"], #getinvolved input[type="submit"] {
 		}
 }
 
-/* SMALL SCREENS */
-@media only screen and (max-width:959px) {
-	input {
-		@include font-size($a-scale);
+
+
+/* == Checkboxes & radio buttons == */
+
+// Requires a class of "check" on the wrapping label for a single checkbox, requires .options on the fieldset for multiple
+
+input[type='checkbox'], input[type='radio'] {
+	width:auto;
+	outline:none;
+}
+
+label.check {
+	width:100%;
+	display:block;
+	@include box-sizing();
+	@include margin-bottom($a-scale);
+}
+
+form ul {
+
+
+	@include padding-top($a-scale);
+	@include padding-bottom($a-scale);
+	@include border-radius(3px);
+	li {
+		list-style:none;
 	}
 }
