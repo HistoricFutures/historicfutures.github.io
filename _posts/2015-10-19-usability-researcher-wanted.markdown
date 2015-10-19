@@ -9,6 +9,7 @@ author: Hannah Harris
 excerpt: We are looking for a usability researcher to help us plan usability testing of our new supply chain visibility tool String3 (getstring3.com).
 ---
 
+
 We are looking for a usability researcher to help us create a usability testing plan for our new supply chain visibility tool String3.
 
 String3 is a tool designed for brands and retailers to ask questions about where and how their products were made. It works by connecting up the suppliers involved in making a product (anonymously), allowing questions to be asked and responses provided from the relevant organisations involved in the product transformation process. 
@@ -23,4 +24,4 @@ Please get in contact with us if this is up your street.
 
 STRICTLY NO RECRUITMENT AGENCIES PLEASE
 
-hannah.harris@historicfutures.com 
+hannah.harris@historicfutures.com
