@@ -19,7 +19,7 @@
     }
     li{
       @include gs-span(n, 1,1,false,ie);
-     
+
       display:block;
       text-align:center;
       a, a:visited {
@@ -53,7 +53,7 @@
         background:$blue url(../img/tree.svg) center 60% no-repeat;
         background-size: auto 76px;
       }
-       
+
     }
     li+li+li+li{
       @include gs-span(n, 6,7, false, ie);
@@ -136,7 +136,7 @@
   }
 }
   #introduction{
-   
+
     @include padding-bottom($a-scale-6);
     @include padding-top($a-scale-6);
   .logo{
@@ -169,7 +169,7 @@
   @include padding-bottom($b-scale-7);
 
   .inner {
-    
+
     z-index:200;
     h3 {
       @include gs-span(l,3,9,(2,10), ie);
@@ -208,7 +208,7 @@
           margin:0;
           @include font-size($a-scale);
           li {
-            
+
             margin:0;
             @include margin-bottom($p-margin-bottom);
             width:auto;
@@ -267,7 +267,7 @@
 
 
 .bricks {
-  
+
   span {
       display:table-cell;
       vertical-align:middle;
@@ -280,7 +280,7 @@
     @include padding($a-scale);
     @include font-size($a-scale);
     border-left-width:0px;
-    
+
   }
   li+li {
     @include gs-span(n,2,5, false, ie);
@@ -327,7 +327,7 @@
     @include padding($a-scale);
     @include font-size($a-scale);
     border-left-width:10px;
-    
+
   }
   li+li {
     @include gs-span(n,3,6, false, ie);
@@ -363,7 +363,7 @@
   }
   .container {
     @include gs-span(l,3,9,(2,10), ie);
-    
+
   }
 }
 
@@ -423,7 +423,7 @@ article {
       @include gs-span(l, 4,9, false, ie);
       clear:both;
     }
-    
+
 
   nav.blog{
   @include gs-span(n, 1, 1, false, ie);
@@ -546,6 +546,27 @@ article {
     clear:none;
     }
 }
+
+#string3-banner {
+    .img-container {
+    @include gs-span(l,2,3, false, ie);
+		@include padding-left($a-scale);
+		@include padding-right($a-scale);
+    @include padding-top($a-scale);
+    .string3-branding {
+      background:url(/img/s3-logo-small.png) top center no-repeat;
+    }
+  }
+  .text-container1 {
+    @include gs-span(l,5,7, false, ie);
+    clear:none;
+    @include padding-top($a-scale);
+  }
+  .text-container2 {
+    @include gs-span(l,9,10, false, ie);
+    clear:none;
+  }
+}
 }
 
 /* ==========================================================================
@@ -558,5 +579,3 @@ article {
     color: #000;
     padding: 0.2em 0;
 }
-
-

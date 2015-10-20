@@ -4,7 +4,7 @@
 
 
 /* ==========================================================================
-   Make everything work out what size it should be if we add padding and 
+   Make everything work out what size it should be if we add padding and
    borders and width is set to 100%, for example.
    http://www.paulirish.com/2012/box-sizing-border-box-ftw/
    ========================================================================== */
@@ -23,8 +23,8 @@ img {
 }
 
 /* ==========================================================================
-   Put each section on the grid with .inner, parent gives proportional 
-   padding to vertical edges but allows for full width images/coloured 
+   Put each section on the grid with .inner, parent gives proportional
+   padding to vertical edges but allows for full width images/coloured
    backgrounds etc.
    ========================================================================== */
 
@@ -121,7 +121,7 @@ img {
   @include padding-top($standard-padding-top);
   @include padding-bottom($standard-padding-bottom);
   position:relative;
-  
+
 }
 
 #meetteam{
@@ -158,11 +158,11 @@ img {
 
 /* our thinking */
 #ourthinking{
-  
+
   background:$turquoise url(../img/fish.svg) center 51px no-repeat;
   background-size:135px auto;
   .container {
-    
+
     @include padding-top($a-scale);
   }
   text-align: center;
@@ -232,7 +232,7 @@ $brick-border-style-2: 5px solid $blue;
     @include padding($a-scale);
     background:$brick-color-1;
     border:$brick-border-style-1;
-    
+
     color:$white;
     @include font-size($a-scale);
   }
@@ -243,7 +243,7 @@ $brick-border-style-2: 5px solid $blue;
   li+li+li {
     background:$brick-color-1;
     border:$brick-border-style-1;
-    
+
   }
   li+li+li+li {
     background:$brick-color-2;
@@ -349,7 +349,7 @@ $brick-border-style-2: 5px solid $blue;
 #map_canvas {
   width:100%;
   height:400px;
-  
+
   border:5px solid lighten($darkgrey, 2);
   @include margin-top($b-scale-3);
   @include margin-bottom($p-margin-bottom);
@@ -428,7 +428,7 @@ $brick-border-style-2: 5px solid $blue;
       background:$lightgrey;
     }
     ul {
-      
+
       li {
       list-style:none;
       @include margin-bottom($a-scale-3);
@@ -446,7 +446,7 @@ $brick-border-style-2: 5px solid $blue;
       }
     }
     }
-    
+
   }
   .bricks {
     @include gs-span(s,all);
@@ -496,12 +496,26 @@ $brick-border-style-2: 5px solid $blue;
   .string3-branding {
     @include font-size($a-scale);
   }
-    .img-container, .text-container1, .text-container2 {
+    .text-container1, .text-container2 {
     @include gs-span(s,2,4);
     clear:both;
     text-align:center;
   }
-  
+	.img-container {
+		@include gs-span(s,2,4);
+		clear:both;
+    text-align:center;
+		@include padding-top($a-scale);
+		@include margin-bottom($a-scale);
+		.string3-branding {
+			width:60%;
+			margin-left:auto;
+			margin-right:auto;
+			padding-bottom:15%;
+		}
+	}
+
+
 }
 }
 
@@ -577,7 +591,7 @@ $brick-border-style-2: 5px solid $blue;
         background:$blue url(../img/tree.svg) center 60% no-repeat;
         background-size: auto 76px;
       }
-       
+
     }
     li+li+li+li{
       @include gs-span(n, 6,7);
@@ -663,7 +677,7 @@ $brick-border-style-2: 5px solid $blue;
   }
 }
   #introduction{
-   
+
     @include padding-bottom($a-scale-6);
     @include padding-top($a-scale-6);
   .logo{
@@ -704,7 +718,9 @@ $brick-border-style-2: 5px solid $blue;
 
 #string3-banner {
     .img-container {
-    @include gs-span(l,3);
+    @include gs-span(l,2,3);
+		@include padding-left($a-scale);
+		@include padding-right($a-scale);
     @include padding-top($a-scale);
   }
   .text-container1 {
@@ -777,7 +793,7 @@ $brick-border-style-2: 5px solid $blue;
           margin:0;
           @include font-size($a-scale);
           li {
-            
+
             margin:0;
             @include margin-bottom($p-margin-bottom);
             width:auto;
@@ -836,7 +852,7 @@ $brick-border-style-2: 5px solid $blue;
 
 
 .bricks {
-  
+
   span {
       display:table-cell;
       vertical-align:middle;
@@ -849,7 +865,7 @@ $brick-border-style-2: 5px solid $blue;
     @include padding($a-scale);
     @include font-size($a-scale);
     border-left-width:0px;
-    
+
   }
   li+li {
     @include gs-span(n,2,5);
@@ -896,7 +912,7 @@ $brick-border-style-2: 5px solid $blue;
     @include padding($a-scale);
     @include font-size($a-scale);
     border-left-width:10px;
-    
+
   }
   li+li {
     @include gs-span(n,3,6);
@@ -932,7 +948,7 @@ $brick-border-style-2: 5px solid $blue;
   }
   .container {
     @include gs-span(l,3,9,(2,10));
-    
+
   }
 }
 
@@ -964,9 +980,6 @@ $brick-border-style-2: 5px solid $blue;
   @include gs-span(l, all);
   }
 
-  
+
 
 }
-
-
-

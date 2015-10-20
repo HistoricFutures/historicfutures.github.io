@@ -2,7 +2,7 @@ $letter-spacing: 0.15em;
 $string3-base-font:'Muli', Helvetica, Arial, sans-serif;
 
 /* == Brand colours == */
-$turquoise:#138C8F;
+$turquoise:#0e7375;
 $orange:#D75B36;
 $blue:#466E8C;
 $red:#9E1C10;
@@ -23,17 +23,23 @@ $grey5:mix(#000000,$off-white,5%);
 
 $lightturquoise:mix($turquoise,$off-white,50%);
 
+// Box shadow mixin
 
+@mixin box-shadow-standard() {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+}
 
 
 #string3-banner {
-	
+
 	font-family:$string3-base-font;
 	font-weight:300;
 
 	color:$grey80;
 	a, a:visited {
-		background: url(../img/string3-bg.jpg) bottom center no-repeat;
+		background: url(../img/string3-bg.png) bottom center no-repeat;
 		background-size:cover;
 		display:block;
 		width:100%;
@@ -42,7 +48,7 @@ $lightturquoise:mix($turquoise,$off-white,50%);
 		@include padding-top($a-scale-3);
 		@include padding-bottom($a-scale);
 		@include transition(background-position 1s ease);
-	
+
 
 &:hover {
 	color:$grey80;
@@ -69,17 +75,33 @@ sup {
 	}
 
 
-.string3-branding {
+/*.string3-branding {
 	text-transform:uppercase;
 	letter-spacing:$letter-spacing;
 	border-bottom:none;
 	color:#323230;
 	text-align:center;
 	@include font-size($b-scale-2);
-	
+
 	display:block;
 	//@include padding-bottom($a-scale-3);
 	//@include padding-top($a-scale-2);
+}*/
+
+#string3-banner .img-container {
+	background:$off-white;
+	@include box-shadow-standard();
+}
+
+.string3-branding {
+	background:url(/img/S3-logo.png) top center no-repeat $off-white;
+	background-size:contain;
+	width:100%;
+	height:0;
+	padding-bottom:25%;
+	display:block;
+	text-indent:-9999em;
+	overflow:hidden;
 }
 
 
@@ -89,12 +111,13 @@ sup {
 
 	border:2px solid $turquoise;
 	color:$turquoise;
+	background:$off-white;
 	@include border-radius(6px);
 	text-transform:uppercase;
 	letter-spacing:$letter-spacing;
 	display:inline-block;
 	text-align:center;
-	background:transparent;
+
 	@include transition(all 1s ease);
 
 }

@@ -41,6 +41,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_layouts\/standard.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/standard.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/2014-02-26-dont-ask-the-supplier.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
@@ -312,6 +321,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/syntax.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/hannah\/2015\/10\/19\/usability-researcher-wanted.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/hannah\/2015\/10\/19\/usability-researcher-wanted.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -613,6 +631,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/S3-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17182,
+		"inputAbbreviatedPath": "\/_site\/img\/S3-logo.png",
+		"outputAbbreviatedPath": "\/_site\/img\/S3-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/string3-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -620,6 +649,17 @@
 		"initialSize": 74423,
 		"inputAbbreviatedPath": "\/_site\/img\/string3-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/string3-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/string3-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184337,
+		"inputAbbreviatedPath": "\/_site\/img\/string3-bg.png",
+		"outputAbbreviatedPath": "\/_site\/img\/string3-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -830,6 +870,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/marylyn\/2014\/10\/31\/Does-the-consumer-really-care.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/privacy\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/privacy\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1497,6 +1546,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/S3-logo-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17182,
+		"inputAbbreviatedPath": "\/img\/S3-logo-small.png",
+		"outputAbbreviatedPath": "\/img\/S3-logo-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/S3-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23592,
+		"inputAbbreviatedPath": "\/img\/S3-logo.png",
+		"outputAbbreviatedPath": "\/img\/S3-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/string3-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1504,6 +1575,17 @@
 		"initialSize": 74423,
 		"inputAbbreviatedPath": "\/img\/string3-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/string3-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/string3-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210173,
+		"inputAbbreviatedPath": "\/img\/string3-bg.png",
+		"outputAbbreviatedPath": "\/img\/string3-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
