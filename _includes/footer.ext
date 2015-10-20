@@ -8,7 +8,7 @@
                 <p>Please allow up to 3 working days for a response</p>
                 <h3>Call us on</h3>
                 <p><a href="tel:+441993 886420">+44 (0) 1993 886420</a></p>
-                <p>Our <abbr title="United Kingdom">UK</abbr> office is open from 9am until 5pm, Monday to Friday</p>
+                <p>We’re available on the phone 9am until 5pm (<abbr title="United Kingdom">UK</abbr> time), Monday to Friday</p>
 
                 <h3>Other ways to connect</h3>
                 <ul>
@@ -26,6 +26,7 @@
                 <span itemprop="name">Historic Futures Ltd.</span>
                 </a>
                 <div itemprop="description" class="visuallyhidden">We make it possible for companies to collect and manage value chain data, from primary production to finished product and to communicate good practice to their customers.</div>
+                <p>Registered address:</p>
             <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <span>AW House</span>
                 <span itemprop="streetAddress">6/8 Stuart Street</span>
@@ -35,6 +36,7 @@
                 <span>England</span>
             </div>
             <p>Registered in England No: 04693909</p>
+            <p>We are now a remote working team! We span England and Scotland but are largely based in Oxfordshire.</p>
             </div>
 
 

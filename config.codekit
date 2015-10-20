@@ -631,6 +631,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/rok.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19634,
+		"inputAbbreviatedPath": "\/_site\/img\/rok.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/rok.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/S3-logo-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10007,
+		"inputAbbreviatedPath": "\/_site\/img\/S3-logo-small.png",
+		"outputAbbreviatedPath": "\/_site\/img\/S3-logo-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/S3-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1542,6 +1564,17 @@
 		"initialSize": 77795,
 		"inputAbbreviatedPath": "\/img\/r.jpg",
 		"outputAbbreviatedPath": "\/img\/r.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rok.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19634,
+		"inputAbbreviatedPath": "\/img\/rok.jpg",
+		"outputAbbreviatedPath": "\/img\/rok.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
