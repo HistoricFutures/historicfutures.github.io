@@ -2,7 +2,7 @@
 layout: post
 title: Understanding product origins: insights from consumer psychology
 categories: Tanushree
-published: false
+published: true
 accepted: true
 date: "2015-10-26 16:44am"
 author: Tanushree Sarkar
