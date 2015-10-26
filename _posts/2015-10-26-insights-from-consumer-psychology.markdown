@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding product origins, insights from consumer psychology"
+title: "Understanding product origins: insights from consumer psychology"
 subtitle: Insights from consumer psychology
 categories: Tanushree
 published: true
@@ -9,6 +9,7 @@ date: "2015-10-26 16:44am"
 author: Tanushree Sarka
 excerpt: "An important finding from the field of consumer psychology has been that consumers, when evaluating products, do not just base their judgments on factors intrinsic to the product, such as quality, but are also influenced by extrinsic factors such as price and brand reputation"
 ---
+
 
 An important finding from the field of consumer psychology has been that consumers, when evaluating products, do not just base their judgments on factors intrinsic to the product, such as quality, but are also influenced by extrinsic factors such as price and brand reputation. While this may seem obvious, since the 1960s, a rather curious phenomenon under investigation has been the role that the country of origin of a product plays consumers’ evaluation and purchasing intentions toward a particular product. 
 
@@ -29,7 +30,3 @@ References:
 Leila Hamzaoui-Essoussi, Dwight Merunka, Boris Bartikowski, Brand origin and country of manufacture influences on brand equity and the moderating role of brand typicality, Journal of Business Research, Volume 64, Issue 9, September 2011, Pages 973-978.
 
 Verlegh, P. W., & Steenkamp, J. B. E. (1999). A review and meta-analysis of country-of-origin research. Journal of economic psychology, 20(5), 521-546.
-
-
-
-
