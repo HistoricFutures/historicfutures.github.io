@@ -14,3 +14,4 @@ Originally, it was believed that the country of origin acted as a cognitive cue 
 Thus, it becomes pertinent for companies to understand how the different country of origin signals influence brand equity in order to develop a suitable brand policy and brand communications. Taking into account the different effects that brand origin and country of manufacture have on brand equity becomes essential, given the increase in the number of products that are hybrid in nature, that is, products that are associated with different countries at different stages of production. Understanding these effects can help brands target consumers’ perceptions in order to enhance brand equity. 
 
 Tanushree Sarkar, social psychologist
+LSE
