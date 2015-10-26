@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding product origins: insights from consumer psychology"
+title: Understanding product origins
 subtitle: Insights from consumer psychology
 categories: Tanushree
 published: true
