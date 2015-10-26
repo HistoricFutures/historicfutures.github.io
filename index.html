@@ -377,7 +377,7 @@ body: landing
          <div class="inner">
             <h2>Our thinking</h2>
             <div class="container">
-                <h3><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+                <h3><a href="{{ post.url }}" rel="bookmark">{{ post.title }}{% if post.subtitle %}: {{ post.subtitle }}{% endif %}</a></h3>
                   <p>{{ post.excerpt }}</p>
                 <p><a href="{{ post.url }}" rel="bookmark">Read <em>{{ post.title }}</em> in full</a></p>
             </div>
