@@ -1,0 +1,11 @@
+---
+layout: post
+title: Understanding product origins, insights from consumer psychology 
+categories: Hannah
+published: false
+accepted: true
+date: "2015-10-19 10:44am"
+author: Tanushree Sarkar
+excerpt: "An important finding from the field of consumer psychology has been that consumers, when evaluating products, do not just base their judgments on factors intrinsic to the product, such as quality, but are also influenced by extrinsic factors such as price and brand reputation".
+---
+
