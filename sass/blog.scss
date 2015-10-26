@@ -4,10 +4,14 @@
 .article{
 		article{
 			@include padding-bottom($standard-padding-bottom);
-			
+
 			h1{
 				@include font-size($a-scale-5);
 				text-align:center;
+			}
+			h2.subtitle {
+				text-align: center;
+				color:$midgrey;
 			}
 			h2.meta{
 				@include font-size($a-scale);
@@ -74,7 +78,7 @@ nav.blog{
 		article, .archivelist{
 			@include gs-span(l, 4,9);
 			@include padding-top($a-scale-6);
-		
+
 			img{
 				max-width:100%;
 				height:auto;
@@ -161,7 +165,7 @@ nav.blog{
 			font-style:italic;
 			text-transform: lowercase;
 		}
-		
+
 	}
 }
 
