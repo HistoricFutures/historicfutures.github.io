@@ -3,7 +3,7 @@ layout: post
 title: Join our team
 subtitle: Python developer position
 categories: Aidan
-published: false
+published: true
 accepted: true
 date: "2015-10-28 16:44am"
 author: Aidan Skinner
