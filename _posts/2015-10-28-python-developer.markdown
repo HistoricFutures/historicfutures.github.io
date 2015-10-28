@@ -10,6 +10,7 @@ author: Aidan Skinner
 excerpt: "We are looking for a permanent, full time Python developer to join the team building our new supply chain visibility tool String3"
 ---
 
+
 We are looking for a permanent, full time Python developer to join the team building our new supply chain visibility tool String3 - [getstring3.com](getstring3.com) and the Online Claims Platform we run in partnership with the Forest Stewardship Council ([ocp.fsc.org](ocp.fsc.org))
 
 String3 is a tool designed for brands and retailers to ask questions about where and how their products were made. It works by connecting up the suppliers involved in making a product (anonymously), allowing questions to be asked and responses provided from the relevant organisations involved in the product transformation process.
