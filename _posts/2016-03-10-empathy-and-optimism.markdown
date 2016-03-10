@@ -23,6 +23,8 @@ Social psychology informs on the factors defining the parameters of our empathic
 ## A More Caring Corporate and Consumer Culture
 We know that consumption provides resources for the construction and maintenance of identity (Hamilton, 2012). It is important to implement choice architecture and capitalise on the feedback loops between environment and consumer behaviour to maximise the ease of the ethical action. However, an overarching and more optimistic perspective on the narrowing ‘otherness’ gap between global citizens suggests that responsible consumption will continue to become an issue that feels closer to home. Corporations may be well advised to consider inherent human potentialities in tandem with using technology in their social responsibility or sustainable development programmes, and weave it into corporate culture through empathic communication with suppliers. Indeed, evidence suggests that the practices of partnering approaches and procedural justice in the global supply chain is tied with empathy (Lam, 2014). For the developed-world consumer, we can cautiously anticipate the rise of conscious consumerism as their social net of empathic sensibility is cast further and wider than ever before through the accelerating vessel of communications technology.
 
+Gems Gordon, Social Psychologist
+
 --------
 
 References
