@@ -343,6 +343,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/gems\/2016\/03\/10\/empathy-and-optimism.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/gems\/2016\/03\/10\/empathy-and-optimism.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/hannah\/2015\/10\/19\/usability-researcher-wanted.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -660,22 +669,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/S3-logo-small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10007,
-		"inputAbbreviatedPath": "\/_site\/img\/S3-logo-small.png",
-		"outputAbbreviatedPath": "\/_site\/img\/S3-logo-small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/S3-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17182,
+		"initialSize": 20431,
 		"inputAbbreviatedPath": "\/_site\/img\/S3-logo.png",
 		"outputAbbreviatedPath": "\/_site\/img\/S3-logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -686,7 +684,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 67232,
+		"initialSize": 133051,
 		"inputAbbreviatedPath": "\/_site\/img\/string3-bg-2.png",
 		"outputAbbreviatedPath": "\/_site\/img\/string3-bg-2.png",
 		"outputPathIsOutsideProject": 0,
@@ -1650,9 +1648,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23592,
+		"initialSize": 9247,
 		"inputAbbreviatedPath": "\/img\/S3-logo.png",
 		"outputAbbreviatedPath": "\/img\/S3-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/string3-bg-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133051,
+		"inputAbbreviatedPath": "\/img\/string3-bg-2.png",
+		"outputAbbreviatedPath": "\/img\/string3-bg-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
