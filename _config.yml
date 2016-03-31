@@ -1,5 +1,5 @@
 name: Historic Futures
-highlighter: pygments
+highlighter: rouge
 name: Historic Futures
 description: The latest journal entries from Historic Futures
 url: http://historicfutures.com/archive.html

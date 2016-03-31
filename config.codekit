@@ -669,6 +669,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/S3-logo-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4635,
+		"inputAbbreviatedPath": "\/_site\/img\/S3-logo-small.png",
+		"outputAbbreviatedPath": "\/_site\/img\/S3-logo-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/S3-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
