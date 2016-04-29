@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Globalisation magic and supply chain risk
+title: Globalisation magic and the risks in supply chains
 subtitle: null
 categories: Tim
 published: true
