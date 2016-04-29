@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Globalisation magic and the risks in supply chains
+title: Globalisation magic and the need for a new set of disciplines to manage supply chain risk
 subtitle: null
 categories: Tim
 published: true
