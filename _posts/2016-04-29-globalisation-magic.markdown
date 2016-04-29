@@ -3,7 +3,7 @@ layout: post
 title: Globalisation magic and the risks in supply chains
 subtitle: null
 categories: Tim
-published: false
+published: true
 accepted: true
 date: "2016-04-29 16:44am"
 author: Tim Wilson
@@ -32,4 +32,4 @@ So now brands and retailers are in a position where the business model is relian
 Consequently, there are now more ['corporate risk' professionals than ever](http://www.institutionalinvestor.com/article/3475103/banking-and-capital-markets-corporations/csr-reporting-is-on-the-rise-and-so-is-its-impact.html#/.Vrxv9zaLRp8), and increasingly they are dealing with so called ESG risks (environmental, social, governance) both for internal operations and for the supply chain. They are typically operating within a risk framework based on four key steps: Identify, Assess, Monitor, Control. 
 
 Modern Slavery is now an identified risk. There is data available to help assess which sectors and geographies it is most prevalent in: the highest risk. What is needed then is a monitoring tool to provide some understanding of what those global supply chain networks look like. How complex are they? Which bits of the world do they touch? Finally, once exposure to risk has been evaluated, a mitigation plan can be built to control that exposure, like investigating the reality on the ground, or changing product formulation, input specifications or input supplier etc. 
-It seems that the trend towards increasing contributions to corporate value from reputation will continue. For most brands, retailers – and indeed the planet – this is probably a good thing, but it does require a new set of disciplines and procedures in place to really understand what is going on in global supply chains. 
+It seems that the trend towards increasing contributions to corporate value from reputation will continue. For most brands, retailers – and indeed the planet – this is probably a good thing, but it does require a new set of disciplines and procedures in place to really understand what is going on in global supply chains.
