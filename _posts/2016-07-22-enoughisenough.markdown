@@ -10,7 +10,7 @@ author: Tim Wilson
 excerpt: >-
   It is perhaps one the most frequently used phrases in the English language,
   slipping easily through the dense, cluttered dialogues (and monologues) of
-  modern life. Maybe it’s a tautology, or could it be a pleonasm?.
+  modern life. Maybe it’s a tautology, or could it be a pleonasm? Is it a complete waste of air on behalf the speaker, and of synaptic energy by the listener? It even looks odd on the page - using one of the more bizarre English spellings (ough as in rough, not as in bough, or as in ought, or as in cough) twice in three words. And yet, it is essential.
 ---
 
 “Enough is enough” - a frequently used phrase in the English language, slipping easily through the dense, cluttered dialogues (and monologues) of modern life. Maybe it’s a tautology, or could it be a pleonasm? Is it a complete waste of air on behalf the speaker, and of synaptic energy by the listener? It even looks odd on the page - using one of the more bizarre English spellings (ough as in rough, not as in bough, or as in ought, or as in cough) twice in three words. And yet, it is essential. There are few phrases so readily available and so satisfying to blurt at volume when a situation comes to a head (whatever that means). Your audience will take note, and they will recognise the sensation you’re experiencing in that moment – whether they sympathise or not.
