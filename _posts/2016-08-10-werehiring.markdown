@@ -38,7 +38,7 @@ We're looking for someone with:
 - Integrity, and values that match ours
 
 ## Package
-Salary circa £35k, pension, critical illness, life insurance, 25 days holiday, flexible remote working, share option scheme.
+Salary circa £35k, pension, critical illness life insurance, 25 days holiday, flexible remote working, share option scheme.
 
 ## How to apply:
 Please send a CV with covering letter, along with links to any public repos you have, to [aidan.skinner@historicfutures.com](mailto:aidan.skinner@historicfutures.com&subject=Developer%20Role)
@@ -54,5 +54,3 @@ The OCP is a cloud based application which digitally connects certified FSC® su
 
 ## About Historic Futures:
 Historic Futures Limited (HF) are world leaders in the design and development of solutions to allow monitoring and control of materials and products in global supply chains. We have more than 15 years practical experience of working with some of the largest brands, retailers and labelling organisations to deliver supply-chain mapping, product risk monitoring and product integrity reporting.
-
-
