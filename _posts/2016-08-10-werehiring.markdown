@@ -13,7 +13,7 @@ excerpt: >-
 
 Historic Futures are looking for an enthusiastic, self-motivated Developer to join our team, you will have proven technical skills in some or all of Java, Groovy, Javascript and Python to support the next phase of development of our projects to help customers understand and control their supply networks.
 
-Joining us will mean working in a small team using Agile (specifically Scrum) communicating with other remote team members through Slack,Google Hangouts and using Trello to plan and track work. Although we’re fully remote, success is a team effort and we like to share the achievements together. We typically meet every 6 to 8 weeks to take stock of what we’ve accomplished, plan what’s next and work on anything which is best done in person.
+Joining us will mean working in a small team using Agile (specifically Scrum) communicating with other remote team members through Slack, Google Hangouts and using Trello to plan and track work. Although we’re fully remote, success is a team effort and we like to share the achievements together. We typically meet every 6 to 8 weeks to take stock of what we’ve accomplished, plan what’s next and work on anything which is best done in person.
 
 Reporting to the Technical Lead, the role includes:
 
