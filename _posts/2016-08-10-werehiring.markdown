@@ -48,7 +48,7 @@ Strictly NO AGENCIES please.
 ## About String3:
 String3 is a supply chain mapping and risk monitoring tool enabling brands and retailers to ask questions about where and how their products were made. String3 takes a unique approach to supply chain mapping by connecting the entire supply chain together (anonymously) relating all questions to specific products that brands source from suppliers. Each supplier has to confirm their involvement in the chain, giving brands and retailers more reliable data about what their supply chains look like. [Read more on the String3 site](http://getstring3.com/)
 
-## About The Online Claims Platform (OCP:
+## About The Online Claims Platform (OCP):
 The OCP is a cloud based application which digitally connects certified FSC® suppliers and customers so that claims for FSC-certified products can be confirmed as accurate by both trading parties. [Read more on the OCP site](http://ocp-info.fsc.org/)
 
 ## About Historic Futures:
