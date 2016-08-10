@@ -28,7 +28,7 @@ We're looking for someone with:
 Salary circa £35k, pension, critical illness, life insurance, 25 days holiday, flexible remote working, share option scheme.
 
 ## How to apply:
-Please send a CV with covering letter, along with links to any public repos you have, to [aidan.skinner@historicfutures.com]()
+Please send a CV with covering letter, along with links to any public repos you have, to aidan.skinner@historicfutures.com
 
 ## About String3:
 String3 is a supply chain mapping and risk monitoring tool enabling brands and retailers to ask questions about where and how their products were made. String3 takes a unique approach to supply chain mapping by connecting the entire supply chain together (anonymously) relating all questions to specific products that brands source from suppliers. Each supplier has to confirm their involvement in the chain, giving brands and retailers more reliable data about what their supply chains look like. Read more here: http://getstring3.com/
