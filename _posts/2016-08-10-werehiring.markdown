@@ -8,7 +8,10 @@ accepted: true
 date: '2016-08-10 12:32am'
 author: Aidan Skinner
 excerpt: >-
-  Historic Futures are looking for an enthusiastic, self-motivated Developer to join our team, you will have proven technical skills in some or all of Java, Groovy, Javascript and Python to support the next phase of development of our projects to help customers understand and control their supply networks.
+  Historic Futures are looking for an enthusiastic, self-motivated Developer to
+  join our team, you will have proven technical skills in some or all of Java,
+  Groovy, Javascript and Python to support the next phase of development of our
+  projects to help customers understand and control their supply networks.
 ---
 
 Historic Futures are looking for an enthusiastic, self-motivated Developer to join our team, you will have proven technical skills in some or all of Java, Groovy, Javascript and Python to support the next phase of development of our projects to help customers understand and control their supply networks.
@@ -40,6 +43,8 @@ Salary circa £35k, pension, critical illness, life insurance, 25 days holiday, 
 ## How to apply:
 Please send a CV with covering letter, along with links to any public repos you have, to [aidan.skinner@historicfutures.com](mailto:aidan.skinner@historicfutures.com&subject=Developer%20Role)
 
+Strictly NO AGENCIES please.
+
 ## About String3:
 String3 is a supply chain mapping and risk monitoring tool enabling brands and retailers to ask questions about where and how their products were made. String3 takes a unique approach to supply chain mapping by connecting the entire supply chain together (anonymously) relating all questions to specific products that brands source from suppliers. Each supplier has to confirm their involvement in the chain, giving brands and retailers more reliable data about what their supply chains look like. [Read more on the String3 site](http://getstring3.com/)
 
@@ -50,4 +55,4 @@ The OCP is a cloud based application which digitally connects certified FSC® su
 ## About Historic Futures:
 Historic Futures Limited (HF) are world leaders in the design and development of solutions to allow monitoring and control of materials and products in global supply chains. We have more than 15 years practical experience of working with some of the largest brands, retailers and labelling organisations to deliver supply-chain mapping, product risk monitoring and product integrity reporting.
 
-Strictly NO AGENCIES
+
