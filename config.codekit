@@ -269,6 +269,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/aidan\/2016\/08\/10\/werehiring.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/aidan\/2016\/08\/10\/werehiring.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/all-posts.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -365,7 +374,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8569,
+		"initialSize": 41224,
 		"inputAbbreviatedPath": "\/_site\/img\/as.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/as.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -717,7 +726,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19634,
+		"initialSize": 94741,
 		"inputAbbreviatedPath": "\/_site\/img\/rok.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/rok.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -783,7 +792,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 34232,
+		"initialSize": 82142,
 		"inputAbbreviatedPath": "\/_site\/img\/sw.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/sw.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1362,6 +1371,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/tim\/2016\/04\/29\/globalisation-magic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/tim\/2016\/07\/22\/enoughisenough.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/tim\/2016\/07\/22\/enoughisenough.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
