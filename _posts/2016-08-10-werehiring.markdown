@@ -14,15 +14,15 @@ excerpt: >-
   projects to help customers understand and control their supply networks.
 ---
 
-Historic Futures are looking for an enthusiastic, self-motivated Developer to join our team, you will have proven technical skills in some or all of Java, Groovy, Javascript and Python to support the next phase of development of our projects to help customers understand and control their supply networks.
+Historic Futures are looking for an enthusiastic, self-motivated Developer to join our team. You will have proven technical skills in some or all of Java, Groovy, Javascript and Python to support the next phase of development of our projects to help customers understand and control their supply networks.
 
-Joining us will mean working in a small team using Agile (specifically Scrum) communicating with other remote team members through Slack, Google Hangouts and using Trello to plan and track work. Although we’re fully remote, success is a team effort and we like to share the achievements together. We typically meet every 6 to 8 weeks to take stock of what we’ve accomplished, plan what’s next and work on anything which is best done in person.
+Joining us will mean working in a small Agile (specifically Scrum) team. We use Slack and Google Hangouts to communicate and Trello to plan and track work. Although we’re fully remote success is a team effort and we like to share the achievements together. We typically meet every 6 to 8 weeks to take stock of what we’ve accomplished, plan what’s next and work on anything which is best done in person.
 
 Reporting to the Technical Lead, the role includes:
 
 - Writing and reviewing code across the whole stack (Java, Groovy, Javascript, Python, Postgresql on Linux running on AWS)
 - Delivering and supporting working software to users
-- Collaborating with our Product Owner and QA as part of Behaviour Drive Development
+- Collaborating with our Product Owner and QA as part of Behaviour Driven Development
 - Working with our Designer to provide the best user experience possible
 - Championing best practices and coding standards
 - Ensuring security of our systems and customer data
