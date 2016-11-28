@@ -1,13 +1,21 @@
 ---
 layout: post
-title: Assessment, awareness…alleviation?
-subtitle: Tackling modern slavery (effectively) is a minority practice in pursuit of dominance
+title: 'Assessment, awareness…alleviation?'
+subtitle: >-
+  Tackling modern slavery (effectively) is a minority practice in pursuit of
+  dominance
 categories: Gems
 published: true
 accepted: true
-date: "2016-11-28 16:44am"
+date: '2016-11-28 16:44am'
 author: Gems Gordon
-excerpt: "Just over 20 months ago the Modern Slavery Act (MSA) came into effect in the UK. It was widely hailed as a timely piece of legislation to address the (almost anachronistic) problem of slavery and human trafficking in the 21st century. By targeting supply chains, the act aims to ensure that businesses neither fuel demand for slave/forced labour, nor put consumers in a position where they purchase goods produced by workers under duress (McClean, 2015)."
+excerpt: >-
+  Just over 20 months ago the Modern Slavery Act (MSA) came into effect in the
+  UK. It was widely hailed as a timely piece of legislation to address the
+  (almost anachronistic) problem of slavery and human trafficking in the 21st
+  century. By targeting supply chains, the act aims to ensure that businesses
+  neither fuel demand for slave/forced labour, nor put consumers in a position
+  where they purchase goods produced by workers under duress (McClean, 2015).
 ---
 Just over 20 months ago the Modern Slavery Act (MSA) came into effect in the UK. It was widely hailed as a timely piece of legislation to address the (almost anachronistic) problem of slavery and human trafficking in the 21st century. By targeting supply chains, the act aims to ensure that businesses neither fuel demand for slave/forced labour, nor put consumers in a position where they purchase goods produced by workers under duress (McClean, 2015). 
 
@@ -42,4 +50,3 @@ Hodal, K., Kelly, C., & Lawrence, F. (2014). “Revealed: Asian slave labour pro
 McClean, N. The Modern Slavery Act 2015. Scottish Financial News. Retrieved from http://www.scottishfinancialnews.com/4553/blog-the-modern-slavery-act-2015/#
 Purdy, C. (2016, November 13). How the vegan movement broke out of its echo chamber and finally started disrupting things. Quartz. Retrieved from http://qz.com/829956/how-the-vegan-movement-broke-out-of-its-echo-chamber-and-finally-started-disrupting-things/
 Schultz, W., J. Nolan, R. Cialdini, N. Goldstein & V. Griskevicus (2007). ‘The constructive, destructive, and reconstructive power of social norms’. Psychological Science, 18, 429-34.
-
