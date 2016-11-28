@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Tackling modern slavery (effectively) is a minority practice in pursuit of dominance
 
