@@ -1,8 +1,14 @@
 ---
+layout: post
+title: Assessment, awareness…alleviation?
+subtitle: Tackling modern slavery (effectively) is a minority practice in pursuit of dominance
+categories: Gems
 published: true
+accepted: true
+date: "2016-11-28 16:44am"
+author: Gems Gordon
+excerpt: "Just over 20 months ago the Modern Slavery Act (MSA) came into effect in the UK. It was widely hailed as a timely piece of legislation to address the (almost anachronistic) problem of slavery and human trafficking in the 21st century. By targeting supply chains, the act aims to ensure that businesses neither fuel demand for slave/forced labour, nor put consumers in a position where they purchase goods produced by workers under duress (McClean, 2015)."
 ---
-## Tackling modern slavery (effectively) is a minority practice in pursuit of dominance
-
 Just over 20 months ago the Modern Slavery Act (MSA) came into effect in the UK. It was widely hailed as a timely piece of legislation to address the (almost anachronistic) problem of slavery and human trafficking in the 21st century. By targeting supply chains, the act aims to ensure that businesses neither fuel demand for slave/forced labour, nor put consumers in a position where they purchase goods produced by workers under duress (McClean, 2015). 
 
 A recent [review on the impact the MSA](http://getstring3.com/msa-report.pdf) has had on business engagement extracted some interesting findings. The legislation appears to have spurred many organisations into action, boosting understanding and awareness of supply chain risk issues through a focus on improved risk assessment frameworks. However, such engagement hasn’t translated into remediating action to the extent that might be expected. We can intuit some likely reasons; time, financial constraints, and appreciating that honing risk assessment skills demands fully understanding the problem of slavery; its appearances, its financial and socio-cultural rationale (Gold, 2015).
