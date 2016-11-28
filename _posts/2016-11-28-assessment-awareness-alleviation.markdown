@@ -39,6 +39,9 @@ Clothing and shoe companies espousing the importance of an ethical supply chain 
 
 -----------
 
+Gems Gordon, Social Psychologist
+
+-----------
 
 References:
 Cialdini, R.B. & Trost, M.R. (1998). Social Influence: social norms, conformity and compliance. In D.T. Gilbert, S.T. Fiske & G. Lindzey (Eds.) The Handbook of Social Psychology, Fourth Ed. McGraw-Hill, New York, NY, pp 151-192.
