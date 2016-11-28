@@ -35,7 +35,9 @@ The recent surge in veganism across the USA and UK illustrates some social influ
 4.	Be unanimous - everyone in the minority needs to show solidarity. Absolutist and pragmatic perspectives clashing in the past have been divisive and slowed progress for animal rights issues in earlier decades.
 
 Clothing and shoe companies espousing the importance of an ethical supply chain (People Tree, Veja) are realising that categorically matching their big name high street competitors allows them to operate as more closely comparable ‘in-group’ mainstream brands, rather than being associated with ‘alternative’ consumers. The intolerance of modern slavery is a well discussed consumer social norm in relation to how it threatens brand reputation and incurs financial losses when intermittently exposed. In 2014, Carrefour, Tesco and Walmart sold prawns produced with slave labour and succumbed to public pressure to remove this supplier’s product from their shelves (Hodel at al. 2014). ‘Minority group’ companies should not be underestimated as industry change-leaders striving for dominance who are usurping social norms around ethical corporate conduct. Even without seeking to influence competitors in the market, a smattering of ethical brands are pushing for more transparency and reform by contributing to the societal and industrial shift in what ‘business as usual’ should look like, thus waving the flag for the MSA.
-‘Influencing the debate is not our primary goal. We simply want to set an example’ Sébastien Kopp & François Morillion of Veja -ethically and ecologically grounded sneaker makers
+
+_"Influencing the debate is not our primary goal. We simply want to set an example" _
+Sébastien Kopp & François Morillion of Veja -ethically and ecologically grounded sneaker makers.
 
 -----------
 
