@@ -27,6 +27,7 @@
 		h1 span {
 			@include font-size($a-scale-2);
 			font-weight:normal;
+			line-height: 0.5;
 		}
 
 	}
