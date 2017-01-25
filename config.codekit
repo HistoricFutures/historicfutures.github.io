@@ -1029,17 +1029,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/msa\/msa.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 155343,
-		"inputAbbreviatedPath": "\/_site\/msa\/msa.jpg",
-		"outputAbbreviatedPath": "\/_site\/msa\/msa.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/privacy\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
