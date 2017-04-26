@@ -1779,6 +1779,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111608,
+		"inputAbbreviatedPath": "\/img\/pf.jpg",
+		"outputAbbreviatedPath": "\/img\/pf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
