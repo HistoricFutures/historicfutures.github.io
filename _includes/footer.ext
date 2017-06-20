@@ -1,5 +1,4 @@
 <footer class="footer">
-{% include footer-cta.ext %}
         <div class="inner">
 
         <div class="container1">
