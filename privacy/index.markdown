@@ -22,8 +22,6 @@ We store your data on our secure servers which are provided by Amazon Web Servic
 
 We take precautions to ensure your data is secure during transmission by using encryption and SSL certificates.
 
-We operate an ISO27001 certified '[information security management system](/security)' to make sure we look after your data carefully and legally. This includes any trusted third parties we use to deliver the Service, and your permission includes these trusted third parties (all of whom have been risk assessed by us).
-
 We won’t share your information with any other organisations for marketing, market research or commercial purposes, and we don’t pass on your details to other websites, beyond those we need to deliver the service.
 
 Any data you transmit is at your own risk.
