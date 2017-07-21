@@ -4,7 +4,7 @@ title: Privacy
 published: true
 ---
 
-Historic Futures Ltd (we / us) collect certain information or data about you when you use our websites - which can be found at [http://historicfutures.com](http://historicfutures.com) and [https://getstring3.com](http://getstring3.com) (and includes [https://app.getstring3.com](https://app.getstring3.com)).
+Historic Futures Ltd (we / us) collect certain information or data about you when you use our websites - which can be found at [http://historicfutures.com](http://historicfutures.com) and [https://getstring3.com](http://getstring3.com).
 
 This may include:
 
